@@ -1,0 +1,23 @@
+<AutoPilot:solution xmlns:AutoPilot="com.autoesl.autopilot.solution">
+    <name>
+        <value string="sol"/>
+    </name>
+    <project>
+        <value string="prj"/>
+    </project>
+    <flowTarget value="vivado"/>
+    <targetInfo>
+        <TargetInfo value="xc7z020:-clg484:-1"/>
+    </targetInfo>
+    <libraryList>
+        <library value="xilinx/zynq/zynq" name="DefaultPlatform"/>
+    </libraryList>
+    <clockList>
+        <clock name="ap_clk" period="6.734" default="false"/>
+    </clockList>
+    <config>
+        <config_rtl module_prefix="bd_19ea_csc_0_"/>
+        <config_export library="ip" vendor="xilinx.com" version="1.1" format="ip_catalog"/>
+    </config>
+</AutoPilot:solution>
+

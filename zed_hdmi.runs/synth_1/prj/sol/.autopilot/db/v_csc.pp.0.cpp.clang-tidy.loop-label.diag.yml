@@ -1,0 +1,3275 @@
+---
+MainSourceFile:  'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1223_1:  '
+    FileOffset:      1223
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_base.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          97526
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1223_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          324891
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          325355
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          325820
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1247_1:  '
+    FileOffset:      1247
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_fixed_base.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          609135
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1247_1: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      91
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      92
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      93
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      94
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      95
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      125
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      126
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      127
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      128
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      129
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      130
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      131
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      132
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      133
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      134
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      184
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      185
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      186
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      213
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      214
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      215
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      216
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      217
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      218
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      254
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      255
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_61_1:  '
+    FileOffset:      61
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1231158
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_61_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_1:  '
+    FileOffset:      117
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1231972
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_289_1:  '
+    FileOffset:      289
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1234619
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_289_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_449_1:  '
+    FileOffset:      449
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1237342
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_449_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_629_1:  '
+    FileOffset:      629
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1240503
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_629_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_633_2:  '
+    FileOffset:      633
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1240584
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_633_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_743_1:  '
+    FileOffset:      743
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1242893
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_743_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_840_1:  '
+    FileOffset:      840
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1244387
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_840_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_859_2:  '
+    FileOffset:      859
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1244617
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_859_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1173_1:  '
+    FileOffset:      1173
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1250799
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1173_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1256_1:  '
+    FileOffset:      1256
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1252402
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1256_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_68_1:  '
+    FileOffset:      68
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1260250
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_68_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_74_2:  '
+    FileOffset:      74
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1260400
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_74_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_78_3:  '
+    FileOffset:      78
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1260497
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_78_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_145_4:  '
+    FileOffset:      145
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1262357
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_145_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_151_5:  '
+    FileOffset:      151
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1262507
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_151_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_155_6:  '
+    FileOffset:      155
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1262604
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_155_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_170_7:  '
+    FileOffset:      170
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1262985
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_170_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_178_8:  '
+    FileOffset:      178
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1263216
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_178_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_9:  '
+    FileOffset:      243
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1266663
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_249_10:  '
+    FileOffset:      249
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1266815
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_249_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_253_11:  '
+    FileOffset:      253
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1266915
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_253_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_268_12:  '
+    FileOffset:      268
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1267297
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_268_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_276_13:  '
+    FileOffset:      276
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1267535
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_276_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_505_14:  '
+    FileOffset:      505
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1283090
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_505_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_511_15:  '
+    FileOffset:      511
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1283242
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_511_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_515_16:  '
+    FileOffset:      515
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1283341
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_515_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_525_17:  '
+    FileOffset:      525
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1283518
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_525_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_529_18:  '
+    FileOffset:      529
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1283616
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_529_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_539_19:  '
+    FileOffset:      539
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1283901
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_539_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_547_20:  '
+    FileOffset:      547
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1284156
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_547_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_908_21:  '
+    FileOffset:      908
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1316395
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_908_21: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_914_22:  '
+    FileOffset:      914
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1316547
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_914_22: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_918_23:  '
+    FileOffset:      918
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1316647
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_918_23: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1034_1:  '
+    FileOffset:      1034
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1319323
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1034_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1040_2:  '
+    FileOffset:      1040
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1319473
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1040_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1044_3:  '
+    FileOffset:      1044
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1319571
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1044_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1131_4:  '
+    FileOffset:      1131
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1323041
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1131_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1137_5:  '
+    FileOffset:      1137
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1323192
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1137_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1141_6:  '
+    FileOffset:      1141
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1323291
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1141_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1160_7:  '
+    FileOffset:      1160
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1323771
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1160_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1167_8:  '
+    FileOffset:      1167
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1324013
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1167_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1283_9:  '
+    FileOffset:      1283
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1329585
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1283_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1289_10:  '
+    FileOffset:      1289
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1329737
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1289_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1293_11:  '
+    FileOffset:      1293
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1329836
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1293_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1313_12:  '
+    FileOffset:      1313
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1330345
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1313_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1320_13:  '
+    FileOffset:      1320
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1330594
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1320_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1582_14:  '
+    FileOffset:      1582
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1347951
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1582_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1588_15:  '
+    FileOffset:      1588
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1348103
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1588_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1592_16:  '
+    FileOffset:      1592
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1348203
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1592_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1616_17:  '
+    FileOffset:      1616
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1348677
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1616_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1623_18:  '
+    FileOffset:      1623
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1348944
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1623_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2053_19:  '
+    FileOffset:      2053
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1387515
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2053_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2059_20:  '
+    FileOffset:      2059
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1387667
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2059_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2063_21:  '
+    FileOffset:      2063
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1387767
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2063_21: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2193_1:  '
+    FileOffset:      2193
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1390387
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2193_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2200_2:  '
+    FileOffset:      2200
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1390550
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2200_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2204_3:  '
+    FileOffset:      2204
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1390642
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2204_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2251_4:  '
+    FileOffset:      2251
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1392251
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2251_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2258_5:  '
+    FileOffset:      2258
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1392413
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2258_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2262_6:  '
+    FileOffset:      2262
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1392505
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2262_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2280_7:  '
+    FileOffset:      2280
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1392878
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2280_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2335_8:  '
+    FileOffset:      2335
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1395344
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2335_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2342_9:  '
+    FileOffset:      2342
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1395511
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2342_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2346_10:  '
+    FileOffset:      2346
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1395604
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2346_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2364_11:  '
+    FileOffset:      2364
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1395985
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2364_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2453_12:  '
+    FileOffset:      2453
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1401426
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2453_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2460_13:  '
+    FileOffset:      2460
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1401594
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2460_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2464_14:  '
+    FileOffset:      2464
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1401688
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2464_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2474_15:  '
+    FileOffset:      2474
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1401859
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2474_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2478_16:  '
+    FileOffset:      2478
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1401950
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2478_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2489_17:  '
+    FileOffset:      2489
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1402232
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2489_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2497_18:  '
+    FileOffset:      2497
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1402419
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2497_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2822_19:  '
+    FileOffset:      2822
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1436889
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2822_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2829_20:  '
+    FileOffset:      2829
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1437057
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2829_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2833_21:  '
+    FileOffset:      2833
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1437151
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2833_21: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2921_1:  '
+    FileOffset:      2921
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1438953
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2921_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2928_2:  '
+    FileOffset:      2928
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1439061
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2928_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2932_3:  '
+    FileOffset:      2932
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1439132
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2932_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2947_4:  '
+    FileOffset:      2947
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1439420
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2947_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2979_5:  '
+    FileOffset:      2979
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1440634
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2979_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2986_6:  '
+    FileOffset:      2986
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1440745
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2986_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2990_7:  '
+    FileOffset:      2990
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1440818
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2990_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3005_8:  '
+    FileOffset:      3005
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1441113
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3005_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3055_9:  '
+    FileOffset:      3055
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1444446
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3055_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3062_10:  '
+    FileOffset:      3062
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1444557
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3062_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3066_11:  '
+    FileOffset:      3066
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1444630
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3066_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3081_12:  '
+    FileOffset:      3081
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1444926
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3081_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3218_13:  '
+    FileOffset:      3218
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1464238
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3218_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3225_14:  '
+    FileOffset:      3225
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1464352
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3225_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3229_15:  '
+    FileOffset:      3229
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1464427
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3229_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3244_16:  '
+    FileOffset:      3244
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1464714
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3244_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3404_17:  '
+    FileOffset:      3404
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1490324
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3404_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3411_18:  '
+    FileOffset:      3411
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1490438
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3411_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3415_19:  '
+    FileOffset:      3415
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1490515
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3415_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_703_1:  '
+    FileOffset:      703
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_log_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1524583
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_703_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_921_1:  '
+    FileOffset:      921
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_log_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1532972
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_921_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1345_1:  '
+    FileOffset:      1345
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_log_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1551945
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1345_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_240_1:  '
+    FileOffset:      240
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_sqrt_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1566801
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_240_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_268_2:  '
+    FileOffset:      268
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_sqrt_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1567322
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_268_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_48_1:  '
+    FileOffset:      48
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1583236
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_48_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_109_2:  '
+    FileOffset:      109
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1584386
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_109_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_123_3:  '
+    FileOffset:      123
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1584695
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_123_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_153_4:  '
+    FileOffset:      153
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1585205
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_153_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_281_1:  '
+    FileOffset:      281
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1587119
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_281_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_301_2:  '
+    FileOffset:      301
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1587484
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_301_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_315_3:  '
+    FileOffset:      315
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1587792
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_315_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_433_1:  '
+    FileOffset:      433
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1589620
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_433_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_447_2:  '
+    FileOffset:      447
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1589945
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_447_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_33_1:  '
+    FileOffset:      33
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_diff_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1592598
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_33_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_183_1:  '
+    FileOffset:      183
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_diff_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1595490
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_183_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_248_1:  '
+    FileOffset:      248
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_diff_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1596777
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_248_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_16_1:  '
+    FileOffset:      16
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1607676
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_16_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_1:  '
+    FileOffset:      27
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1607851
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_38_1:  '
+    FileOffset:      38
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1608012
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_38_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_49_1:  '
+    FileOffset:      49
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1608174
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_49_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_60_1:  '
+    FileOffset:      60
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1608348
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_60_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_71_1:  '
+    FileOffset:      71
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1608523
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_71_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_82_1:  '
+    FileOffset:      82
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1608684
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_82_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_93_1:  '
+    FileOffset:      93
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1608846
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_93_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_26_1:  '
+    FileOffset:      26
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_mad_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1680336
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_26_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_1:  '
+    FileOffset:      40
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cbrt_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1682080
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_49_1:  '
+    FileOffset:      49
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hypot_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1686587
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_49_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_81_2:  '
+    FileOffset:      81
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hypot_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1687318
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_81_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_169_3:  '
+    FileOffset:      169
+    FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hypot_apfixed.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1689003
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_169_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_137_1:  '
+    FileOffset:      137
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1754273
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_137_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_139_2:  '
+    FileOffset:      139
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1754321
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_139_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_175_1:  '
+    FileOffset:      175
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1754694
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_175_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_177_2:  '
+    FileOffset:      177
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1754742
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_177_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_213_1:  '
+    FileOffset:      213
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1755112
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_213_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_215_2:  '
+    FileOffset:      215
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1755162
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_215_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_251_1:  '
+    FileOffset:      251
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1755532
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_251_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_253_2:  '
+    FileOffset:      253
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1755582
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_253_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_320_1:  '
+    FileOffset:      320
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1756376
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_320_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_417_1:  '
+    FileOffset:      417
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1757336
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_417_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_702_1:  '
+    FileOffset:      702
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1761145
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_702_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_742_1:  '
+    FileOffset:      742
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1761602
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_742_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_838_1:  '
+    FileOffset:      838
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1762832
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_838_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_990_1:  '
+    FileOffset:      990
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1765146
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_990_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1030_1:  '
+    FileOffset:      1030
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1765607
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1030_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1126_1:  '
+    FileOffset:      1126
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1766849
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1126_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_232_1:  '
+    FileOffset:      232
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1772930
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_232_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_253_1:  '
+    FileOffset:      253
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1773472
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_253_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_263_1:  '
+    FileOffset:      263
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1773667
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_263_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_274_1:  '
+    FileOffset:      274
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1773898
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_274_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_285_1:  '
+    FileOffset:      285
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1774125
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_285_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_296_1:  '
+    FileOffset:      296
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1774356
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_296_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_308_1:  '
+    FileOffset:      308
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1774584
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_308_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_319_1:  '
+    FileOffset:      319
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1774815
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_319_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_331_1:  '
+    FileOffset:      331
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1775043
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_331_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_342_1:  '
+    FileOffset:      342
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1775274
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_342_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_619_1:  '
+    FileOffset:      619
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1781497
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_619_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_696_1:  '
+    FileOffset:      696
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1783786
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_696_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_720_1:  '
+    FileOffset:      720
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1784422
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_720_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_743_1:  '
+    FileOffset:      743
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1785087
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_743_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_210_1:  '
+    FileOffset:      210
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgbase.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1789367
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_210_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_189_1:  '
+    FileOffset:      189
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_io.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1794701
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_189_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_255_1:  '
+    FileOffset:      255
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_io.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1797189
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_255_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1027_1:  '
+    FileOffset:      1027
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1827545
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1027_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1107_1:  '
+    FileOffset:      1107
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1829896
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1107_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1123_1:  '
+    FileOffset:      1123
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1830479
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1123_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1139_1:  '
+    FileOffset:      1139
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1831057
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1139_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1157_1:  '
+    FileOffset:      1157
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1831719
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1157_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1195_1:  '
+    FileOffset:      1195
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1832907
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1195_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1215_1:  '
+    FileOffset:      1215
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1833709
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1215_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1510_1:  '
+    FileOffset:      1510
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1844046
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1510_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_471_1:  '
+    FileOffset:      471
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1864497
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_471_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_484_2:  '
+    FileOffset:      484
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1865143
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_484_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_493_3:  '
+    FileOffset:      493
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1865564
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_493_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_494_4:  '
+    FileOffset:      494
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1865646
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_494_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_502_5:  '
+    FileOffset:      502
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1866095
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_502_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_516_6:  '
+    FileOffset:      516
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1866615
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_516_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_652_1:  '
+    FileOffset:      652
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1871904
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_652_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_656_2:  '
+    FileOffset:      656
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1872108
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_656_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_663_3:  '
+    FileOffset:      663
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1872367
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_663_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_680_4:  '
+    FileOffset:      680
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1873102
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_680_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_681_5:  '
+    FileOffset:      681
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1873183
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_681_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_783_1:  '
+    FileOffset:      783
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1876864
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_783_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_793_2:  '
+    FileOffset:      793
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1877241
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_793_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_800_3:  '
+    FileOffset:      800
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1877604
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_800_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_810_4:  '
+    FileOffset:      810
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1877973
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_810_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_936_1:  '
+    FileOffset:      936
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1881760
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_936_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_958_2:  '
+    FileOffset:      958
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1882532
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_958_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_964_3:  '
+    FileOffset:      964
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1882779
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_964_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1084_1:  '
+    FileOffset:      1084
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1887308
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1084_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1089_2:  '
+    FileOffset:      1089
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1887547
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1089_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1117_3:  '
+    FileOffset:      1117
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1888501
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1117_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1525_1:  '
+    FileOffset:      1525
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1903876
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1525_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1534_1:  '
+    FileOffset:      1534
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1904074
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1534_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2095_1:  '
+    FileOffset:      2095
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1922060
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2095_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2102_2:  '
+    FileOffset:      2102
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1922292
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2102_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2103_3:  '
+    FileOffset:      2103
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1922332
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2103_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2246_1:  '
+    FileOffset:      2246
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1928878
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2246_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2253_2:  '
+    FileOffset:      2253
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1929132
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2253_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2259_3:  '
+    FileOffset:      2259
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1929361
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2259_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2273_4:  '
+    FileOffset:      2273
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1929892
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2273_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2284_5:  '
+    FileOffset:      2284
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1930257
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2284_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2329_1:  '
+    FileOffset:      2329
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1932215
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2329_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2330_2:  '
+    FileOffset:      2330
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1932252
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2330_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2410_3:  '
+    FileOffset:      2410
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1934330
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2410_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2434_4:  '
+    FileOffset:      2434
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1935126
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2434_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2444_5:  '
+    FileOffset:      2444
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1935364
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2444_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2562_1:  '
+    FileOffset:      2562
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1938799
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2562_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2579_2:  '
+    FileOffset:      2579
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1939235
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2579_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2582_3:  '
+    FileOffset:      2582
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1939305
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2582_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2585_4:  '
+    FileOffset:      2585
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1939403
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2585_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2593_5:  '
+    FileOffset:      2593
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1939623
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2593_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2596_6:  '
+    FileOffset:      2596
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1939720
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2596_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2605_7:  '
+    FileOffset:      2605
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1939948
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2605_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2613_8:  '
+    FileOffset:      2613
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1940096
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2613_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2614_9:  '
+    FileOffset:      2614
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1940132
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2614_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2664_1:  '
+    FileOffset:      2664
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1941300
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2664_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2665_2:  '
+    FileOffset:      2665
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1941343
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2665_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2673_3:  '
+    FileOffset:      2673
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1941671
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2673_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2674_4:  '
+    FileOffset:      2674
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1941711
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2674_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2716_1:  '
+    FileOffset:      2716
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1942786
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2716_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2720_2:  '
+    FileOffset:      2720
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1942859
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2720_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2774_1:  '
+    FileOffset:      2774
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1944400
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2774_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2775_2:  '
+    FileOffset:      2775
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1944431
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2775_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2834_1:  '
+    FileOffset:      2834
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1946828
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2834_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2835_2:  '
+    FileOffset:      2835
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1946891
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2835_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2838_3:  '
+    FileOffset:      2838
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1947044
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2838_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2850_4:  '
+    FileOffset:      2850
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1947659
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2850_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2861_5:  '
+    FileOffset:      2861
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1948326
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2861_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2877_6:  '
+    FileOffset:      2877
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1949303
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2877_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2883_7:  '
+    FileOffset:      2883
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1949632
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2883_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2889_8:  '
+    FileOffset:      2889
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1949988
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2889_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2901_9:  '
+    FileOffset:      2901
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1950538
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2901_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2915_10:  '
+    FileOffset:      2915
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1951180
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2915_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2929_11:  '
+    FileOffset:      2929
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1951811
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2929_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2930_12:  '
+    FileOffset:      2930
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1951877
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2930_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2935_13:  '
+    FileOffset:      2935
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1952156
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2935_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2936_14:  '
+    FileOffset:      2936
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1952222
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2936_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2943_15:  '
+    FileOffset:      2943
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1952565
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2943_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2944_16:  '
+    FileOffset:      2944
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1952633
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2944_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2950_17:  '
+    FileOffset:      2950
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1952915
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2950_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2951_18:  '
+    FileOffset:      2951
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1952983
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2951_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3034_1:  '
+    FileOffset:      3034
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1955944
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3034_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3035_2:  '
+    FileOffset:      3035
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1956003
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3035_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3038_3:  '
+    FileOffset:      3038
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1956148
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3038_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3055_4:  '
+    FileOffset:      3055
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1956982
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3055_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3071_5:  '
+    FileOffset:      3071
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1957890
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3071_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3078_6:  '
+    FileOffset:      3078
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1958219
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3078_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3090_7:  '
+    FileOffset:      3090
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1958762
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3090_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3109_8:  '
+    FileOffset:      3109
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1959715
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3109_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3110_9:  '
+    FileOffset:      3110
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1959777
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3110_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_79_1:  '
+    FileOffset:      79
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_histogram.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1961535
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_79_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_85_2:  '
+    FileOffset:      85
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_histogram.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1961640
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_85_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_106_3:  '
+    FileOffset:      106
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_histogram.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1962371
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_106_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_118_4:  '
+    FileOffset:      118
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_histogram.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1962707
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_118_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_5:  '
+    FileOffset:      158
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_histogram.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1964012
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_71_1:  '
+    FileOffset:      71
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1965636
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_71_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_120_1:  '
+    FileOffset:      120
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1967130
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_120_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_124_2:  '
+    FileOffset:      124
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1967319
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_124_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_129_3:  '
+    FileOffset:      129
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1967529
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_129_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_140_4:  '
+    FileOffset:      140
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1967785
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_140_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_145_5:  '
+    FileOffset:      145
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1967957
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_145_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_153_6:  '
+    FileOffset:      153
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1968227
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_153_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_7:  '
+    FileOffset:      158
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1968399
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_184_1:  '
+    FileOffset:      184
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1969339
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_184_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_211_1:  '
+    FileOffset:      211
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1969918
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_211_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_217_2:  '
+    FileOffset:      217
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1970093
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_217_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_266_1:  '
+    FileOffset:      266
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1972114
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_266_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_267_2:  '
+    FileOffset:      267
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1972168
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_267_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_272_3:  '
+    FileOffset:      272
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1972373
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_272_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_282_4:  '
+    FileOffset:      282
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1972759
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_282_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_284_5:  '
+    FileOffset:      284
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1972811
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_284_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_290_6:  '
+    FileOffset:      290
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1973010
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_290_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_382_1:  '
+    FileOffset:      382
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1976141
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_382_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_383_2:  '
+    FileOffset:      383
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1976195
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_383_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_388_3:  '
+    FileOffset:      388
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1976400
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_388_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_398_4:  '
+    FileOffset:      398
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1976786
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_398_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_400_5:  '
+    FileOffset:      400
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1976838
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_400_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_406_6:  '
+    FileOffset:      406
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1977037
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_406_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_104_1:  '
+    FileOffset:      104
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1980724
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_104_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_108_2:  '
+    FileOffset:      108
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1980785
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_108_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_110_3:  '
+    FileOffset:      110
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1980844
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_110_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_116_4:  '
+    FileOffset:      116
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1981014
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_116_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_5:  '
+    FileOffset:      117
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1981052
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_119_6:  '
+    FileOffset:      119
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1981123
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_119_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_123_7:  '
+    FileOffset:      123
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1981243
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_123_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_125_8:  '
+    FileOffset:      125
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1981314
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_125_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_134_9:  '
+    FileOffset:      134
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1981614
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_134_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_146_10:  '
+    FileOffset:      146
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1981959
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_146_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_154_1:  '
+    FileOffset:      154
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1982141
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_154_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_163_2:  '
+    FileOffset:      163
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1982342
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_163_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_168_3:  '
+    FileOffset:      168
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1982465
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_168_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_170_4:  '
+    FileOffset:      170
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1982530
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_170_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_181_1:  '
+    FileOffset:      181
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1982729
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_181_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_186_2:  '
+    FileOffset:      186
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1982821
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_186_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_187_3:  '
+    FileOffset:      187
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1982859
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_187_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_190_4:  '
+    FileOffset:      190
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1982951
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_190_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_266_1:  '
+    FileOffset:      266
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1985294
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_266_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_398_1:  '
+    FileOffset:      398
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          1989659
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_398_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_217_1:  '
+    FileOffset:      217
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_hough.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2003511
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_217_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_219_2:  '
+    FileOffset:      219
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_hough.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2003569
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_219_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_106_1:  '
+    FileOffset:      106
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2008304
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_106_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_107_2:  '
+    FileOffset:      107
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2008336
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_107_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_129_1:  '
+    FileOffset:      129
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2009210
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_129_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_132_2:  '
+    FileOffset:      132
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2009292
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_132_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_139_3:  '
+    FileOffset:      139
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2009498
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_139_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_141_4:  '
+    FileOffset:      141
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2009551
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_141_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_149_5:  '
+    FileOffset:      149
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2009787
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_149_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_162_6:  '
+    FileOffset:      162
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2010191
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_162_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_198_1:  '
+    FileOffset:      198
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2011368
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_198_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_201_2:  '
+    FileOffset:      201
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2011442
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_201_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_148_1:  '
+    FileOffset:      148
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2019311
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_148_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_156_2:  '
+    FileOffset:      156
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2019499
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_156_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_3:  '
+    FileOffset:      159
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2019559
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_167_4:  '
+    FileOffset:      167
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2020081
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_167_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_190_1:  '
+    FileOffset:      190
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2021220
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_190_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_193_2:  '
+    FileOffset:      193
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2021278
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_193_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_210_1:  '
+    FileOffset:      210
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2021686
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_210_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_217_2:  '
+    FileOffset:      217
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2021971
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_217_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_246_1:  '
+    FileOffset:      246
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2022918
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_246_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_294_1:  '
+    FileOffset:      294
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2024347
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_294_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_296_2:  '
+    FileOffset:      296
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2024385
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_296_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_309_3:  '
+    FileOffset:      309
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2024790
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_309_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_430_1:  '
+    FileOffset:      430
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2028464
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_430_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_432_2:  '
+    FileOffset:      432
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2028511
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_432_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_440_3:  '
+    FileOffset:      440
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2028809
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_440_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_469_1:  '
+    FileOffset:      469
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2029635
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_469_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_474_2:  '
+    FileOffset:      474
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2029727
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_474_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_192_1:  '
+    FileOffset:      192
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2035382
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_192_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_198_2:  '
+    FileOffset:      198
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2035525
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_198_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_202_3:  '
+    FileOffset:      202
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2035666
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_202_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_233_1:  '
+    FileOffset:      233
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2036956
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_233_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_234_2:  '
+    FileOffset:      234
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2037004
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_234_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_237_3:  '
+    FileOffset:      237
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2037093
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_237_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_273_1:  '
+    FileOffset:      273
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2037941
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_273_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_291_1:  '
+    FileOffset:      291
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2038447
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_291_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_299_2:  '
+    FileOffset:      299
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2038617
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_299_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_317_1:  '
+    FileOffset:      317
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2039020
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_317_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_320_2:  '
+    FileOffset:      320
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2039098
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_320_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_424_1:  '
+    FileOffset:      424
+    FilePath:        'c:\Vivado_Projects\zed_hdmi\zed_hdmi.srcs\sources_1\bd\design_1\ip\design_1_v_proc_ss_0_1\bd_0\ip\ip_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2042423
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_424_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_134_1:  '
+    FileOffset:      134
+    FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.cpp'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2056092
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_134_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_136_2:  '
+    FileOffset:      136
+    FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.cpp'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2056127
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_136_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_142_3:  '
+    FileOffset:      142
+    FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.cpp'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2056242
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_142_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_563_1:  '
+    FileOffset:      563
+    FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.cpp'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2064240
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_563_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_565_2:  '
+    FileOffset:      565
+    FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.cpp'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2064277
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_565_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_662_1:  '
+    FileOffset:      662
+    FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.cpp'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2066050
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_662_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_664_2:  '
+    FileOffset:      664
+    FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.cpp'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2066086
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_664_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_688_3:  '
+    FileOffset:      688
+    FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.cpp'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2066401
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_688_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_4:  '
+    FileOffset:      690
+    FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.cpp'
+    Replacements:    
+      - FilePath:        'C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp'
+        Offset:          2066438
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_4: '
+...

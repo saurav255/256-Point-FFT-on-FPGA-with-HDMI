@@ -1,0 +1,1823 @@
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:2349:7: warning: Added loop label VITIS_LOOP_1223_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1223_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:2349:7: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:3323:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:3323:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:3337:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:3337:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:3351:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:3351:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:4980:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:4980:7: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15717:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K0 type=ROM_1P impl=LUTRAM
+                                                                       ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15718:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K1 type=ROM_1P impl=LUTRAM
+                                                                       ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15719:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K2 type=ROM_1P impl=LUTRAM
+                                                                       ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15720:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K3 type=ROM_1P impl=LUTRAM
+                                                                       ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15721:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K4 type=ROM_1P impl=LUTRAM
+                                                                       ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15751:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K0 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15752:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K1 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15753:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K2 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15754:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K3 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15755:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K4 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15756:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K0 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15757:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K1 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15758:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K2 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15759:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K3 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15760:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K4 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15810:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K0 type=ROM_1P impl=LUTRAM
+                                                                      ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15811:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K1 type=ROM_1P impl=LUTRAM
+                                                                      ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15812:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K2 type=ROM_1P impl=LUTRAM
+                                                                      ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15839:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::cos_K0 type=ROM_1P impl=LUTRAM
+                                                                  ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15840:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::cos_K1 type=ROM_1P impl=LUTRAM
+                                                                  ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15841:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::cos_K2 type=ROM_1P impl=LUTRAM
+                                                                  ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15842:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_K0 type=ROM_1P impl=LUTRAM
+                                                                  ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15843:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_K1 type=ROM_1P impl=LUTRAM
+                                                                  ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15844:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_K2 type=ROM_1P impl=LUTRAM
+                                                                  ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15880:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=first_order_fixed_16::sin_cos_K0 type=ROM_1P impl=LUTRAM
+                                                                        ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:15881:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=first_order_fixed_16::sin_cos_K1 type=ROM_1P impl=LUTRAM
+                                                                        ^
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:16155:5: warning: Added loop label VITIS_LOOP_61_1:   [xilinx-label-all-loops]
+    for (int n=0; n<Nmax; n++){
+    ^~~
+    VITIS_LOOP_61_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:16155:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:16201:5: warning: Added loop label VITIS_LOOP_117_1:   [xilinx-label-all-loops]
+    for (int n=0; n<Nmax; n++){
+    ^~~
+    VITIS_LOOP_117_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:16201:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:16364:9: warning: Added loop label VITIS_LOOP_289_1:   [xilinx-label-all-loops]
+        for(int i=0;i<W-1;i++){
+        ^~~
+        VITIS_LOOP_289_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:16364:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:16516:9: warning: Added loop label VITIS_LOOP_449_1:   [xilinx-label-all-loops]
+        for(int i=0;i<W-1;i++){
+        ^~~
+        VITIS_LOOP_449_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:16516:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:16696:5: warning: Added loop label VITIS_LOOP_629_1:   [xilinx-label-all-loops]
+    for(int i=0;i<W+1;i++){
+    ^~~
+    VITIS_LOOP_629_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:16696:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:16700:5: warning: Added loop label VITIS_LOOP_633_2:   [xilinx-label-all-loops]
+    for(int i=0;i<W+1;i++){
+    ^~~
+    VITIS_LOOP_633_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:16700:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:16810:5: warning: Added loop label VITIS_LOOP_743_1:   [xilinx-label-all-loops]
+    for (int n=0; n<Nmax; n++){
+    ^~~
+    VITIS_LOOP_743_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:16810:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:16900:7: warning: Added loop label VITIS_LOOP_840_1:   [xilinx-label-all-loops]
+      for(int i=0;i<W-1;i++){
+      ^~~
+      VITIS_LOOP_840_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:16900:7: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:16919:7: warning: Added loop label VITIS_LOOP_859_2:   [xilinx-label-all-loops]
+      for(int i=0;i<W-1;i++){
+      ^~~
+      VITIS_LOOP_859_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:16919:7: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17209:5: warning: Added loop label VITIS_LOOP_1173_1:   [xilinx-label-all-loops]
+    for(int i=0; i<Nmax; i++) {
+    ^~~
+    VITIS_LOOP_1173_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17209:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17292:5: warning: Added loop label VITIS_LOOP_1256_1:   [xilinx-label-all-loops]
+    for(int i=0; i<Nmax; i++) {
+    ^~~
+    VITIS_LOOP_1256_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17292:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17698:13: warning: Added loop label VITIS_LOOP_68_1:   [xilinx-label-all-loops]
+            for (int j = 3; j >= I_+1; j--) {
+            ^~~
+            VITIS_LOOP_68_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17698:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17704:17: warning: Added loop label VITIS_LOOP_74_2:   [xilinx-label-all-loops]
+                for (int j = 3; j >= I_+1; j--){
+                ^~~
+                VITIS_LOOP_74_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17704:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17708:17: warning: Added loop label VITIS_LOOP_78_3:   [xilinx-label-all-loops]
+                for (int j = I_; j >= 0; j--){
+                ^~~
+                VITIS_LOOP_78_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17708:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17756:13: warning: Added loop label VITIS_LOOP_145_4:   [xilinx-label-all-loops]
+            for (int j = 9; j >= I_+4; j--) {
+            ^~~
+            VITIS_LOOP_145_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17756:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17762:17: warning: Added loop label VITIS_LOOP_151_5:   [xilinx-label-all-loops]
+                for (int j = 9; j >= I_+4; j--){
+                ^~~
+                VITIS_LOOP_151_5: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17762:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17766:17: warning: Added loop label VITIS_LOOP_155_6:   [xilinx-label-all-loops]
+                for (int j = I_+3; j >= 0; j--){
+                ^~~
+                VITIS_LOOP_155_6: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17766:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17781:9: warning: Added loop label VITIS_LOOP_170_7:   [xilinx-label-all-loops]
+        for (int j = 14; j < 22; j++){
+        ^~~
+        VITIS_LOOP_170_7: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17781:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17789:17: warning: Added loop label VITIS_LOOP_178_8:   [xilinx-label-all-loops]
+                for (int j = 0; j < 22; j++){
+                ^~~
+                VITIS_LOOP_178_8: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17789:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17854:13: warning: Added loop label VITIS_LOOP_243_9:   [xilinx-label-all-loops]
+            for (int j = 21; j >= I_+10; j--) {
+            ^~~
+            VITIS_LOOP_243_9: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17854:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17860:17: warning: Added loop label VITIS_LOOP_249_10:   [xilinx-label-all-loops]
+                for (int j = 21; j >= I_+10; j--) {
+                ^~~
+                VITIS_LOOP_249_10: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17860:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17864:17: warning: Added loop label VITIS_LOOP_253_11:   [xilinx-label-all-loops]
+                for (int j = I_+9; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_253_11: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17864:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17879:9: warning: Added loop label VITIS_LOOP_268_12:   [xilinx-label-all-loops]
+        for (int j = 27; j < 46; j++){
+        ^~~
+        VITIS_LOOP_268_12: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17879:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17887:17: warning: Added loop label VITIS_LOOP_276_13:   [xilinx-label-all-loops]
+                for (int j = 0; j < 46; j++) {
+                ^~~
+                VITIS_LOOP_276_13: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:17887:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18116:13: warning: Added loop label VITIS_LOOP_505_14:   [xilinx-label-all-loops]
+            for (int j = 45; j >= I_+22; j--) {
+            ^~~
+            VITIS_LOOP_505_14: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18116:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18122:17: warning: Added loop label VITIS_LOOP_511_15:   [xilinx-label-all-loops]
+                for (int j = 45; j >= I_+22; j--){
+                ^~~
+                VITIS_LOOP_511_15: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18122:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18126:17: warning: Added loop label VITIS_LOOP_515_16:   [xilinx-label-all-loops]
+                for (int j = I_+21; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_515_16: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18126:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18136:9: warning: Added loop label VITIS_LOOP_525_17:   [xilinx-label-all-loops]
+        for (int j = 32-F_; j < 32+I_; j++){
+        ^~~
+        VITIS_LOOP_525_17: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18136:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18140:9: warning: Added loop label VITIS_LOOP_529_18:   [xilinx-label-all-loops]
+        for (int j = 32+I_; j <= 64; j++){
+        ^~~
+        VITIS_LOOP_529_18: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18140:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18150:9: warning: Added loop label VITIS_LOOP_539_19:   [xilinx-label-all-loops]
+        for (int j = 37; j < 64; j++) {
+        ^~~
+        VITIS_LOOP_539_19: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18150:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18158:17: warning: Added loop label VITIS_LOOP_547_20:   [xilinx-label-all-loops]
+                for (int j = 0; j < 64; j++){
+                ^~~
+                VITIS_LOOP_547_20: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18158:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18519:13: warning: Added loop label VITIS_LOOP_908_21:   [xilinx-label-all-loops]
+            for (int j = 63; j >= I_+31; j--) {
+            ^~~
+            VITIS_LOOP_908_21: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18519:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18525:17: warning: Added loop label VITIS_LOOP_914_22:   [xilinx-label-all-loops]
+                for (int j = 63; j >= I_+31; j--) {
+                ^~~
+                VITIS_LOOP_914_22: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18525:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18529:17: warning: Added loop label VITIS_LOOP_918_23:   [xilinx-label-all-loops]
+                for (int j = I_+30; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_918_23: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18529:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18645:13: warning: Added loop label VITIS_LOOP_1034_1:   [xilinx-label-all-loops]
+            for (int j = 4; j >= I_+1; j--) {
+            ^~~
+            VITIS_LOOP_1034_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18645:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18651:17: warning: Added loop label VITIS_LOOP_1040_2:   [xilinx-label-all-loops]
+                for (int j = 4; j >= I_+1; j--) {
+                ^~~
+                VITIS_LOOP_1040_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18651:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18655:17: warning: Added loop label VITIS_LOOP_1044_3:   [xilinx-label-all-loops]
+                for (int j = I_; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1044_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18655:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18742:13: warning: Added loop label VITIS_LOOP_1131_4:   [xilinx-label-all-loops]
+            for (int j = 10; j >= I_+4; j--) {
+            ^~~
+            VITIS_LOOP_1131_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18742:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18748:17: warning: Added loop label VITIS_LOOP_1137_5:   [xilinx-label-all-loops]
+                for (int j = 10; j >= I_+4; j--) {
+                ^~~
+                VITIS_LOOP_1137_5: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18748:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18752:17: warning: Added loop label VITIS_LOOP_1141_6:   [xilinx-label-all-loops]
+                for (int j = I_+3; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1141_6: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18752:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18771:9: warning: Added loop label VITIS_LOOP_1160_7:   [xilinx-label-all-loops]
+        for (int j = wf+3; j < w-1; j++) {
+        ^~~
+        VITIS_LOOP_1160_7: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18771:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18778:17: warning: Added loop label VITIS_LOOP_1167_8:   [xilinx-label-all-loops]
+                for (int j = 0; j < 22; j++) {
+                ^~~
+                VITIS_LOOP_1167_8: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18778:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18894:13: warning: Added loop label VITIS_LOOP_1283_9:   [xilinx-label-all-loops]
+            for (int j = 22; j >= I_+10; j--) {
+            ^~~
+            VITIS_LOOP_1283_9: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18894:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18900:17: warning: Added loop label VITIS_LOOP_1289_10:   [xilinx-label-all-loops]
+                for (int j = 22; j >= I_+10; j--){
+                ^~~
+                VITIS_LOOP_1289_10: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18900:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18904:17: warning: Added loop label VITIS_LOOP_1293_11:   [xilinx-label-all-loops]
+                for (int j = I_+9; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1293_11: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18904:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18924:9: warning: Added loop label VITIS_LOOP_1313_12:   [xilinx-label-all-loops]
+        for (int j = wf+4; j < w-1; j++){
+        ^~~
+        VITIS_LOOP_1313_12: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18924:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18931:17: warning: Added loop label VITIS_LOOP_1320_13:   [xilinx-label-all-loops]
+                for (int j = 0; j < 46; j++) {
+                ^~~
+                VITIS_LOOP_1320_13: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:18931:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19193:13: warning: Added loop label VITIS_LOOP_1582_14:   [xilinx-label-all-loops]
+            for (int j = 46; j >= I_+22; j--) {
+            ^~~
+            VITIS_LOOP_1582_14: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19193:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19199:17: warning: Added loop label VITIS_LOOP_1588_15:   [xilinx-label-all-loops]
+                for (int j = 46; j >= I_+22; j--) {
+                ^~~
+                VITIS_LOOP_1588_15: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19199:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19203:17: warning: Added loop label VITIS_LOOP_1592_16:   [xilinx-label-all-loops]
+                for (int j = I_+21; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1592_16: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19203:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19227:9: warning: Added loop label VITIS_LOOP_1616_17:   [xilinx-label-all-loops]
+        for (int j = wf+5; j < w-1; j++){
+        ^~~
+        VITIS_LOOP_1616_17: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19227:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19234:17: warning: Added loop label VITIS_LOOP_1623_18:   [xilinx-label-all-loops]
+                for (int j = 0; j < 64; j++) {
+                ^~~
+                VITIS_LOOP_1623_18: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19234:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19664:13: warning: Added loop label VITIS_LOOP_2053_19:   [xilinx-label-all-loops]
+            for (int j = 64; j >= I_+31; j--) {
+            ^~~
+            VITIS_LOOP_2053_19: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19664:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19670:17: warning: Added loop label VITIS_LOOP_2059_20:   [xilinx-label-all-loops]
+                for (int j = 64; j >= I_+31; j--) {
+                ^~~
+                VITIS_LOOP_2059_20: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19670:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19674:17: warning: Added loop label VITIS_LOOP_2063_21:   [xilinx-label-all-loops]
+                for (int j = I_+30; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_2063_21: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19674:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19804:13: warning: Added loop label VITIS_LOOP_2193_1:   [xilinx-label-all-loops]
+            for(int j=3; j>=I+1; j--) {
+            ^~~
+            VITIS_LOOP_2193_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19804:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19811:17: warning: Added loop label VITIS_LOOP_2200_2:   [xilinx-label-all-loops]
+                for(int j=3; j>=I+1; j--) {
+                ^~~
+                VITIS_LOOP_2200_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19811:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19815:17: warning: Added loop label VITIS_LOOP_2204_3:   [xilinx-label-all-loops]
+                for(int j=I; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2204_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19815:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19862:13: warning: Added loop label VITIS_LOOP_2251_4:   [xilinx-label-all-loops]
+            for(int j=7; j>=3+I; j--) {
+            ^~~
+            VITIS_LOOP_2251_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19862:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19869:17: warning: Added loop label VITIS_LOOP_2258_5:   [xilinx-label-all-loops]
+                for(int j=7; j>=3+I; j--) {
+                ^~~
+                VITIS_LOOP_2258_5: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19869:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19873:17: warning: Added loop label VITIS_LOOP_2262_6:   [xilinx-label-all-loops]
+                for(int j=I+2; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2262_6: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19873:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19891:9: warning: Added loop label VITIS_LOOP_2280_7:   [xilinx-label-all-loops]
+        for(int j=11; j<16; j++) {
+        ^~~
+        VITIS_LOOP_2280_7: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19891:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19946:13: warning: Added loop label VITIS_LOOP_2335_8:   [xilinx-label-all-loops]
+            for(int j=15; j>=7+I; j--) {
+            ^~~
+            VITIS_LOOP_2335_8: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19946:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19953:17: warning: Added loop label VITIS_LOOP_2342_9:   [xilinx-label-all-loops]
+                for(int j=15; j>=7+I; j--) {
+                ^~~
+                VITIS_LOOP_2342_9: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19953:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19957:17: warning: Added loop label VITIS_LOOP_2346_10:   [xilinx-label-all-loops]
+                for(int j=6+I; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2346_10: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19957:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19975:9: warning: Added loop label VITIS_LOOP_2364_11:   [xilinx-label-all-loops]
+        for(int j=20; j<32; j++) {
+        ^~~
+        VITIS_LOOP_2364_11: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:19975:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20064:13: warning: Added loop label VITIS_LOOP_2453_12:   [xilinx-label-all-loops]
+            for(int j=31; j>=I+15; j--) {
+            ^~~
+            VITIS_LOOP_2453_12: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20064:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20071:17: warning: Added loop label VITIS_LOOP_2460_13:   [xilinx-label-all-loops]
+                for(int j=31; j>=I+15; j--) {
+                ^~~
+                VITIS_LOOP_2460_13: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20071:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20075:17: warning: Added loop label VITIS_LOOP_2464_14:   [xilinx-label-all-loops]
+                for(int j=I+14; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2464_14: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20075:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20085:9: warning: Added loop label VITIS_LOOP_2474_15:   [xilinx-label-all-loops]
+        for(int j=32-F; j<32+I; j++) {
+        ^~~
+        VITIS_LOOP_2474_15: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20085:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20089:9: warning: Added loop label VITIS_LOOP_2478_16:   [xilinx-label-all-loops]
+        for(int j=32+I; j<=64; j++) {
+        ^~~
+        VITIS_LOOP_2478_16: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20089:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20100:9: warning: Added loop label VITIS_LOOP_2489_17:   [xilinx-label-all-loops]
+        for(int j=37; j<64; j++) {
+        ^~~
+        VITIS_LOOP_2489_17: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20100:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20108:17: warning: Added loop label VITIS_LOOP_2497_18:   [xilinx-label-all-loops]
+                for(int j=0; j<64; j++) {
+                ^~~
+                VITIS_LOOP_2497_18: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20108:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20433:13: warning: Added loop label VITIS_LOOP_2822_19:   [xilinx-label-all-loops]
+            for(int j=63; j>=I+31; j--) {
+            ^~~
+            VITIS_LOOP_2822_19: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20433:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20440:17: warning: Added loop label VITIS_LOOP_2829_20:   [xilinx-label-all-loops]
+                for(int j=63; j>=I+31; j--) {
+                ^~~
+                VITIS_LOOP_2829_20: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20440:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20444:17: warning: Added loop label VITIS_LOOP_2833_21:   [xilinx-label-all-loops]
+                for(int j=I+30; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2833_21: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20444:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20532:4: warning: Added loop label VITIS_LOOP_2921_1:   [xilinx-label-all-loops]
+   for(int j = 5; j>=I_+2; j--) {
+   ^~~
+   VITIS_LOOP_2921_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20532:4: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20539:5: warning: Added loop label VITIS_LOOP_2928_2:   [xilinx-label-all-loops]
+    for(int j = 5; j>=I_+2; j--) {
+    ^~~
+    VITIS_LOOP_2928_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20539:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20543:5: warning: Added loop label VITIS_LOOP_2932_3:   [xilinx-label-all-loops]
+    for(int j = I_+1; j>=0; j--) {
+    ^~~
+    VITIS_LOOP_2932_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20543:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20558:3: warning: Added loop label VITIS_LOOP_2947_4:   [xilinx-label-all-loops]
+  for(int j = 11; j >=7; j--) {
+  ^~~
+  VITIS_LOOP_2947_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20558:3: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20590:4: warning: Added loop label VITIS_LOOP_2979_5:   [xilinx-label-all-loops]
+   for(int j = 11; j >= I_+5; j--) {
+   ^~~
+   VITIS_LOOP_2979_5: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20590:4: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20597:5: warning: Added loop label VITIS_LOOP_2986_6:   [xilinx-label-all-loops]
+    for(int j = 11; j>= I_+5; j--) {
+    ^~~
+    VITIS_LOOP_2986_6: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20597:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20601:5: warning: Added loop label VITIS_LOOP_2990_7:   [xilinx-label-all-loops]
+    for(int j = I_+4; j>=0; j--) {
+    ^~~
+    VITIS_LOOP_2990_7: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20601:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20616:3: warning: Added loop label VITIS_LOOP_3005_8:   [xilinx-label-all-loops]
+  for(int j = 25; j>=15; j--) {
+  ^~~
+  VITIS_LOOP_3005_8: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20616:3: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20666:4: warning: Added loop label VITIS_LOOP_3055_9:   [xilinx-label-all-loops]
+   for(int j = 25; j>= I_+12; j--) {
+   ^~~
+   VITIS_LOOP_3055_9: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20666:4: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20673:5: warning: Added loop label VITIS_LOOP_3062_10:   [xilinx-label-all-loops]
+    for(int j = 25; j>=I_+12; j--) {
+    ^~~
+    VITIS_LOOP_3062_10: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20673:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20677:5: warning: Added loop label VITIS_LOOP_3066_11:   [xilinx-label-all-loops]
+    for(int j = I_+11; j>=0; j--) {
+    ^~~
+    VITIS_LOOP_3066_11: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20677:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20692:3: warning: Added loop label VITIS_LOOP_3081_12:   [xilinx-label-all-loops]
+  for(int j = 51; j >= 29; j--) {
+  ^~~
+  VITIS_LOOP_3081_12: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20692:3: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20829:4: warning: Added loop label VITIS_LOOP_3218_13:   [xilinx-label-all-loops]
+   for(int j = 51; j >= 25 + I_; j--) {
+   ^~~
+   VITIS_LOOP_3218_13: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20829:4: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20836:5: warning: Added loop label VITIS_LOOP_3225_14:   [xilinx-label-all-loops]
+    for(int j = 51; j>=25 + I_; j--) {
+    ^~~
+    VITIS_LOOP_3225_14: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20836:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20840:5: warning: Added loop label VITIS_LOOP_3229_15:   [xilinx-label-all-loops]
+    for(int j = 24 + I_; j >= 0; j--) {
+    ^~~
+    VITIS_LOOP_3229_15: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20840:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20855:3: warning: Added loop label VITIS_LOOP_3244_16:   [xilinx-label-all-loops]
+  for(int j = 63; j >= 36; j--) {
+  ^~~
+  VITIS_LOOP_3244_16: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:20855:3: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:21015:4: warning: Added loop label VITIS_LOOP_3404_17:   [xilinx-label-all-loops]
+   for(int j = 63; j >= 31 + I_; j--) {
+   ^~~
+   VITIS_LOOP_3404_17: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:21015:4: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:21022:5: warning: Added loop label VITIS_LOOP_3411_18:   [xilinx-label-all-loops]
+    for(int j = 63; j >= 31 + I_; j--) {
+    ^~~
+    VITIS_LOOP_3411_18: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:21022:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:21026:5: warning: Added loop label VITIS_LOOP_3415_19:   [xilinx-label-all-loops]
+    for(int j = 30 + I_; j >= 0; j--) {
+    ^~~
+    VITIS_LOOP_3415_19: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:21026:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:21741:13: warning: Added loop label VITIS_LOOP_703_1:   [xilinx-label-all-loops]
+            for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
+            ^~~
+            VITIS_LOOP_703_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:21741:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:21959:13: warning: Added loop label VITIS_LOOP_921_1:   [xilinx-label-all-loops]
+            for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
+            ^~~
+            VITIS_LOOP_921_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:21959:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:22376:13: warning: Added loop label VITIS_LOOP_1345_1:   [xilinx-label-all-loops]
+            for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
+            ^~~
+            VITIS_LOOP_1345_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:22376:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:22696:9: warning: Added loop label VITIS_LOOP_240_1:   [xilinx-label-all-loops]
+        for ( int pos = msbr-1; pos >= 0; pos-- ) {
+        ^~~
+        VITIS_LOOP_240_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:22696:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:22724:9: warning: Added loop label VITIS_LOOP_268_2:   [xilinx-label-all-loops]
+        for ( int pos = -1; pos >= -F_-1; pos-- ) {
+        ^~~
+        VITIS_LOOP_268_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:22724:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:23426:13: warning: Added loop label VITIS_LOOP_48_1:   [xilinx-label-all-loops]
+            for (int j = 0; j < W_-1; j++){
+            ^~~
+            VITIS_LOOP_48_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:23426:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:23479:5: warning: Added loop label VITIS_LOOP_109_2:   [xilinx-label-all-loops]
+    for (int j = F_l+F_+I_m-1; j < F_l+W_+5; j++){
+    ^~~
+    VITIS_LOOP_109_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:23479:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:23493:13: warning: Added loop label VITIS_LOOP_123_3:   [xilinx-label-all-loops]
+            for (int j = WO_m-1; j >= W_-1; j--) {
+            ^~~
+            VITIS_LOOP_123_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:23493:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:23523:13: warning: Added loop label VITIS_LOOP_153_4:   [xilinx-label-all-loops]
+            for (int j = W_-2; j >= 0; j--){
+            ^~~
+            VITIS_LOOP_153_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:23523:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:23608:12: warning: Added loop label VITIS_LOOP_281_1:   [xilinx-label-all-loops]
+           for(int i = wf_log+we_log-2; i > WI_e - 2; --i) {
+           ^~~
+           VITIS_LOOP_281_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:23608:12: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:23628:16: warning: Added loop label VITIS_LOOP_301_2:   [xilinx-label-all-loops]
+               for (int j = WO_e-1; j >= W_-1; j--) {
+               ^~~
+               VITIS_LOOP_301_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:23628:16: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:23642:20: warning: Added loop label VITIS_LOOP_315_3:   [xilinx-label-all-loops]
+                   for(int i = 0; i < W_-1; ++i) {
+                   ^~~
+                   VITIS_LOOP_315_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:23642:20: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:23735:12: warning: Added loop label VITIS_LOOP_433_1:   [xilinx-label-all-loops]
+           for (int j =WO_d-1; j >= W_-1; j--) {
+           ^~~
+           VITIS_LOOP_433_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:23735:12: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:23749:15: warning: Added loop label VITIS_LOOP_447_2:   [xilinx-label-all-loops]
+              for(int i = 0; i < W_-1; ++i) {
+              ^~~
+              VITIS_LOOP_447_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:23749:15: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:23869:13: warning: Added loop label VITIS_LOOP_33_1:   [xilinx-label-all-loops]
+            for (int i = 0; i < W_-1; i++){
+            ^~~
+            VITIS_LOOP_33_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:23869:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:23993:13: warning: Added loop label VITIS_LOOP_183_1:   [xilinx-label-all-loops]
+            for (int i = 0; i < W_-1; i++){
+            ^~~
+            VITIS_LOOP_183_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:23993:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:24048:13: warning: Added loop label VITIS_LOOP_248_1:   [xilinx-label-all-loops]
+            for (int i = 0; i < W_-1; i++){
+            ^~~
+            VITIS_LOOP_248_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:24048:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:24567:2: warning: Added loop label VITIS_LOOP_16_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_16_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:24567:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:24578:2: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_27_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:24578:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:24589:2: warning: Added loop label VITIS_LOOP_38_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_38_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:24589:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:24600:2: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_49_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:24600:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:24611:2: warning: Added loop label VITIS_LOOP_60_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_60_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:24611:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:24622:2: warning: Added loop label VITIS_LOOP_71_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_71_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:24622:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:24633:2: warning: Added loop label VITIS_LOOP_82_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_82_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:24633:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:24644:2: warning: Added loop label VITIS_LOOP_93_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_93_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:24644:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:27004:12: warning: Added loop label VITIS_LOOP_26_1:   [xilinx-label-all-loops]
+           for(int i = 0; i < W_-1; ++i) {
+           ^~~
+           VITIS_LOOP_26_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:27004:12: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:27068:7: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
+      for(int pos = msbr - 1 ; pos >= -F-1; pos--) {
+      ^~~
+      VITIS_LOOP_40_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:27068:7: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:27185:9: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
+        for(int pos = msbr - 1; pos >= 0; pos--) {
+        ^~~
+        VITIS_LOOP_49_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:27185:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:27210:5: warning: Added loop label VITIS_LOOP_81_2:   [xilinx-label-all-loops]
+    for(int pos = -1; pos >= -F-1; pos--) {
+    ^~~
+    VITIS_LOOP_81_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:27210:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:27280:8: warning: Added loop label VITIS_LOOP_169_3:   [xilinx-label-all-loops]
+       for(int i = 0; i < W - 1; ++i) {
+       ^~~
+       VITIS_LOOP_169_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:27280:8: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:29945:5: warning: Added loop label VITIS_LOOP_137_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_137_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:29945:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:29947:2: warning: Added loop label VITIS_LOOP_139_2:   [xilinx-label-all-loops]
+ for(j = 0; j < COLS-1; j++) {
+ ^~~
+ VITIS_LOOP_139_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:29947:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:29969:5: warning: Added loop label VITIS_LOOP_175_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_175_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:29969:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:29971:2: warning: Added loop label VITIS_LOOP_177_2:   [xilinx-label-all-loops]
+ for(j = COLS-1; j > 0; j--) {
+ ^~~
+ VITIS_LOOP_177_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:29971:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:29993:5: warning: Added loop label VITIS_LOOP_213_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS-1; i++) {
+    ^~~
+    VITIS_LOOP_213_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:29993:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:29995:2: warning: Added loop label VITIS_LOOP_215_2:   [xilinx-label-all-loops]
+ for(j = 0; j < COLS; j++) {
+ ^~~
+ VITIS_LOOP_215_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:29995:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30017:5: warning: Added loop label VITIS_LOOP_251_1:   [xilinx-label-all-loops]
+    for(i = ROWS-1; i > 0; i--) {
+    ^~~
+    VITIS_LOOP_251_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30017:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30019:2: warning: Added loop label VITIS_LOOP_253_2:   [xilinx-label-all-loops]
+ for(j = 0; j < COLS; j++) {
+ ^~~
+ VITIS_LOOP_253_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30019:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30057:5: warning: Added loop label VITIS_LOOP_320_1:   [xilinx-label-all-loops]
+    for(j = 0; j < COLS; j++) {
+    ^~~
+    VITIS_LOOP_320_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30057:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30109:5: warning: Added loop label VITIS_LOOP_417_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_417_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30109:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30299:5: warning: Added loop label VITIS_LOOP_702_1:   [xilinx-label-all-loops]
+    for(i = ROWS-1; i > 0; i--) {
+    ^~~
+    VITIS_LOOP_702_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30299:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30321:5: warning: Added loop label VITIS_LOOP_742_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS-1; i++) {
+    ^~~
+    VITIS_LOOP_742_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30321:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30369:5: warning: Added loop label VITIS_LOOP_838_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_838_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30369:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30476:5: warning: Added loop label VITIS_LOOP_990_1:   [xilinx-label-all-loops]
+    for(i = ROWS-1; i > 0; i--) {
+    ^~~
+    VITIS_LOOP_990_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30476:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30498:5: warning: Added loop label VITIS_LOOP_1030_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS-1; i++) {
+    ^~~
+    VITIS_LOOP_1030_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30498:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30546:5: warning: Added loop label VITIS_LOOP_1126_1:   [xilinx-label-all-loops]
+    for(i = 0; i < ROWS; i++) {
+    ^~~
+    VITIS_LOOP_1126_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30546:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30747:2: warning: Added loop label VITIS_LOOP_232_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < N; k++) {
+ ^~~
+ VITIS_LOOP_232_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30747:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30768:2: warning: Added loop label VITIS_LOOP_253_1:   [xilinx-label-all-loops]
+ for (int k = 0; k < N; k++) {
+ ^~~
+ VITIS_LOOP_253_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30768:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30778:5: warning: Added loop label VITIS_LOOP_263_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_263_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30778:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30789:5: warning: Added loop label VITIS_LOOP_274_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_274_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30789:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30800:5: warning: Added loop label VITIS_LOOP_285_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_285_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30800:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30811:5: warning: Added loop label VITIS_LOOP_296_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_296_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30811:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30823:5: warning: Added loop label VITIS_LOOP_308_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_308_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30823:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30834:5: warning: Added loop label VITIS_LOOP_319_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_319_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30834:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30846:5: warning: Added loop label VITIS_LOOP_331_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_331_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30846:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30857:5: warning: Added loop label VITIS_LOOP_342_1:   [xilinx-label-all-loops]
+    for (int k = 0; k < N; k++) {
+    ^~~
+    VITIS_LOOP_342_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:30857:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:31134:2: warning: Added loop label VITIS_LOOP_619_1:   [xilinx-label-all-loops]
+ for (i = 0; i < ((((T) & ((512 - 1) << 11)) >> 11) + 1); i++) {
+ ^~~
+ VITIS_LOOP_619_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:31134:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:31211:2: warning: Added loop label VITIS_LOOP_696_1:   [xilinx-label-all-loops]
+ for (i = 0; i < ((((T) & ((512 - 1) << 11)) >> 11) + 1); i++) {
+ ^~~
+ VITIS_LOOP_696_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:31211:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:31235:2: warning: Added loop label VITIS_LOOP_720_1:   [xilinx-label-all-loops]
+ for (i = 0; i < ((((T) & ((512 - 1) << 11)) >> 11) + 1); i++) {
+ ^~~
+ VITIS_LOOP_720_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:31235:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:31258:5: warning: Added loop label VITIS_LOOP_743_1:   [xilinx-label-all-loops]
+    for (HLS_CHANNEL_T i = 0; i < ((((T) & ((512 - 1) << 11)) >> 11) + 1); i++) {
+    ^~~
+    VITIS_LOOP_743_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:31258:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:31388:25: warning: Added loop label VITIS_LOOP_210_1:   [xilinx-label-all-loops]
+                        for(int k=0;k<num;k++)
+                        ^~~
+                        VITIS_LOOP_210_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:31388:25: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:31524:9: warning: Added loop label VITIS_LOOP_189_1:   [xilinx-label-all-loops]
+        for (HLS_SIZE_T col = 0; col < cols; col++) {
+        ^~~
+        VITIS_LOOP_189_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:31524:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:31590:9: warning: Added loop label VITIS_LOOP_255_1:   [xilinx-label-all-loops]
+        for (HLS_SIZE_T col = 0; col < cols; col++) {
+        ^~~
+        VITIS_LOOP_255_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:31590:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:32494:5: warning: Added loop label VITIS_LOOP_1027_1:   [xilinx-label-all-loops]
+    for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+    ^~~
+    VITIS_LOOP_1027_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:32494:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:32553:13: warning: Added loop label VITIS_LOOP_1107_1:   [xilinx-label-all-loops]
+            for (HLS_CHANNEL_T k = 0; k < ((((DST_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+            ^~~
+            VITIS_LOOP_1107_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:32553:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:32569:5: warning: Added loop label VITIS_LOOP_1123_1:   [xilinx-label-all-loops]
+    for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+    ^~~
+    VITIS_LOOP_1123_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:32569:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:32585:5: warning: Added loop label VITIS_LOOP_1139_1:   [xilinx-label-all-loops]
+    for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+    ^~~
+    VITIS_LOOP_1139_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:32585:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:32603:5: warning: Added loop label VITIS_LOOP_1157_1:   [xilinx-label-all-loops]
+    for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+    ^~~
+    VITIS_LOOP_1157_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:32603:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:32641:5: warning: Added loop label VITIS_LOOP_1195_1:   [xilinx-label-all-loops]
+    for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+    ^~~
+    VITIS_LOOP_1195_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:32641:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:32661:5: warning: Added loop label VITIS_LOOP_1215_1:   [xilinx-label-all-loops]
+    for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+    ^~~
+    VITIS_LOOP_1215_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:32661:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:32949:13: warning: Added loop label VITIS_LOOP_1510_1:   [xilinx-label-all-loops]
+            for (HLS_CHANNEL_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+            ^~~
+            VITIS_LOOP_1510_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:32949:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33498:21: warning: Added loop label VITIS_LOOP_471_1:   [xilinx-label-all-loops]
+                    for(int buf_row=0; buf_row<K_HEIGHT; buf_row++) {
+                    ^~~
+                    VITIS_LOOP_471_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33498:21: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33511:29: warning: Added loop label VITIS_LOOP_484_2:   [xilinx-label-all-loops]
+                            for(int buf_row=2*K_HEIGHT-1; buf_row>=0; buf_row--) {
+                            ^~~
+                            VITIS_LOOP_484_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33511:29: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33520:29: warning: Added loop label VITIS_LOOP_493_3:   [xilinx-label-all-loops]
+                            for(int buf_row=0; buf_row<K_HEIGHT; buf_row++) {
+                            ^~~
+                            VITIS_LOOP_493_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33520:29: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33521:33: warning: Added loop label VITIS_LOOP_494_4:   [xilinx-label-all-loops]
+                                for(int buf_col=K_WIDTH-1; buf_col>0; buf_col--) {
+                                ^~~
+                                VITIS_LOOP_494_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33521:33: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33529:29: warning: Added loop label VITIS_LOOP_502_5:   [xilinx-label-all-loops]
+                            for(int buf_row=2*K_HEIGHT-1; buf_row>0; buf_row--) {
+                            ^~~
+                            VITIS_LOOP_502_5: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33529:29: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33543:21: warning: Added loop label VITIS_LOOP_516_6:   [xilinx-label-all-loops]
+                    for(int buf_row=0; buf_row<K_HEIGHT; buf_row++){
+                    ^~~
+                    VITIS_LOOP_516_6: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33543:21: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33679:25: warning: Added loop label VITIS_LOOP_652_1:   [xilinx-label-all-loops]
+                        for(int buf_row=K_HEIGHT-1; buf_row>0; buf_row--) {
+                        ^~~
+                        VITIS_LOOP_652_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33679:25: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33683:25: warning: Added loop label VITIS_LOOP_656_2:   [xilinx-label-all-loops]
+                        for(int buf_row=K_HEIGHT-1; buf_row>=0; buf_row--) {
+                        ^~~
+                        VITIS_LOOP_656_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33683:25: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33690:29: warning: Added loop label VITIS_LOOP_663_3:   [xilinx-label-all-loops]
+                            for(int buf_row=K_HEIGHT-1; buf_row>0; buf_row--) {
+                            ^~~
+                            VITIS_LOOP_663_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33690:29: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33707:25: warning: Added loop label VITIS_LOOP_680_4:   [xilinx-label-all-loops]
+                        for(int buf_row=K_HEIGHT-1; buf_row>=0; buf_row--) {
+                        ^~~
+                        VITIS_LOOP_680_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33707:25: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33708:29: warning: Added loop label VITIS_LOOP_681_5:   [xilinx-label-all-loops]
+                            for(int buf_col=K_WIDTH-1; buf_col>0; buf_col--) {
+                            ^~~
+                            VITIS_LOOP_681_5: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33708:29: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33810:17: warning: Added loop label VITIS_LOOP_783_1:   [xilinx-label-all-loops]
+                for(int buf_row=0; buf_row<K_HEIGHT; buf_row++) {
+                ^~~
+                VITIS_LOOP_783_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33810:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33820:21: warning: Added loop label VITIS_LOOP_793_2:   [xilinx-label-all-loops]
+                    for(int buf_row=2*K_HEIGHT-1; buf_row>=0; buf_row--) {
+                    ^~~
+                    VITIS_LOOP_793_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33820:21: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33827:21: warning: Added loop label VITIS_LOOP_800_3:   [xilinx-label-all-loops]
+                    for(int buf_row=2*K_HEIGHT-1; buf_row>0; buf_row--) {
+                    ^~~
+                    VITIS_LOOP_800_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33827:21: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33837:17: warning: Added loop label VITIS_LOOP_810_4:   [xilinx-label-all-loops]
+                for(int buf_row=0; buf_row<K_HEIGHT; buf_row++){
+                ^~~
+                VITIS_LOOP_810_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33837:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33963:17: warning: Added loop label VITIS_LOOP_936_1:   [xilinx-label-all-loops]
+                for (int buf_col=K_WIDTH-1; buf_col>0; buf_col--) {
+                ^~~
+                VITIS_LOOP_936_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33963:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33985:17: warning: Added loop label VITIS_LOOP_958_2:   [xilinx-label-all-loops]
+                for (int buf_col=0; buf_col<2*K_WIDTH; buf_col++) {
+                ^~~
+                VITIS_LOOP_958_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33985:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33991:17: warning: Added loop label VITIS_LOOP_964_3:   [xilinx-label-all-loops]
+                for (int buf_col=0; buf_col<K_WIDTH; buf_col++) {
+                ^~~
+                VITIS_LOOP_964_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:33991:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:34111:17: warning: Added loop label VITIS_LOOP_1084_1:   [xilinx-label-all-loops]
+                for(int buf_col=K_WIDTH-1; buf_col>=1; buf_col--) {
+                ^~~
+                VITIS_LOOP_1084_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:34111:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:34116:21: warning: Added loop label VITIS_LOOP_1089_2:   [xilinx-label-all-loops]
+                    for(int buf_row= K_HEIGHT-1;buf_row >= 1;buf_row--) {
+                    ^~~
+                    VITIS_LOOP_1089_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:34116:21: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:34144:17: warning: Added loop label VITIS_LOOP_1117_3:   [xilinx-label-all-loops]
+                for (int buf_col=0; buf_col<K_WIDTH; buf_col++) {
+                ^~~
+                VITIS_LOOP_1117_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:34144:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:34552:2: warning: Added loop label VITIS_LOOP_1525_1:   [xilinx-label-all-loops]
+ for(int i=0; i<CN1; i++) {
+ ^~~
+ VITIS_LOOP_1525_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:34552:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:34561:2: warning: Added loop label VITIS_LOOP_1534_1:   [xilinx-label-all-loops]
+ for(int i=0; i<CN1; i++) {
+ ^~~
+ VITIS_LOOP_1534_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:34561:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35122:5: warning: Added loop label VITIS_LOOP_2095_1:   [xilinx-label-all-loops]
+    for (i=0; i<NPHASES; i++) {
+    ^~~
+    VITIS_LOOP_2095_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35122:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35129:5: warning: Added loop label VITIS_LOOP_2102_2:   [xilinx-label-all-loops]
+    for (i = 0; i < NPHASES; i++) {
+    ^~~
+    VITIS_LOOP_2102_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35129:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35130:9: warning: Added loop label VITIS_LOOP_2103_3:   [xilinx-label-all-loops]
+        for (j = 0; j < NTAPS; j++) {
+        ^~~
+        VITIS_LOOP_2103_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35130:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35273:27: warning: Added loop label VITIS_LOOP_2246_1:   [xilinx-label-all-loops]
+                          for (int m = 0; m < ((((T) & ((512 - 1) << 11)) >> 11) + 1); m++)
+                          ^~~
+                          VITIS_LOOP_2246_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35273:27: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35280:15: warning: Added loop label VITIS_LOOP_2253_2:   [xilinx-label-all-loops]
+              for (int i = 0; i < NTAPS; i++) {
+              ^~~
+              VITIS_LOOP_2253_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35280:15: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35286:23: warning: Added loop label VITIS_LOOP_2259_3:   [xilinx-label-all-loops]
+                      for (int i = NTAPS - 1; i > 0; i--) {
+                      ^~~
+                      VITIS_LOOP_2259_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35286:23: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35300:23: warning: Added loop label VITIS_LOOP_2273_4:   [xilinx-label-all-loops]
+                      for (int i = NTAPS - 1; i >= 0; i--) {
+                      ^~~
+                      VITIS_LOOP_2273_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35300:23: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35311:15: warning: Added loop label VITIS_LOOP_2284_5:   [xilinx-label-all-loops]
+              for (int i = 0; i < NTAPS; i++) {
+              ^~~
+              VITIS_LOOP_2284_5: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35311:15: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35356:5: warning: Added loop label VITIS_LOOP_2329_1:   [xilinx-label-all-loops]
+    for(short i= 0;i<rows;i++) {
+    ^~~
+    VITIS_LOOP_2329_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35356:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35357:9: warning: Added loop label VITIS_LOOP_2330_2:   [xilinx-label-all-loops]
+        for(short j= 0;j<cols;j++) {
+        ^~~
+        VITIS_LOOP_2330_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35357:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35437:17: warning: Added loop label VITIS_LOOP_2410_3:   [xilinx-label-all-loops]
+                for(int r= 0;r<2;r++)
+                ^~~
+                VITIS_LOOP_2410_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35437:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35461:21: warning: Added loop label VITIS_LOOP_2434_4:   [xilinx-label-all-loops]
+                    for(int r= 0;r<2;r++)
+                    ^~~
+                    VITIS_LOOP_2434_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35461:21: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35471:17: warning: Added loop label VITIS_LOOP_2444_5:   [xilinx-label-all-loops]
+                for(int k=0;k<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1);k++)
+                ^~~
+                VITIS_LOOP_2444_5: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35471:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35589:5: warning: Added loop label VITIS_LOOP_2562_1:   [xilinx-label-all-loops]
+    for(int k=0; k<2; k++)
+    ^~~
+    VITIS_LOOP_2562_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35589:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35606:13: warning: Added loop label VITIS_LOOP_2579_2:   [xilinx-label-all-loops]
+            for(int i=0; i<SIZE; i++)
+            ^~~
+            VITIS_LOOP_2579_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35606:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35609:13: warning: Added loop label VITIS_LOOP_2582_3:   [xilinx-label-all-loops]
+            for(int i=0; i<SIZE-order-1; i++)
+            ^~~
+            VITIS_LOOP_2582_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35609:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35612:17: warning: Added loop label VITIS_LOOP_2585_4:   [xilinx-label-all-loops]
+                for(int j = 1; j <= SIZE; j++ )
+                ^~~
+                VITIS_LOOP_2585_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35612:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35620:13: warning: Added loop label VITIS_LOOP_2593_5:   [xilinx-label-all-loops]
+            for(int i = 0; i < order; i++ )
+            ^~~
+            VITIS_LOOP_2593_5: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35620:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35623:17: warning: Added loop label VITIS_LOOP_2596_6:   [xilinx-label-all-loops]
+                for(int j = 1; j <= SIZE; j++ )
+                ^~~
+                VITIS_LOOP_2596_6: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35623:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35632:9: warning: Added loop label VITIS_LOOP_2605_7:   [xilinx-label-all-loops]
+        for(int i=0; i<SIZE; i++) {
+        ^~~
+        VITIS_LOOP_2605_7: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35632:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35640:5: warning: Added loop label VITIS_LOOP_2613_8:   [xilinx-label-all-loops]
+    for(int i=0; i<SIZE; i++) {
+    ^~~
+    VITIS_LOOP_2613_8: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35640:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35641:9: warning: Added loop label VITIS_LOOP_2614_9:   [xilinx-label-all-loops]
+        for(int j=0; j<SIZE; j++) {
+        ^~~
+        VITIS_LOOP_2614_9: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35641:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35691:6: warning: Added loop label VITIS_LOOP_2664_1:   [xilinx-label-all-loops]
+     for (int i = 0; i < KH; i++) {
+     ^~~
+     VITIS_LOOP_2664_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35691:6: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35692:13: warning: Added loop label VITIS_LOOP_2665_2:   [xilinx-label-all-loops]
+            for (int j = 0; j < KW; j++) {
+            ^~~
+            VITIS_LOOP_2665_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35692:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35700:6: warning: Added loop label VITIS_LOOP_2673_3:   [xilinx-label-all-loops]
+     for (int i = 0; i < KH; i++) {
+     ^~~
+     VITIS_LOOP_2673_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35700:6: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35701:10: warning: Added loop label VITIS_LOOP_2674_4:   [xilinx-label-all-loops]
+         for (int j = 0; j < KW; j++) {
+         ^~~
+         VITIS_LOOP_2674_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35701:10: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35743:5: warning: Added loop label VITIS_LOOP_2716_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < KW; i++) {
+    ^~~
+    VITIS_LOOP_2716_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35743:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35747:5: warning: Added loop label VITIS_LOOP_2720_2:   [xilinx-label-all-loops]
+    for (int i = 0; i < KH; i++) {
+    ^~~
+    VITIS_LOOP_2720_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35747:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35801:5: warning: Added loop label VITIS_LOOP_2774_1:   [xilinx-label-all-loops]
+    for(int i=0; i<5; i++)
+    ^~~
+    VITIS_LOOP_2774_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35801:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35802:9: warning: Added loop label VITIS_LOOP_2775_2:   [xilinx-label-all-loops]
+        for(int j=0; j<5; j++)
+        ^~~
+        VITIS_LOOP_2775_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35802:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35861:25: warning: Added loop label VITIS_LOOP_2834_1:   [xilinx-label-all-loops]
+                        for(int row= 0;row<K_HEIGHT;row++)
+                        ^~~
+                        VITIS_LOOP_2834_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35861:25: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35862:29: warning: Added loop label VITIS_LOOP_2835_2:   [xilinx-label-all-loops]
+                            for(int col= K_WIDTH-1;col>=1;col--)
+                            ^~~
+                            VITIS_LOOP_2835_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35862:29: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35865:25: warning: Added loop label VITIS_LOOP_2838_3:   [xilinx-label-all-loops]
+                        for(int buf_row = 0; buf_row < K_HEIGHT; buf_row++)
+                        ^~~
+                        VITIS_LOOP_2838_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35865:25: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35877:33: warning: Added loop label VITIS_LOOP_2850_4:   [xilinx-label-all-loops]
+                                for(int buf_row= K_HEIGHT-1;buf_row >= 1;buf_row--)
+                                ^~~
+                                VITIS_LOOP_2850_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35877:33: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35888:37: warning: Added loop label VITIS_LOOP_2861_5:   [xilinx-label-all-loops]
+                                    for(int buf_row= K_HEIGHT-1;buf_row >= 1;buf_row--)
+                                    ^~~
+                                    VITIS_LOOP_2861_5: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35888:37: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35904:33: warning: Added loop label VITIS_LOOP_2877_6:   [xilinx-label-all-loops]
+                                for(int buf_row = 0;buf_row < K_HEIGHT; buf_row++)
+                                ^~~
+                                VITIS_LOOP_2877_6: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35904:33: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35910:33: warning: Added loop label VITIS_LOOP_2883_7:   [xilinx-label-all-loops]
+                                for(int buf_row= 0;buf_row < K_HEIGHT; buf_row++)
+                                ^~~
+                                VITIS_LOOP_2883_7: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35910:33: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35916:36: warning: Added loop label VITIS_LOOP_2889_8:   [xilinx-label-all-loops]
+                                   for(int buf_row= K_HEIGHT-1;buf_row>0;buf_row--)
+                                   ^~~
+                                   VITIS_LOOP_2889_8: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35916:36: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35928:29: warning: Added loop label VITIS_LOOP_2901_9:   [xilinx-label-all-loops]
+                            for(int buf_row= 0;buf_row<K_HEIGHT;buf_row++)
+                            ^~~
+                            VITIS_LOOP_2901_9: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35928:29: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35942:33: warning: Added loop label VITIS_LOOP_2915_10:   [xilinx-label-all-loops]
+                                for(int buf_row= K_HEIGHT-1;buf_row>0;buf_row--)
+                                ^~~
+                                VITIS_LOOP_2915_10: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35942:33: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35956:33: warning: Added loop label VITIS_LOOP_2929_11:   [xilinx-label-all-loops]
+                                for(int m=0; m<K_HEIGHT; m++)
+                                ^~~
+                                VITIS_LOOP_2929_11: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35956:33: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35957:37: warning: Added loop label VITIS_LOOP_2930_12:   [xilinx-label-all-loops]
+                                    for(int n=0; n<K_WIDTH; n++)
+                                    ^~~
+                                    VITIS_LOOP_2930_12: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35957:37: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35962:33: warning: Added loop label VITIS_LOOP_2935_13:   [xilinx-label-all-loops]
+                                for(int m=0; m<K_HEIGHT; m++)
+                                ^~~
+                                VITIS_LOOP_2935_13: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35962:33: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35963:37: warning: Added loop label VITIS_LOOP_2936_14:   [xilinx-label-all-loops]
+                                    for(int n=1; n<K_WIDTH; n++)
+                                    ^~~
+                                    VITIS_LOOP_2936_14: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35963:37: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35970:33: warning: Added loop label VITIS_LOOP_2943_15:   [xilinx-label-all-loops]
+                                for(int m=0; m<K_HEIGHT-1; m++)
+                                ^~~
+                                VITIS_LOOP_2943_15: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35970:33: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35971:37: warning: Added loop label VITIS_LOOP_2944_16:   [xilinx-label-all-loops]
+                                    for(int n=0; n<K_WIDTH; n++)
+                                    ^~~
+                                    VITIS_LOOP_2944_16: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35971:37: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35977:33: warning: Added loop label VITIS_LOOP_2950_17:   [xilinx-label-all-loops]
+                                for(int m=0; m<K_HEIGHT-1; m++)
+                                ^~~
+                                VITIS_LOOP_2950_17: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35977:33: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35978:37: warning: Added loop label VITIS_LOOP_2951_18:   [xilinx-label-all-loops]
+                                    for(int n=1; n<K_WIDTH; n++)
+                                    ^~~
+                                    VITIS_LOOP_2951_18: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:35978:37: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36061:21: warning: Added loop label VITIS_LOOP_3034_1:   [xilinx-label-all-loops]
+                    for(int row= 0;row<K_HEIGHT;row++)
+                    ^~~
+                    VITIS_LOOP_3034_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36061:21: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36062:25: warning: Added loop label VITIS_LOOP_3035_2:   [xilinx-label-all-loops]
+                        for(int col= K_WIDTH-1;col>=1;col--)
+                        ^~~
+                        VITIS_LOOP_3035_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36062:25: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36065:21: warning: Added loop label VITIS_LOOP_3038_3:   [xilinx-label-all-loops]
+                    for(int buf_row = 0; buf_row < K_HEIGHT; buf_row++)
+                    ^~~
+                    VITIS_LOOP_3038_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36065:21: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36082:29: warning: Added loop label VITIS_LOOP_3055_4:   [xilinx-label-all-loops]
+                            for(int buf_row= K_HEIGHT-1;buf_row >= 1;buf_row--)
+                            ^~~
+                            VITIS_LOOP_3055_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36082:29: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36098:29: warning: Added loop label VITIS_LOOP_3071_5:   [xilinx-label-all-loops]
+                            for(int buf_row = 0;buf_row < K_HEIGHT; buf_row++)
+                            ^~~
+                            VITIS_LOOP_3071_5: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36098:29: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36105:29: warning: Added loop label VITIS_LOOP_3078_6:   [xilinx-label-all-loops]
+                            for(int buf_row= 0;buf_row < K_HEIGHT; buf_row++)
+                            ^~~
+                            VITIS_LOOP_3078_6: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36105:29: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36117:25: warning: Added loop label VITIS_LOOP_3090_7:   [xilinx-label-all-loops]
+                        for(int buf_row= 0;buf_row<K_HEIGHT;buf_row++)
+                        ^~~
+                        VITIS_LOOP_3090_7: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36117:25: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36136:29: warning: Added loop label VITIS_LOOP_3109_8:   [xilinx-label-all-loops]
+                            for(int m=0; m<K_HEIGHT; m++)
+                            ^~~
+                            VITIS_LOOP_3109_8: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36136:29: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36137:33: warning: Added loop label VITIS_LOOP_3110_9:   [xilinx-label-all-loops]
+                                for(int n=0; n<K_WIDTH; n++)
+                                ^~~
+                                VITIS_LOOP_3110_9: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36137:33: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36185:5: warning: Added loop label VITIS_LOOP_79_1:   [xilinx-label-all-loops]
+    for(int i=0;i<NUM_STATES;i++) {
+    ^~~
+    VITIS_LOOP_79_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36185:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36191:5: warning: Added loop label VITIS_LOOP_85_2:   [xilinx-label-all-loops]
+    for(int i=0;i<N;i++)
+    ^~~
+    VITIS_LOOP_85_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36191:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36212:13: warning: Added loop label VITIS_LOOP_106_3:   [xilinx-label-all-loops]
+            for (int m=0; m<NUM_STATES; m++) {
+            ^~~
+            VITIS_LOOP_106_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36212:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36224:13: warning: Added loop label VITIS_LOOP_118_4:   [xilinx-label-all-loops]
+            for (int m=NUM_STATES-1; m>0; m--) {
+            ^~~
+            VITIS_LOOP_118_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36224:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36264:5: warning: Added loop label VITIS_LOOP_158_5:   [xilinx-label-all-loops]
+    for (int m=0; m<NUM_STATES/2; m++) {
+    ^~~
+    VITIS_LOOP_158_5: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36264:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36323:5: warning: Added loop label VITIS_LOOP_71_1:   [xilinx-label-all-loops]
+    for(int index=0;index<K;index++) {
+    ^~~
+    VITIS_LOOP_71_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36323:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36372:9: warning: Added loop label VITIS_LOOP_120_1:   [xilinx-label-all-loops]
+        for(int i=0;i<NUM-1;i++) {
+        ^~~
+        VITIS_LOOP_120_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36372:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36376:9: warning: Added loop label VITIS_LOOP_124_2:   [xilinx-label-all-loops]
+        for(int i=0;i<NUM-3;i++) {
+        ^~~
+        VITIS_LOOP_124_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36376:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36381:9: warning: Added loop label VITIS_LOOP_129_3:   [xilinx-label-all-loops]
+        for(int i=0;i<NUM-7;i++) {
+        ^~~
+        VITIS_LOOP_129_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36381:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36392:5: warning: Added loop label VITIS_LOOP_140_4:   [xilinx-label-all-loops]
+    for(int i=0;i<PSize;i+=2) {
+    ^~~
+    VITIS_LOOP_140_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36392:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36397:13: warning: Added loop label VITIS_LOOP_145_5:   [xilinx-label-all-loops]
+            for(int j=1;j<PSize/2+1;j++) {
+            ^~~
+            VITIS_LOOP_145_5: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36397:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36405:5: warning: Added loop label VITIS_LOOP_153_6:   [xilinx-label-all-loops]
+    for(int i=0;i<PSize;i+=2) {
+    ^~~
+    VITIS_LOOP_153_6: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36405:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36410:13: warning: Added loop label VITIS_LOOP_158_7:   [xilinx-label-all-loops]
+            for(int j=1;j<PSize/2+1;j++) {
+            ^~~
+            VITIS_LOOP_158_7: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36410:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36436:5: warning: Added loop label VITIS_LOOP_184_1:   [xilinx-label-all-loops]
+    for(int c=1;c<PSize+PSize/2+1;c++)
+    ^~~
+    VITIS_LOOP_184_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36436:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36463:5: warning: Added loop label VITIS_LOOP_211_1:   [xilinx-label-all-loops]
+    for(int k=0;k<3;k++) {
+    ^~~
+    VITIS_LOOP_211_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36463:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36469:5: warning: Added loop label VITIS_LOOP_217_2:   [xilinx-label-all-loops]
+    for(int k=0;k<3;k++) {
+    ^~~
+    VITIS_LOOP_217_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36469:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36518:17: warning: Added loop label VITIS_LOOP_266_1:   [xilinx-label-all-loops]
+                for(int r= 0;r<KERNEL_SIZE;r++) {
+                ^~~
+                VITIS_LOOP_266_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36518:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36519:21: warning: Added loop label VITIS_LOOP_267_2:   [xilinx-label-all-loops]
+                    for(int c=0;c<KERNEL_SIZE-1;c++) {
+                    ^~~
+                    VITIS_LOOP_267_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36519:21: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36524:17: warning: Added loop label VITIS_LOOP_272_3:   [xilinx-label-all-loops]
+                for(int buf_row= 1;buf_row< KERNEL_SIZE-1;buf_row++) {
+                ^~~
+                VITIS_LOOP_272_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36524:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36534:13: warning: Added loop label VITIS_LOOP_282_4:   [xilinx-label-all-loops]
+            for(int r= 0;r<3;r++)
+            ^~~
+            VITIS_LOOP_282_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36534:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36536:17: warning: Added loop label VITIS_LOOP_284_5:   [xilinx-label-all-loops]
+                for(int c=0;c<3-1;c++)
+                ^~~
+                VITIS_LOOP_284_5: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36536:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36542:13: warning: Added loop label VITIS_LOOP_290_6:   [xilinx-label-all-loops]
+            for(int buf_row= 1;buf_row< 3-1;buf_row++)
+            ^~~
+            VITIS_LOOP_290_6: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36542:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36634:17: warning: Added loop label VITIS_LOOP_382_1:   [xilinx-label-all-loops]
+                for(int r= 0;r<KERNEL_SIZE;r++) {
+                ^~~
+                VITIS_LOOP_382_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36634:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36635:21: warning: Added loop label VITIS_LOOP_383_2:   [xilinx-label-all-loops]
+                    for(int c=0;c<KERNEL_SIZE-1;c++) {
+                    ^~~
+                    VITIS_LOOP_383_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36635:21: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36640:17: warning: Added loop label VITIS_LOOP_388_3:   [xilinx-label-all-loops]
+                for(int buf_row= 1;buf_row< KERNEL_SIZE-1;buf_row++) {
+                ^~~
+                VITIS_LOOP_388_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36640:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36650:13: warning: Added loop label VITIS_LOOP_398_4:   [xilinx-label-all-loops]
+            for(int r= 0;r<3;r++)
+            ^~~
+            VITIS_LOOP_398_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36650:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36652:17: warning: Added loop label VITIS_LOOP_400_5:   [xilinx-label-all-loops]
+                for(int c=0;c<3-1;c++)
+                ^~~
+                VITIS_LOOP_400_5: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36652:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36658:13: warning: Added loop label VITIS_LOOP_406_6:   [xilinx-label-all-loops]
+            for(int buf_row= 1;buf_row< 3-1;buf_row++)
+            ^~~
+            VITIS_LOOP_406_6: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36658:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36769:5: warning: Added loop label VITIS_LOOP_104_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < N; i++)
+    ^~~
+    VITIS_LOOP_104_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36769:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36773:5: warning: Added loop label VITIS_LOOP_108_2:   [xilinx-label-all-loops]
+    for (int i = 0; i < N; i++) {
+    ^~~
+    VITIS_LOOP_108_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36773:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36775:9: warning: Added loop label VITIS_LOOP_110_3:   [xilinx-label-all-loops]
+        for (int j = 0; j < N; j++) {
+        ^~~
+        VITIS_LOOP_110_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36775:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36781:5: warning: Added loop label VITIS_LOOP_116_4:   [xilinx-label-all-loops]
+    for (int j = 0; j < N; j++) {
+    ^~~
+    VITIS_LOOP_116_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36781:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36782:9: warning: Added loop label VITIS_LOOP_117_5:   [xilinx-label-all-loops]
+        for (int i = 0; i < j; i++) {
+        ^~~
+        VITIS_LOOP_117_5: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36782:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36784:13: warning: Added loop label VITIS_LOOP_119_6:   [xilinx-label-all-loops]
+            for (int k = 0; k < i; k++) sum -= A[i][k] * A[k][j];
+            ^~~
+            VITIS_LOOP_119_6: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36784:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36788:9: warning: Added loop label VITIS_LOOP_123_7:   [xilinx-label-all-loops]
+        for (int i = j; i < N; i++) {
+        ^~~
+        VITIS_LOOP_123_7: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36788:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36790:13: warning: Added loop label VITIS_LOOP_125_8:   [xilinx-label-all-loops]
+            for (int k = 0; k < j; k++) sum -= A[i][k] * A[k][j];
+            ^~~
+            VITIS_LOOP_125_8: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36790:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36799:13: warning: Added loop label VITIS_LOOP_134_9:   [xilinx-label-all-loops]
+            for (int i = 0; i < N; i++) {
+            ^~~
+            VITIS_LOOP_134_9: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36799:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36811:13: warning: Added loop label VITIS_LOOP_146_10:   [xilinx-label-all-loops]
+            for (int i = j + 1; i < N; i++) A[i][j] *= dum;
+            ^~~
+            VITIS_LOOP_146_10: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36811:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36819:5: warning: Added loop label VITIS_LOOP_154_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < N; i++) {
+    ^~~
+    VITIS_LOOP_154_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36819:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36828:13: warning: Added loop label VITIS_LOOP_163_2:   [xilinx-label-all-loops]
+            for (int j = ii - 1; j < i; j++) sum -= A[i][j] * b[j];
+            ^~~
+            VITIS_LOOP_163_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36828:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36833:5: warning: Added loop label VITIS_LOOP_168_3:   [xilinx-label-all-loops]
+    for (int i = N - 1; i >= 0; i--) {
+    ^~~
+    VITIS_LOOP_168_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36833:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36835:9: warning: Added loop label VITIS_LOOP_170_4:   [xilinx-label-all-loops]
+        for (int j = i + 1; j < N; j++) sum -= A[i][j]*b[j];
+        ^~~
+        VITIS_LOOP_170_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36835:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36846:5: warning: Added loop label VITIS_LOOP_181_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < N; i++) {
+    ^~~
+    VITIS_LOOP_181_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36846:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36851:5: warning: Added loop label VITIS_LOOP_186_2:   [xilinx-label-all-loops]
+    for (int i = 0; i < N; i++) {
+    ^~~
+    VITIS_LOOP_186_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36851:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36852:9: warning: Added loop label VITIS_LOOP_187_3:   [xilinx-label-all-loops]
+        for (int j = 0; j < N; j++) b[j] = 0;
+        ^~~
+        VITIS_LOOP_187_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36852:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36855:9: warning: Added loop label VITIS_LOOP_190_4:   [xilinx-label-all-loops]
+        for (int j = 0; j < N; j++) Ar[j][i] = b[j];
+        ^~~
+        VITIS_LOOP_190_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36855:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36931:21: warning: Added loop label VITIS_LOOP_266_1:   [xilinx-label-all-loops]
+                    for(int k=0;k<((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1);k++) {
+                    ^~~
+                    VITIS_LOOP_266_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:36931:21: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37051:17: warning: Added loop label VITIS_LOOP_398_1:   [xilinx-label-all-loops]
+                for(int k = 0; k < ((((DST_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+                ^~~
+                VITIS_LOOP_398_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37051:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37469:2: warning: Added loop label VITIS_LOOP_217_1:   [xilinx-label-all-loops]
+ for(int row=2;row>=0;row--)
+ ^~~
+ VITIS_LOOP_217_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37469:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37471:17: warning: Added loop label VITIS_LOOP_219_2:   [xilinx-label-all-loops]
+                for(int col=2;col>=1;col--)
+                ^~~
+                VITIS_LOOP_219_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37471:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37604:5: warning: Added loop label VITIS_LOOP_106_1:   [xilinx-label-all-loops]
+    for(int i=0;i<KH;i++) {
+    ^~~
+    VITIS_LOOP_106_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37604:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37605:9: warning: Added loop label VITIS_LOOP_107_2:   [xilinx-label-all-loops]
+        for(int j=0;j<KW;j++) {
+        ^~~
+        VITIS_LOOP_107_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37605:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37627:5: warning: Added loop label VITIS_LOOP_129_1:   [xilinx-label-all-loops]
+    for(HLS_SIZE_T i=0;i<rows+ioffset;i++)
+    ^~~
+    VITIS_LOOP_129_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37627:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37630:2: warning: Added loop label VITIS_LOOP_132_2:   [xilinx-label-all-loops]
+ for(HLS_SIZE_T j=0;j<cols+joffset;j++)
+ ^~~
+ VITIS_LOOP_132_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37630:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37637:13: warning: Added loop label VITIS_LOOP_139_3:   [xilinx-label-all-loops]
+            for(int r= 0;r<KH;r++)
+            ^~~
+            VITIS_LOOP_139_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37637:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37639:17: warning: Added loop label VITIS_LOOP_141_4:   [xilinx-label-all-loops]
+                for(int c=0;c<KW-1;c++)
+                ^~~
+                VITIS_LOOP_141_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37639:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37647:17: warning: Added loop label VITIS_LOOP_149_5:   [xilinx-label-all-loops]
+                for(int buf_row= 1;buf_row< KH-1;buf_row++)
+                ^~~
+                VITIS_LOOP_149_5: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37647:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37660:17: warning: Added loop label VITIS_LOOP_162_6:   [xilinx-label-all-loops]
+                for(int i= 1;i< KW;i++)
+                ^~~
+                VITIS_LOOP_162_6: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37660:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37696:5: warning: Added loop label VITIS_LOOP_198_1:   [xilinx-label-all-loops]
+    for(HLS_SIZE_T i=0;i<rows;i++)
+    ^~~
+    VITIS_LOOP_198_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37696:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37699:2: warning: Added loop label VITIS_LOOP_201_2:   [xilinx-label-all-loops]
+ for(HLS_SIZE_T j=0;j<cols;j++)
+ ^~~
+ VITIS_LOOP_201_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37699:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37928:9: warning: Added loop label VITIS_LOOP_148_1:   [xilinx-label-all-loops]
+        for(int i=0;i<STAGE;i++)
+        ^~~
+        VITIS_LOOP_148_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37928:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37936:9: warning: Added loop label VITIS_LOOP_156_2:   [xilinx-label-all-loops]
+        for(int i=0;i<CLASSIFIER_ALL;i++)
+        ^~~
+        VITIS_LOOP_156_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37936:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37939:16: warning: Added loop label VITIS_LOOP_159_3:   [xilinx-label-all-loops]
+               for(int j=0;j<FEATURE_MAX;j++)
+               ^~~
+               VITIS_LOOP_159_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37939:16: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37947:23: warning: Added loop label VITIS_LOOP_167_4:   [xilinx-label-all-loops]
+                      for(int n=0;n<3;n++)
+                      ^~~
+                      VITIS_LOOP_167_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37947:23: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37970:5: warning: Added loop label VITIS_LOOP_190_1:   [xilinx-label-all-loops]
+    for(int j=0;j<COLS;j++)
+    ^~~
+    VITIS_LOOP_190_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37970:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37973:9: warning: Added loop label VITIS_LOOP_193_2:   [xilinx-label-all-loops]
+        for(int i=0;i<ROWS;i++)
+        ^~~
+        VITIS_LOOP_193_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37973:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37990:5: warning: Added loop label VITIS_LOOP_210_1:   [xilinx-label-all-loops]
+    for(m=0;m<FEATURE_MAX;m++)
+    ^~~
+    VITIS_LOOP_210_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37990:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37997:13: warning: Added loop label VITIS_LOOP_217_2:   [xilinx-label-all-loops]
+            for(int j=1;j<3;j++)
+            ^~~
+            VITIS_LOOP_217_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:37997:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38026:5: warning: Added loop label VITIS_LOOP_246_1:   [xilinx-label-all-loops]
+    for (int i=0;i<CLASSIFIER_ALL;i++)
+    ^~~
+    VITIS_LOOP_246_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38026:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38074:5: warning: Added loop label VITIS_LOOP_294_1:   [xilinx-label-all-loops]
+    for(int i=0;i<rows;i++)
+    ^~~
+    VITIS_LOOP_294_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38074:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38076:9: warning: Added loop label VITIS_LOOP_296_2:   [xilinx-label-all-loops]
+        for(int j=0;j<cols;j++)
+        ^~~
+        VITIS_LOOP_296_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38076:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38089:13: warning: Added loop label VITIS_LOOP_309_3:   [xilinx-label-all-loops]
+            for(int buf_row= 1;buf_row<K_H;buf_row++)
+            ^~~
+            VITIS_LOOP_309_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38089:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38189:9: warning: Added loop label VITIS_LOOP_430_1:   [xilinx-label-all-loops]
+        for(int i=0;i<m;i++)
+        ^~~
+        VITIS_LOOP_430_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38189:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38191:17: warning: Added loop label VITIS_LOOP_432_2:   [xilinx-label-all-loops]
+                for(int j=0;j<num;j++)
+                ^~~
+                VITIS_LOOP_432_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38191:17: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38199:9: warning: Added loop label VITIS_LOOP_440_3:   [xilinx-label-all-loops]
+        for(int i=0;i<num;i++)
+        ^~~
+        VITIS_LOOP_440_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38199:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38228:5: warning: Added loop label VITIS_LOOP_469_1:   [xilinx-label-all-loops]
+    for(int i=0;i<rows;i++)
+    ^~~
+    VITIS_LOOP_469_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38228:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38233:9: warning: Added loop label VITIS_LOOP_474_2:   [xilinx-label-all-loops]
+        for(int j=0;j<cols;j++)
+        ^~~
+        VITIS_LOOP_474_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38233:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38395:13: warning: Added loop label VITIS_LOOP_192_1:   [xilinx-label-all-loops]
+            for (int i = 0; i< PWSIZE; i++) {
+            ^~~
+            VITIS_LOOP_192_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38395:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38401:13: warning: Added loop label VITIS_LOOP_198_2:   [xilinx-label-all-loops]
+            for (int i = 0; i < PWSIZE; i++) {
+            ^~~
+            VITIS_LOOP_198_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38401:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38405:13: warning: Added loop label VITIS_LOOP_202_3:   [xilinx-label-all-loops]
+            for (int j = PWSIZE-1; j > 0; j--) {
+            ^~~
+            VITIS_LOOP_202_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38405:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38436:5: warning: Added loop label VITIS_LOOP_233_1:   [xilinx-label-all-loops]
+    for (HLS_SIZE_T i = 0; i < rows; i++) {
+    ^~~
+    VITIS_LOOP_233_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38436:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38437:9: warning: Added loop label VITIS_LOOP_234_2:   [xilinx-label-all-loops]
+        for (HLS_SIZE_T j = 0; j < cols; j++) {
+        ^~~
+        VITIS_LOOP_234_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38437:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38440:13: warning: Added loop label VITIS_LOOP_237_3:   [xilinx-label-all-loops]
+            for (HLS_SIZE_T k = 0; k < ((((SRC_T) & ((512 - 1) << 11)) >> 11) + 1); k++) {
+            ^~~
+            VITIS_LOOP_237_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38440:13: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38476:5: warning: Added loop label VITIS_LOOP_273_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < WSIZE; i++) {
+    ^~~
+    VITIS_LOOP_273_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38476:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38494:5: warning: Added loop label VITIS_LOOP_291_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < WSIZE; i++) {
+    ^~~
+    VITIS_LOOP_291_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38494:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38502:5: warning: Added loop label VITIS_LOOP_299_2:   [xilinx-label-all-loops]
+    for (int j = WSIZE-1; j > 0; j--) {
+    ^~~
+    VITIS_LOOP_299_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38502:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38520:9: warning: Added loop label VITIS_LOOP_317_1:   [xilinx-label-all-loops]
+        for(int i = 0; i < SIZE/2; i++) {
+        ^~~
+        VITIS_LOOP_317_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38520:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38523:9: warning: Added loop label VITIS_LOOP_320_2:   [xilinx-label-all-loops]
+        for(int i = 0; i < SIZE-SIZE/2; i++) {
+        ^~~
+        VITIS_LOOP_320_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38523:9: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38627:25: warning: Added loop label VITIS_LOOP_424_1:   [xilinx-label-all-loops]
+                        for (int i = 0; i < WSIZE; i++) {
+                        ^~~
+                        VITIS_LOOP_424_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38627:25: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38931:2: warning: Added loop label VITIS_LOOP_134_1:   [xilinx-label-all-loops]
+ for (y = 1; y <= height; ++y)
+ ^~~
+ VITIS_LOOP_134_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38931:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38933:3: warning: Added loop label VITIS_LOOP_136_2:   [xilinx-label-all-loops]
+  for (x = 1; x <= loopWidth; ++x)
+  ^~~
+  VITIS_LOOP_136_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38933:3: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38939:4: warning: Added loop label VITIS_LOOP_142_3:   [xilinx-label-all-loops]
+   for (k = 0; k < 1; ++k)
+   ^~~
+   VITIS_LOOP_142_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:38939:4: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:39188:4: warning: Added loop label VITIS_LOOP_563_1:   [xilinx-label-all-loops]
+   for (int l = 0; l < 1; l++)
+   ^~~
+   VITIS_LOOP_563_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:39188:4: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:39190:5: warning: Added loop label VITIS_LOOP_565_2:   [xilinx-label-all-loops]
+    for (int k = 0; k < 3; k++)
+    ^~~
+    VITIS_LOOP_565_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:39190:5: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:39256:2: warning: Added loop label VITIS_LOOP_662_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < rows; i++)
+ ^~~
+ VITIS_LOOP_662_1: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:39256:2: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:39258:3: warning: Added loop label VITIS_LOOP_664_2:   [xilinx-label-all-loops]
+  for (int j = 0; j < cols / 1; j++)
+  ^~~
+  VITIS_LOOP_664_2: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:39258:3: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:39282:4: warning: Added loop label VITIS_LOOP_688_3:   [xilinx-label-all-loops]
+   for (int l = 0; l < 1; l++)
+   ^~~
+   VITIS_LOOP_688_3: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:39282:4: note: FIX-IT applied suggested code changes
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:39284:5: warning: Added loop label VITIS_LOOP_690_4:   [xilinx-label-all-loops]
+    for (int k = 0; k < 3; k++)
+    ^~~
+    VITIS_LOOP_690_4: 
+C:\Vivado_Projects\zed_hdmi\zed_hdmi.runs\synth_1\prj\sol\.autopilot\db\v_csc.pp.0.cpp:39284:5: note: FIX-IT applied suggested code changes

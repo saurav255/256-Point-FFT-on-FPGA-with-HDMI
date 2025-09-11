@@ -1,0 +1,233 @@
+
+
+================================================================
+== Vitis HLS Report for 'AXIvideo2MultiPixStream'
+================================================================
+* Date:           Wed Sep 10 15:21:42 2025
+
+* Version:        2024.1 (Build 5069499 on May 21 2024)
+* Project:        prj
+* Solution:       sol (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  6.73 ns|  5.302 ns|     1.82 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+------+---------+---------+
+    |  Latency (cycles) |   Latency (absolute)  |    Interval    | Pipeline|
+    |   min   |   max   |    min    |    max    |  min |   max   |   Type  |
+    +---------+---------+-----------+-----------+------+---------+---------+
+    |     4742|  2084406|  31.933 us|  14.036 ms|  4742|  2084406|       no|
+    +---------+---------+-----------+-----------+------+---------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +---------------+---------+---------+-----------+-----------+-----------+-----------+----------+
+        |               |  Latency (cycles) | Iteration |  Initiation Interval  |    Trip   |          |
+        |   Loop Name   |   min   |   max   |  Latency  |  achieved |   target  |   Count   | Pipelined|
+        +---------------+---------+---------+-----------+-----------+-----------+-----------+----------+
+        |- loop_height  |     4736|  2084400|  74 ~ 1930|          -|          -|  64 ~ 1080|        no|
+        +---------------+---------+---------+-----------+-----------+-----------+-----------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 10
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 6 
+6 --> 7 
+7 --> 8 
+8 --> 9 
+9 --> 10 
+10 --> 5 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 4.91>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%axi_data_13 = alloca i32 1" [C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:516]   --->   Operation 11 'alloca' 'axi_data_13' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%i = alloca i32 1" [C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:541]   --->   Operation 12 'alloca' 'i' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (2.45ns)   --->   "%p_read_4 = read i8 @_ssdm_op_Read.ap_auto.i8, i8 %p_read2"   --->   Operation 13 'read' 'p_read_4' <Predicate = true> <Delay = 2.45> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = -1> <Depth = -1> <FIFO>
+ST_1 : Operation 14 [1/1] (2.45ns)   --->   "%p_read_5 = read i11 @_ssdm_op_Read.ap_auto.i11, i11 %p_read1"   --->   Operation 14 'read' 'p_read_5' <Predicate = true> <Delay = 2.45> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = -1> <Depth = -1> <FIFO>
+ST_1 : Operation 15 [1/1] (2.45ns)   --->   "%p_read_6 = read i11 @_ssdm_op_Read.ap_auto.i11, i11 %p_read"   --->   Operation 15 'read' 'p_read_6' <Predicate = true> <Delay = 2.45> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = -1> <Depth = -1> <FIFO>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%axi_data_14_loc = alloca i64 1"   --->   Operation 16 'alloca' 'axi_data_14_loc' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%eol_loc = alloca i64 1"   --->   Operation 17 'alloca' 'eol_loc' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%axi_last_loc = alloca i64 1"   --->   Operation 18 'alloca' 'axi_last_loc' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (2.45ns)   --->   "%write_ln0 = write void @_ssdm_op_Write.ap_fifo.i11P0A, i11 %HwReg_height_c5, i11 %p_read_6"   --->   Operation 19 'write' 'write_ln0' <Predicate = true> <Delay = 2.45> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 11> <Depth = 2> <FIFO>
+ST_1 : Operation 20 [1/1] (2.45ns)   --->   "%write_ln0 = write void @_ssdm_op_Write.ap_fifo.i11P0A, i11 %HwReg_width_c3, i11 %p_read_5"   --->   Operation 20 'write' 'write_ln0' <Predicate = true> <Delay = 2.45> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 11> <Depth = 2> <FIFO>
+ST_1 : Operation 21 [1/1] (1.91ns)   --->   "%cond = icmp_eq  i8 %p_read_4, i8 0"   --->   Operation 21 'icmp' 'cond' <Predicate = true> <Delay = 1.91> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.91> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 22 [1/1] (1.58ns)   --->   "%store_ln541 = store i11 0, i11 %i" [C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:541]   --->   Operation 22 'store' 'store_ln541' <Predicate = true> <Delay = 1.58>
+
+State 2 <SV = 1> <Delay = 2.07>
+ST_2 : Operation 23 [1/1] (0.00ns)   --->   "%empty = wait i32 @_ssdm_op_Wait"   --->   Operation 23 'wait' 'empty' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 24 [2/2] (2.07ns)   --->   "%call_ln0 = call void @AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start, i24 %s_axis_video_V_data_V, i3 %s_axis_video_V_keep_V, i3 %s_axis_video_V_strb_V, i1 %s_axis_video_V_user_V, i1 %s_axis_video_V_last_V, i1 %s_axis_video_V_id_V, i1 %s_axis_video_V_dest_V, i24 %axi_data_13, i1 %axi_last_loc"   --->   Operation 24 'call' 'call_ln0' <Predicate = true> <Delay = 2.07> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 3 <SV = 2> <Delay = 3.17>
+ST_3 : Operation 25 [2/2] (0.00ns)   --->   "%rows = call i11 @reg<unsigned short>, i11 %p_read_6" [C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:520]   --->   Operation 25 'call' 'rows' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_3 : Operation 26 [2/2] (0.00ns)   --->   "%cols = call i11 @reg<unsigned short>, i11 %p_read_5" [C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:521]   --->   Operation 26 'call' 'cols' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_3 : Operation 27 [1/2] (3.17ns)   --->   "%call_ln0 = call void @AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start, i24 %s_axis_video_V_data_V, i3 %s_axis_video_V_keep_V, i3 %s_axis_video_V_strb_V, i1 %s_axis_video_V_user_V, i1 %s_axis_video_V_last_V, i1 %s_axis_video_V_id_V, i1 %s_axis_video_V_dest_V, i24 %axi_data_13, i1 %axi_last_loc"   --->   Operation 27 'call' 'call_ln0' <Predicate = true> <Delay = 3.17> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 4 <SV = 3> <Delay = 1.58>
+ST_4 : Operation 28 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i11 %HwReg_height_c5, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @ScalarProp_str, i32 4294967295, i32 0, i32 0"   --->   Operation 28 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 29 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i11 %HwReg_width_c3, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @ScalarProp_str, i32 4294967295, i32 0, i32 0"   --->   Operation 29 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 30 [1/1] (0.00ns)   --->   "%specaxissidechannel_ln0 = specaxissidechannel void @_ssdm_op_SpecAXISSideChannel, i24 %s_axis_video_V_data_V, i3 %s_axis_video_V_keep_V, i3 %s_axis_video_V_strb_V, i1 %s_axis_video_V_user_V, i1 %s_axis_video_V_last_V, i1 %s_axis_video_V_id_V, i1 %s_axis_video_V_dest_V, void @empty_14"   --->   Operation 30 'specaxissidechannel' 'specaxissidechannel_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 31 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i24 %stream_in, void @empty_12, i32 0, i32 0, void @empty_26, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 0, i32 0, i32 0, i32 0, void @empty_26, void @empty_26, i32 4294967295, i32 0, i32 0"   --->   Operation 31 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 32 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %s_axis_video_V_dest_V, i1 %s_axis_video_V_id_V, i1 %s_axis_video_V_last_V, i1 %s_axis_video_V_user_V, i3 %s_axis_video_V_strb_V, i3 %s_axis_video_V_keep_V, i24 %s_axis_video_V_data_V, void @empty_24, i32 1, i32 1, void @empty_25, i32 0, i32 0, void @empty_26, void @empty_26, void @empty_26, i32 0, i32 0, i32 0, i32 0, void @empty_26, void @empty_26, i32 4294967295, i32 0, i32 0"   --->   Operation 32 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 33 [1/2] (0.00ns)   --->   "%rows = call i11 @reg<unsigned short>, i11 %p_read_6" [C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:520]   --->   Operation 33 'call' 'rows' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_4 : Operation 34 [1/2] (0.00ns)   --->   "%cols = call i11 @reg<unsigned short>, i11 %p_read_5" [C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:521]   --->   Operation 34 'call' 'cols' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_4 : Operation 35 [1/1] (0.00ns)   --->   "%axi_last_loc_load = load i1 %axi_last_loc"   --->   Operation 35 'load' 'axi_last_loc_load' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 36 [1/1] (0.00ns)   --->   "%empty_82 = wait i32 @_ssdm_op_Wait"   --->   Operation 36 'wait' 'empty_82' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 37 [1/1] (1.58ns)   --->   "%br_ln541 = br void %loop_width" [C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:541]   --->   Operation 37 'br' 'br_ln541' <Predicate = true> <Delay = 1.58>
+
+State 5 <SV = 4> <Delay = 1.63>
+ST_5 : Operation 38 [1/1] (0.00ns)   --->   "%sof = phi i1 1, void %entry, i1 0, void %loop_width.split"   --->   Operation 38 'phi' 'sof' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 39 [1/1] (0.00ns)   --->   "%axi_last_2 = phi i1 %axi_last_loc_load, void %entry, i1 1, void %loop_width.split"   --->   Operation 39 'phi' 'axi_last_2' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 40 [1/1] (0.00ns)   --->   "%i_3 = load i11 %i" [C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:541]   --->   Operation 40 'load' 'i_3' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 41 [1/1] (1.63ns)   --->   "%icmp_ln541 = icmp_eq  i11 %i_3, i11 %rows" [C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:541]   --->   Operation 41 'icmp' 'icmp_ln541' <Predicate = true> <Delay = 1.63> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.63> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 42 [1/1] (0.00ns)   --->   "%speclooptripcount_ln0 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 64, i64 1080, i64 0"   --->   Operation 42 'speclooptripcount' 'speclooptripcount_ln0' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 43 [1/1] (1.63ns)   --->   "%i_4 = add i11 %i_3, i11 1" [C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:541]   --->   Operation 43 'add' 'i_4' <Predicate = true> <Delay = 1.63> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.63> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 44 [1/1] (0.00ns)   --->   "%br_ln541 = br i1 %icmp_ln541, void %loop_width.split, void %for.end75.loopexit" [C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:541]   --->   Operation 44 'br' 'br_ln541' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 45 [1/1] (0.00ns)   --->   "%ret_ln0 = ret"   --->   Operation 45 'ret' 'ret_ln0' <Predicate = (icmp_ln541)> <Delay = 0.00>
+
+State 6 <SV = 5> <Delay = 3.71>
+ST_6 : Operation 46 [1/1] (0.00ns)   --->   "%axi_data_13_load = load i24 %axi_data_13"   --->   Operation 46 'load' 'axi_data_13_load' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 47 [1/1] (0.00ns)   --->   "%empty_83 = wait i32 @_ssdm_op_Wait"   --->   Operation 47 'wait' 'empty_83' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 48 [2/2] (3.71ns)   --->   "%call_ln521 = call void @AXIvideo2MultiPixStream_Pipeline_loop_width, i1 %sof, i1 %axi_last_2, i24 %axi_data_13_load, i11 %cols, i1 %cond, i24 %stream_in, i24 %s_axis_video_V_data_V, i3 %s_axis_video_V_keep_V, i3 %s_axis_video_V_strb_V, i1 %s_axis_video_V_user_V, i1 %s_axis_video_V_last_V, i1 %s_axis_video_V_id_V, i1 %s_axis_video_V_dest_V, i1 %eol_loc, i24 %axi_data_14_loc" [C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:521]   --->   Operation 48 'call' 'call_ln521' <Predicate = true> <Delay = 3.71> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 7 <SV = 6> <Delay = 4.81>
+ST_7 : Operation 49 [1/2] (4.81ns)   --->   "%call_ln521 = call void @AXIvideo2MultiPixStream_Pipeline_loop_width, i1 %sof, i1 %axi_last_2, i24 %axi_data_13_load, i11 %cols, i1 %cond, i24 %stream_in, i24 %s_axis_video_V_data_V, i3 %s_axis_video_V_keep_V, i3 %s_axis_video_V_strb_V, i1 %s_axis_video_V_user_V, i1 %s_axis_video_V_last_V, i1 %s_axis_video_V_id_V, i1 %s_axis_video_V_dest_V, i1 %eol_loc, i24 %axi_data_14_loc" [C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:521]   --->   Operation 49 'call' 'call_ln521' <Predicate = true> <Delay = 4.81> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 8 <SV = 7> <Delay = 1.58>
+ST_8 : Operation 50 [1/1] (0.00ns)   --->   "%empty_84 = wait i32 @_ssdm_op_Wait"   --->   Operation 50 'wait' 'empty_84' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 51 [1/1] (1.58ns)   --->   "%store_ln541 = store i11 %i_4, i11 %i" [C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:541]   --->   Operation 51 'store' 'store_ln541' <Predicate = true> <Delay = 1.58>
+
+State 9 <SV = 8> <Delay = 2.07>
+ST_9 : Operation 52 [1/1] (0.00ns)   --->   "%eol_loc_load = load i1 %eol_loc"   --->   Operation 52 'load' 'eol_loc_load' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 53 [1/1] (0.00ns)   --->   "%axi_data_14_loc_load = load i24 %axi_data_14_loc"   --->   Operation 53 'load' 'axi_data_14_loc_load' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 54 [1/1] (0.00ns)   --->   "%empty_85 = wait i32 @_ssdm_op_Wait"   --->   Operation 54 'wait' 'empty_85' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 55 [2/2] (2.07ns)   --->   "%call_ln0 = call void @AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol, i24 %axi_data_14_loc_load, i1 %eol_loc_load, i24 %s_axis_video_V_data_V, i3 %s_axis_video_V_keep_V, i3 %s_axis_video_V_strb_V, i1 %s_axis_video_V_user_V, i1 %s_axis_video_V_last_V, i1 %s_axis_video_V_id_V, i1 %s_axis_video_V_dest_V, i24 %axi_data_13"   --->   Operation 55 'call' 'call_ln0' <Predicate = true> <Delay = 2.07> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 10 <SV = 9> <Delay = 3.17>
+ST_10 : Operation 56 [1/1] (0.00ns)   --->   "%specloopname_ln541 = specloopname void @_ssdm_op_SpecLoopName, void @empty_18" [C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:541]   --->   Operation 56 'specloopname' 'specloopname_ln541' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 57 [1/2] (3.17ns)   --->   "%call_ln0 = call void @AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol, i24 %axi_data_14_loc_load, i1 %eol_loc_load, i24 %s_axis_video_V_data_V, i3 %s_axis_video_V_keep_V, i3 %s_axis_video_V_strb_V, i1 %s_axis_video_V_user_V, i1 %s_axis_video_V_last_V, i1 %s_axis_video_V_id_V, i1 %s_axis_video_V_dest_V, i24 %axi_data_13"   --->   Operation 57 'call' 'call_ln0' <Predicate = true> <Delay = 3.17> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_10 : Operation 58 [1/1] (0.00ns)   --->   "%br_ln541 = br void %loop_width" [C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:541]   --->   Operation 58 'br' 'br_ln541' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 6.734ns, clock uncertainty: 1.818ns.
+
+ <State 1>: 4.916ns
+The critical path consists of the following:
+	wire read operation ('p_read_6') on port 'p_read' [18]  (2.458 ns)
+	fifo write operation ('write_ln0') on port 'HwReg_height_c5' [23]  (2.458 ns)
+
+ <State 2>: 2.075ns
+The critical path consists of the following:
+	'call' operation 0 bit ('call_ln0') to 'AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start' [32]  (2.075 ns)
+
+ <State 3>: 3.176ns
+The critical path consists of the following:
+	'call' operation 0 bit ('call_ln0') to 'AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start' [32]  (3.176 ns)
+
+ <State 4>: 1.588ns
+The critical path consists of the following:
+	multiplexor before 'phi' operation 1 bit ('sof') [39]  (1.588 ns)
+
+ <State 5>: 1.639ns
+The critical path consists of the following:
+	'load' operation 11 bit ('i', C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:541) on local variable 'i', C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:541 [41]  (0.000 ns)
+	'icmp' operation 1 bit ('icmp_ln541', C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:541) [42]  (1.639 ns)
+
+ <State 6>: 3.714ns
+The critical path consists of the following:
+	'load' operation 24 bit ('axi_data_13_load') on local variable 'axi.data', C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:516 [47]  (0.000 ns)
+	'call' operation 0 bit ('call_ln521', C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:521) to 'AXIvideo2MultiPixStream_Pipeline_loop_width' [50]  (3.714 ns)
+
+ <State 7>: 4.815ns
+The critical path consists of the following:
+	'call' operation 0 bit ('call_ln521', C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:521) to 'AXIvideo2MultiPixStream_Pipeline_loop_width' [50]  (4.815 ns)
+
+ <State 8>: 1.588ns
+The critical path consists of the following:
+	'store' operation 0 bit ('store_ln541', C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:541) of variable 'i', C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:541 on local variable 'i', C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:541 [56]  (1.588 ns)
+
+ <State 9>: 2.075ns
+The critical path consists of the following:
+	'load' operation 1 bit ('eol_loc_load') on local variable 'eol_loc' [51]  (0.000 ns)
+	'call' operation 0 bit ('call_ln0') to 'AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol' [55]  (2.075 ns)
+
+ <State 10>: 3.176ns
+The critical path consists of the following:
+	'call' operation 0 bit ('call_ln0') to 'AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol' [55]  (3.176 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

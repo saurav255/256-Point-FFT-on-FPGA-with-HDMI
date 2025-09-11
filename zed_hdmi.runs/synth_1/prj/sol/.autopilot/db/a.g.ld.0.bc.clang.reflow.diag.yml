@@ -1,0 +1,512 @@
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_axi_io.h', 
+                   Line: 85, Column: 2 }
+Function:        _ZN3hls15AXIGetBitFieldsILi24E7ap_uintILi8EEEEvNS_4axisIS1_IXT_EELm1ELm1ELm1ELh56ELb0EEEiiRT0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void hls::AXIGetBitFields<24, ap_uint<8> >(ap_uint<24>, int, int, ap_uint<8>&)'
+    DebugLoc:        { File: 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_axi_io.h', 
+                       Line: 60, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void hls::AXIGetBitFields<24, ap_uint<8> >(hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, int, int, ap_uint<8>&)'
+    DebugLoc:        { File: 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_axi_io.h', 
+                       Line: 83, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 517, Column: 18 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 514, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 573, Column: 6 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void hls::AXIGetBitFields<24, ap_uint<8> >(hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, int, int, ap_uint<8>&)'
+    DebugLoc:        { File: 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_axi_io.h', 
+                       Line: 83, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 514, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 572, Column: 6 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void hls::AXIGetBitFields<24, ap_uint<8> >(hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, int, int, ap_uint<8>&)'
+    DebugLoc:        { File: 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_axi_io.h', 
+                       Line: 83, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 514, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 571, Column: 2 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void hls::AXIGetBitFields<24, ap_uint<8> >(hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, int, int, ap_uint<8>&)'
+    DebugLoc:        { File: 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_axi_io.h', 
+                       Line: 83, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 514, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 127, Column: 18 }
+Function:        _ZL10v_csc_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RsS8_S8_S8_S8_S8_S8_S8_S8_R6ap_intILi10EESB_SB_RS3_SC_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_csc_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, short&, short&, short&, short&, short&, short&, short&, short&, short&, ap_int<10>&, ap_int<10>&, ap_int<10>&, ap_uint<8>&, ap_uint<8>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 104, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 128, Column: 18 }
+Function:        _ZL10v_csc_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RsS8_S8_S8_S8_S8_S8_S8_S8_R6ap_intILi10EESB_SB_RS3_SC_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'v_csc_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, short&, short&, short&, short&, short&, short&, short&, short&, short&, ap_int<10>&, ap_int<10>&, ap_int<10>&, ap_uint<8>&, ap_uint<8>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 104, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 615, Column: 18 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'MultiPixStream2AXIvideo(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 613, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _ZL10v_csc_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RsS8_S8_S8_S8_S8_S8_S8_S8_R6ap_intILi10EESB_SB_RS3_SC_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            dstPix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _ZL10v_csc_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RsS8_S8_S8_S8_S8_S8_S8_S8_R6ap_intILi10EESB_SB_RS3_SC_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            srcPix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _ZL10v_csc_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RsS8_S8_S8_S8_S8_S8_S8_S8_R6ap_intILi10EESB_SB_RS3_SC_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            dstPix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _ZL10v_csc_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RsS8_S8_S8_S8_S8_S8_S8_S8_R6ap_intILi10EESB_SB_RS3_SC_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            srcPix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 517, Column: 18 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 128, Column: 18 }
+Function:        _ZL10v_csc_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RsS8_S8_S8_S8_S8_S8_S8_S8_R6ap_intILi10EESB_SB_RS3_SC_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            dstPix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 127, Column: 18 }
+Function:        _ZL10v_csc_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RsS8_S8_S8_S8_S8_S8_S8_S8_R6ap_intILi10EESB_SB_RS3_SC_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            srcPix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 615, Column: 18 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 688, Column: 22 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_688_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 690, Column: 23 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_690_4
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 142, Column: 22 }
+Function:        _ZL10v_csc_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RsS8_S8_S8_S8_S8_S8_S8_S8_R6ap_intILi10EESB_SB_RS3_SC_S6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_142_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 563, Column: 22 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_563_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 565, Column: 23 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_565_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 613, Column: 0 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_688_3
+  - String:          ''' ('
+  - LoopLoc:         'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:688:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2AXIvideo
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 613, Column: 0 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_Rh
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_690_4
+  - String:          ''' ('
+  - LoopLoc:         'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:690:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2AXIvideo
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 104, Column: 0 }
+Function:        _ZL10v_csc_coreRN3hls6streamINS_6ScalarILi3E7ap_uintILi8EEEELi0EEERtS7_RsS8_S8_S8_S8_S8_S8_S8_S8_R6ap_intILi10EESB_SB_RS3_SC_S6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_142_3
+  - String:          ''' ('
+  - LoopLoc:         'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:142:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          v_csc_core
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 514, Column: 0 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_563_1
+  - String:          ''' ('
+  - LoopLoc:         'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:563:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          AXIvideo2MultiPixStream
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 514, Column: 0 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_565_2
+  - String:          ''' ('
+  - LoopLoc:         'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:565:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          AXIvideo2MultiPixStream
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 434, Column: 24 }
+Function:        _Z5v_cscRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERhS7_RtS8_RsS9_S9_S9_S9_S9_S9_S9_S9_R6ap_intILi10EESC_SC_RS2_ILi8EESE_S6_
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        'fifo (hls::stream)'
+  - String:          ' variable '''
+  - Name:            stream_csc
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '24'
+  - String:          '-bits'
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 431, Column: 24 }
+Function:        _Z5v_cscRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERhS7_RtS8_RsS9_S9_S9_S9_S9_S9_S9_S9_R6ap_intILi10EESC_SC_RS2_ILi8EESE_S6_
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        'fifo (hls::stream)'
+  - String:          ' variable '''
+  - Name:            stream_in
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '24'
+  - String:          '-bits'
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 533, Column: 2 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        loop_wait_for_start
+  - String:          ' '
+  - LoopLoc:         'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:533:2'
+  - String:          ' '
+  - Function:        'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 514, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 590, Column: 3 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        loop_wait_for_eol
+  - String:          ' '
+  - LoopLoc:         'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:590:3'
+  - String:          ' '
+  - Function:        'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                       Line: 514, Column: 0 }
+  - String:          ' '
+...
+--- !Failure
+Pass:            reflow-occurrence-inference
+Name:            NonComputableLoopForm
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 590, Column: 3 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Could not analyze occurrence information within '''
+  - LoopName:        loop_wait_for_eol
+  - String:          '''('
+  - LoopLoc:         'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:590:3'
+  - String:          ') . Requires loop in simplify form and with single exit.'
+...
+--- !Failure
+Pass:            reflow-occurrence-inference
+Name:            NonComputableLoopForm
+DebugLoc:        { File: 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp', 
+                   Line: 533, Column: 2 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi24EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Could not analyze occurrence information within '''
+  - LoopName:        loop_wait_for_start
+  - String:          '''('
+  - LoopLoc:         'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:533:2'
+  - String:          ') . Requires loop in simplify form and with single exit.'
+...

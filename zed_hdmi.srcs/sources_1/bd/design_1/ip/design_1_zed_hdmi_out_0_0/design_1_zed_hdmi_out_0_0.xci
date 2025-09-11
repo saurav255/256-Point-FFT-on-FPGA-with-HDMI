@@ -1,0 +1,87 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "design_1_zed_hdmi_out_0_0",
+    "cell_name": "zed_hdmi_out_0",
+    "component_reference": "avnet:zedboard:zed_hdmi_out:2.0",
+    "ip_revision": "1",
+    "gen_directory": ".",
+    "parameters": {
+      "component_parameters": {
+        "C_DATA_WIDTH": [ { "value": "16", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "Component_Name": [ { "value": "design_1_zed_hdmi_out_0_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "model_parameters": {
+        "C_DATA_WIDTH": [ { "value": "16", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_FAMILY": [ { "value": "zynq", "resolve_type": "generated", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynq" } ],
+        "BASE_BOARD_PART": [ { "value": "em.avnet.com:zed:part0:1.4" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7z020" } ],
+        "NEXTGEN_VERSAL": [ { "value": "0" } ],
+        "PACKAGE": [ { "value": "clg484" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "." } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2024.1" } ],
+        "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "clk": [ { "direction": "in" } ],
+        "reset": [ { "direction": "in" } ],
+        "audio_spdif": [ { "direction": "in" } ],
+        "video_vsync": [ { "direction": "in" } ],
+        "video_hsync": [ { "direction": "in" } ],
+        "video_de": [ { "direction": "in" } ],
+        "video_data": [ { "direction": "in", "size_left": "15", "size_right": "0" } ],
+        "io_hdmio_spdif": [ { "direction": "out" } ],
+        "io_hdmio_video": [ { "direction": "out", "size_left": "15", "size_right": "0" } ],
+        "io_hdmio_vsync": [ { "direction": "out" } ],
+        "io_hdmio_hsync": [ { "direction": "out" } ],
+        "io_hdmio_de": [ { "direction": "out" } ],
+        "io_hdmio_clk": [ { "direction": "out" } ]
+      },
+      "interfaces": {
+        "VID_IO_IN": {
+          "vlnv": "xilinx.com:interface:vid_io:1.0",
+          "abstraction_type": "xilinx.com:interface:vid_io_rtl:1.0",
+          "mode": "slave",
+          "port_maps": {
+            "HSYNC": [ { "physical_name": "video_hsync" } ],
+            "DATA": [ { "physical_name": "video_data" } ],
+            "VSYNC": [ { "physical_name": "video_vsync" } ],
+            "ACTIVE_VIDEO": [ { "physical_name": "video_de" } ]
+          }
+        },
+        "IO_HDMIO": {
+          "vlnv": "avnet.com:interface:avnet_hdmi:1.0",
+          "abstraction_type": "avnet.com:interface:avnet_hdmi_rtl:1.0",
+          "mode": "master",
+          "port_maps": {
+            "CLK": [ { "physical_name": "io_hdmio_clk" } ],
+            "VSYNC": [ { "physical_name": "io_hdmio_vsync" } ],
+            "HSYNC": [ { "physical_name": "io_hdmio_hsync" } ],
+            "DE": [ { "physical_name": "io_hdmio_de" } ],
+            "DATA": [ { "physical_name": "io_hdmio_video" } ],
+            "SPDIF": [ { "physical_name": "io_hdmio_spdif" } ]
+          }
+        }
+      }
+    }
+  }
+}

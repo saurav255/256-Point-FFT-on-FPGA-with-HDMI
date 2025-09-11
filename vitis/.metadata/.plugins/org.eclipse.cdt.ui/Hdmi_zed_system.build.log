@@ -1,0 +1,90 @@
+18:34:28 **** Incremental Build of configuration Debug for project Hdmi_zed_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 63084 C:/Vivado_Projects/zed_hdmi/vitis/Vdma_test/export/Vdma_test/Vdma_test.xpfm standalone_domain C:/Vivado_Projects/zed_hdmi/vitis/Hdmi_zed_system/Debug/system.bif
+'\gnu\microblaze\lin\bin\' is not recognized as an internal or external command,
+operable program or batch file.
+'\gnu\microblaze\nt\bin\' is not recognized as an internal or external command,
+operable program or batch file.
+'\gnuwin\bin\' is not recognized as an internal or external command,
+operable program or batch file.
+sdcard_gen --xpfm C:/Vivado_Projects/zed_hdmi/vitis/Vdma_test/export/Vdma_test/Vdma_test.xpfm --sys_config Vdma_test --bif C:/Vivado_Projects/zed_hdmi/vitis/Hdmi_zed_system/Debug/system.bif --bitstream C:/Vivado_Projects/zed_hdmi/vitis/Hdmi_zed/_ide/bitstream/design_1_wrapper.bit --elf C:/Vivado_Projects/zed_hdmi/vitis/Hdmi_zed/Debug/Hdmi_zed.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Vivado_Projects/zed_hdmi/vitis/Hdmi_zed/_ide/bitstream/design_1_wrapper.bit
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Running C:/Xilinx/Vitis/2024.1/bin/bootgen  -image C:/Vivado_Projects/zed_hdmi/vitis/Hdmi_zed_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+18:34:35 Build Finished (took 7s.161ms)
+

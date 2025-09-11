@@ -1,0 +1,692 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Aug 24 18:15:07 2025
+| Host         : Saurav running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'xadc_wiz_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of xadc_wiz_0 (xilinx.com:ip:xadc_wiz:3.3) from (Rev. 5) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Aug 24 18:15:06 2025
+| Host         : Saurav running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_xlconstant_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_xlconstant_1_0 (xilinx.com:ip:xlconstant:1.1) from (Rev. 5) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Aug 24 18:15:06 2025
+| Host         : Saurav running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_xlconstant_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_xlconstant_0_0 (xilinx.com:ip:xlconstant:1.1) from (Rev. 5) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Aug 24 18:15:06 2025
+| Host         : Saurav running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_v_tc_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_v_tc_0_0 from xilinx.com:ip:v_tc:6.1 (Rev. 12) to xilinx.com:ip:v_tc:6.2 (Rev. 8)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_v_tc_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'sof_state'
+
+
+3. Customization warnings
+-------------------------
+
+An attempt to modify the value of disabled parameter 'GEN_F0_VSYNC_HSTART' from '2008' to '1920' has been ignored for IP 'design_1_v_tc_0_0'
+
+An attempt to modify the value of disabled parameter 'GEN_F0_VSYNC_HEND' from '2008' to '1920' has been ignored for IP 'design_1_v_tc_0_0'
+
+An attempt to modify the value of disabled parameter 'GEN_F0_VBLANK_HSTART' from '2008' to '1920' has been ignored for IP 'design_1_v_tc_0_0'
+
+An attempt to modify the value of disabled parameter 'GEN_F0_VBLANK_HEND' from '2008' to '1920' has been ignored for IP 'design_1_v_tc_0_0'
+
+An attempt to modify the value of disabled parameter 'GEN_F1_VSYNC_HSTART' from '2008' to '1920' has been ignored for IP 'design_1_v_tc_0_0'
+
+An attempt to modify the value of disabled parameter 'GEN_F1_VSYNC_HEND' from '2008' to '1920' has been ignored for IP 'design_1_v_tc_0_0'
+
+An attempt to modify the value of disabled parameter 'GEN_F1_VBLANK_HSTART' from '2008' to '1920' has been ignored for IP 'design_1_v_tc_0_0'
+
+An attempt to modify the value of disabled parameter 'GEN_F1_VBLANK_HEND' from '2008' to '1920' has been ignored for IP 'design_1_v_tc_0_0'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:v_tc:6.2 -user_name design_1_v_tc_0_0
+set_property -dict "\
+  CONFIG.C_FAMILY {virtex7} \
+  CONFIG.Component_Name {design_1_v_tc_0_0} \
+  CONFIG.DET_FIELDID_EN {false} \
+  CONFIG.FSYNC_HSTART0 {0} \
+  CONFIG.FSYNC_HSTART1 {0} \
+  CONFIG.FSYNC_HSTART10 {0} \
+  CONFIG.FSYNC_HSTART11 {0} \
+  CONFIG.FSYNC_HSTART12 {0} \
+  CONFIG.FSYNC_HSTART13 {0} \
+  CONFIG.FSYNC_HSTART14 {0} \
+  CONFIG.FSYNC_HSTART15 {0} \
+  CONFIG.FSYNC_HSTART2 {0} \
+  CONFIG.FSYNC_HSTART3 {0} \
+  CONFIG.FSYNC_HSTART4 {0} \
+  CONFIG.FSYNC_HSTART5 {0} \
+  CONFIG.FSYNC_HSTART6 {0} \
+  CONFIG.FSYNC_HSTART7 {0} \
+  CONFIG.FSYNC_HSTART8 {0} \
+  CONFIG.FSYNC_HSTART9 {0} \
+  CONFIG.FSYNC_VSTART0 {0} \
+  CONFIG.FSYNC_VSTART1 {0} \
+  CONFIG.FSYNC_VSTART10 {0} \
+  CONFIG.FSYNC_VSTART11 {0} \
+  CONFIG.FSYNC_VSTART12 {0} \
+  CONFIG.FSYNC_VSTART13 {0} \
+  CONFIG.FSYNC_VSTART14 {0} \
+  CONFIG.FSYNC_VSTART15 {0} \
+  CONFIG.FSYNC_VSTART2 {0} \
+  CONFIG.FSYNC_VSTART3 {0} \
+  CONFIG.FSYNC_VSTART4 {0} \
+  CONFIG.FSYNC_VSTART5 {0} \
+  CONFIG.FSYNC_VSTART6 {0} \
+  CONFIG.FSYNC_VSTART7 {0} \
+  CONFIG.FSYNC_VSTART8 {0} \
+  CONFIG.FSYNC_VSTART9 {0} \
+  CONFIG.GEN_ACHROMA_POLARITY {High} \
+  CONFIG.GEN_AVIDEO_POLARITY {High} \
+  CONFIG.GEN_CPARITY {0} \
+  CONFIG.GEN_F0_VBLANK_HEND {1920} \
+  CONFIG.GEN_F0_VBLANK_HSTART {1920} \
+  CONFIG.GEN_F0_VFRAME_SIZE {1125} \
+  CONFIG.GEN_F0_VSYNC_HEND {1920} \
+  CONFIG.GEN_F0_VSYNC_HSTART {1920} \
+  CONFIG.GEN_F0_VSYNC_VEND {1088} \
+  CONFIG.GEN_F0_VSYNC_VSTART {1083} \
+  CONFIG.GEN_F1_VBLANK_HEND {1920} \
+  CONFIG.GEN_F1_VBLANK_HSTART {1920} \
+  CONFIG.GEN_F1_VFRAME_SIZE {1125} \
+  CONFIG.GEN_F1_VSYNC_HEND {1920} \
+  CONFIG.GEN_F1_VSYNC_HSTART {1920} \
+  CONFIG.GEN_F1_VSYNC_VEND {1088} \
+  CONFIG.GEN_F1_VSYNC_VSTART {1083} \
+  CONFIG.GEN_FIELDID_EN {false} \
+  CONFIG.GEN_FIELDID_POLARITY {High} \
+  CONFIG.GEN_HACTIVE_SIZE {1920} \
+  CONFIG.GEN_HBLANK_POLARITY {High} \
+  CONFIG.GEN_HFRAME_SIZE {2200} \
+  CONFIG.GEN_HSYNC_END {2052} \
+  CONFIG.GEN_HSYNC_POLARITY {High} \
+  CONFIG.GEN_HSYNC_START {2008} \
+  CONFIG.GEN_INTERLACED {false} \
+  CONFIG.GEN_VACTIVE_SIZE {1080} \
+  CONFIG.GEN_VBLANK_POLARITY {High} \
+  CONFIG.GEN_VIDEO_FORMAT {RGB} \
+  CONFIG.GEN_VSYNC_POLARITY {High} \
+  CONFIG.HAS_AXI4_LITE {false} \
+  CONFIG.HAS_INTC_IF {false} \
+  CONFIG.INTERLACE_EN {false} \
+  CONFIG.SYNC_EN {false} \
+  CONFIG.VIDEO_MODE {1080p} \
+  CONFIG.active_chroma_detection {false} \
+  CONFIG.active_chroma_generation {false} \
+  CONFIG.active_video_detection {true} \
+  CONFIG.active_video_generation {true} \
+  CONFIG.auto_generation_mode {false} \
+  CONFIG.clk_intf.ASSOCIATED_BUSIF {vtiming_in:vtiming_out} \
+  CONFIG.clk_intf.ASSOCIATED_CLKEN {clken} \
+  CONFIG.clk_intf.ASSOCIATED_RESET {resetn} \
+  CONFIG.clk_intf.CLK_DOMAIN {/clk_wiz_0_clk_out1} \
+  CONFIG.clk_intf.FREQ_HZ {148500000} \
+  CONFIG.clk_intf.PHASE {0.0} \
+  CONFIG.clken_intf.POLARITY {ACTIVE_LOW} \
+  CONFIG.enable_detection {false} \
+  CONFIG.enable_generation {true} \
+  CONFIG.frame_syncs {1} \
+  CONFIG.horizontal_blank_detection {true} \
+  CONFIG.horizontal_blank_generation {true} \
+  CONFIG.horizontal_sync_detection {true} \
+  CONFIG.horizontal_sync_generation {true} \
+  CONFIG.max_clocks_per_line {4096} \
+  CONFIG.max_lines_per_frame {4096} \
+  CONFIG.resetn_intf.POLARITY {ACTIVE_LOW} \
+  CONFIG.vertical_blank_detection {true} \
+  CONFIG.vertical_blank_generation {true} \
+  CONFIG.vertical_sync_detection {true} \
+  CONFIG.vertical_sync_generation {true} " [get_ips design_1_v_tc_0_0]
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Aug 24 18:15:06 2025
+| Host         : Saurav running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_v_axi4s_vid_out_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_v_axi4s_vid_out_0_0 (xilinx.com:ip:v_axi4s_vid_out:4.0) from (Rev. 9) to (Rev. 18)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_v_axi4s_vid_out_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'fifo_read_level'
+
+-Upgrade has added port 'sof_state_out'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Aug 24 18:15:06 2025
+| Host         : Saurav running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_rst_clk_wiz_0_148M_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_rst_clk_wiz_0_148M_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 12) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Aug 24 18:15:06 2025
+| Host         : Saurav running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ps7_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ps7_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 18) to (Rev. 32)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Aug 24 18:15:05 2025
+| Host         : Saurav running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_processing_system7_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_processing_system7_0_0 (xilinx.com:ip:processing_system7:5.5 (Rev. 6)) to current project options.
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter PCW_TRACE_INTERNAL_WIDTH with default value 32 : a parameter called PCW_TRACE_INTERNAL_WIDTH already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_USE_AXI_NONSECURE with default value 0 : a parameter called PCW_USE_AXI_NONSECURE already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP0_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP0_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP1_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP1_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP0_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP1_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Aug 24 18:15:05 2025
+| Host         : Saurav running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_clk_wiz_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_clk_wiz_0_0 (xilinx.com:ip:clk_wiz:6.0) from (Rev. 1) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Aug 24 18:15:05 2025
+| Host         : Saurav running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_blk_mem_gen_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_blk_mem_gen_0_0 (xilinx.com:ip:blk_mem_gen:8.4) from (Rev. 1) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Aug 24 18:15:05 2025
+| Host         : Saurav running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_vdma_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_vdma_0_0 (xilinx.com:ip:axi_vdma:6.3) from (Rev. 5) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Aug 24 18:15:05 2025
+| Host         : Saurav running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_smc_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_smc_0 (xilinx.com:ip:smartconnect:1.0) from (Rev. 9) to (Rev. 23)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection and Interface Information
+---------------------------------------
+
+Connection and Interface information can not be compared for deferred elaboration IPs.
+design_1_axi_smc_0 may have connection or interface changes.
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Aug 24 18:15:05 2025
+| Host         : Saurav running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_iic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_iic_0_0 from xilinx.com:ip:axi_iic:2.0 (Rev. 20) to xilinx.com:ip:axi_iic:2.1 (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Aug 24 18:15:05 2025
+| Host         : Saurav running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_bram_ctrl_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_axi_bram_ctrl_0_0 from xilinx.com:ip:axi_bram_ctrl:4.0 (Rev. 14) to xilinx.com:ip:axi_bram_ctrl:4.1 (Rev. 10)
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Upgrade messages
+-------------------
+
+Removed parameter C_SELECT_XPM
+
+3. Customization warnings
+-------------------------
+
+An attempt to modify the value of disabled parameter 'ECC_TYPE' from '0' to 'Hamming' has been ignored for IP 'design_1_axi_bram_ctrl_0_0'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:axi_bram_ctrl:4.1 -user_name design_1_axi_bram_ctrl_0_0
+set_property -dict "\
+  CONFIG.BMG_INSTANCE {EXTERNAL} \
+  CONFIG.BRAM_PORTA.MASTER_TYPE {BRAM_CTRL} \
+  CONFIG.BRAM_PORTA.MEM_ECC {NONE} \
+  CONFIG.BRAM_PORTA.MEM_SIZE {8192} \
+  CONFIG.BRAM_PORTA.MEM_WIDTH {32} \
+  CONFIG.BRAM_PORTA.READ_WRITE_MODE {READ_WRITE} \
+  CONFIG.CLKIF.ASSOCIATED_BUSIF {S_AXI:S_AXI_CTRL} \
+  CONFIG.CLKIF.ASSOCIATED_RESET {s_axi_aresetn} \
+  CONFIG.CLKIF.CLK_DOMAIN {/clk_wiz_0_clk_out1} \
+  CONFIG.CLKIF.FREQ_HZ {148500000} \
+  CONFIG.CLKIF.PHASE {0.0} \
+  CONFIG.Component_Name {design_1_axi_bram_ctrl_0_0} \
+  CONFIG.DATA_WIDTH {32} \
+  CONFIG.ECC_ONOFF_RESET_VALUE {0} \
+  CONFIG.ECC_TYPE {Hamming} \
+  CONFIG.FAULT_INJECT {0} \
+  CONFIG.ID_WIDTH {0} \
+  CONFIG.MEM_DEPTH {2048} \
+  CONFIG.PROTOCOL {AXI4} \
+  CONFIG.RSTIF.POLARITY {ACTIVE_LOW} \
+  CONFIG.SINGLE_PORT_BRAM {1} \
+  CONFIG.SUPPORTS_NARROW_BURST {0} \
+  CONFIG.S_AXI.ADDR_WIDTH {13} \
+  CONFIG.S_AXI.ARUSER_WIDTH {0} \
+  CONFIG.S_AXI.AWUSER_WIDTH {0} \
+  CONFIG.S_AXI.BUSER_WIDTH {0} \
+  CONFIG.S_AXI.CLK_DOMAIN {/clk_wiz_0_clk_out1} \
+  CONFIG.S_AXI.DATA_WIDTH {32} \
+  CONFIG.S_AXI.FREQ_HZ {148500000} \
+  CONFIG.S_AXI.HAS_BRESP {1} \
+  CONFIG.S_AXI.HAS_BURST {1} \
+  CONFIG.S_AXI.HAS_CACHE {1} \
+  CONFIG.S_AXI.HAS_LOCK {1} \
+  CONFIG.S_AXI.HAS_PROT {1} \
+  CONFIG.S_AXI.HAS_QOS {0} \
+  CONFIG.S_AXI.HAS_REGION {0} \
+  CONFIG.S_AXI.HAS_RRESP {1} \
+  CONFIG.S_AXI.HAS_WSTRB {1} \
+  CONFIG.S_AXI.ID_WIDTH {0} \
+  CONFIG.S_AXI.MAX_BURST_LENGTH {16} \
+  CONFIG.S_AXI.NUM_READ_OUTSTANDING {1} \
+  CONFIG.S_AXI.NUM_READ_THREADS {1} \
+  CONFIG.S_AXI.NUM_WRITE_OUTSTANDING {1} \
+  CONFIG.S_AXI.NUM_WRITE_THREADS {1} \
+  CONFIG.S_AXI.PHASE {0.0} \
+  CONFIG.S_AXI.PROTOCOL {AXI4} \
+  CONFIG.S_AXI.READ_WRITE_MODE {READ_WRITE} \
+  CONFIG.S_AXI.RUSER_BITS_PER_BYTE {0} \
+  CONFIG.S_AXI.RUSER_WIDTH {0} \
+  CONFIG.S_AXI.SUPPORTS_NARROW_BURST {0} \
+  CONFIG.S_AXI.WUSER_BITS_PER_BYTE {0} \
+  CONFIG.S_AXI.WUSER_WIDTH {0} \
+  CONFIG.USE_ECC {0} " [get_ips design_1_axi_bram_ctrl_0_0]
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Aug 24 18:14:41 2025
+| Host         : Saurav running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'blk_mem_gen_2'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of blk_mem_gen_2 (xilinx.com:ip:blk_mem_gen:8.4) from (Rev. 1) to (Rev. 8)
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Customization warnings
+-------------------------
+
+The normal upgrade process failed due to validation failures in the given configuration. Attempting partial upgrade to set as many user parameters as possible. Please check the parameters whose values were not applied.
+
+Unable to set the value 'true' on parameter 'Load Init File' due to the following failure - 
+Validation failed for parameter 'Coe File(Coe_File)' with current value 'no_coe_file_loaded' for IP 'blk_mem_gen_2'. No COE file loaded
+. Restoring to an old valid value of 'false'
+
+
+3. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:blk_mem_gen:8.4 -user_name blk_mem_gen_2
+set_property -dict "\
+  CONFIG.AXI_ID_Width {4} \
+  CONFIG.AXI_Slave_Type {Memory_Slave} \
+  CONFIG.AXI_Type {AXI4_Full} \
+  CONFIG.Additional_Inputs_for_Power_Estimation {false} \
+  CONFIG.Algorithm {Minimum_Area} \
+  CONFIG.Assume_Synchronous_Clk {false} \
+  CONFIG.BRAM_PORTA.MASTER_TYPE {OTHER} \
+  CONFIG.BRAM_PORTA.MEM_ECC {NONE} \
+  CONFIG.BRAM_PORTA.MEM_SIZE {8192} \
+  CONFIG.BRAM_PORTA.MEM_WIDTH {32} \
+  CONFIG.BRAM_PORTA.READ_WRITE_MODE {} \
+  CONFIG.Byte_Size {9} \
+  CONFIG.CLK.ACLK.ASSOCIATED_BUSIF {AXI_SLAVE_S_AXI:AXILite_SLAVE_S_AXI} \
+  CONFIG.CLK.ACLK.ASSOCIATED_RESET {s_aresetn} \
+  CONFIG.CLK.ACLK.CLK_DOMAIN {} \
+  CONFIG.CLK.ACLK.FREQ_HZ {100000000} \
+  CONFIG.CLK.ACLK.PHASE {0.000} \
+  CONFIG.CTRL_ECC_ALGO {NONE} \
+  CONFIG.Coe_File {../../../../../Documents/twiddle_rom_init.coe} \
+  CONFIG.Collision_Warnings {ALL} \
+  CONFIG.Component_Name {blk_mem_gen_2} \
+  CONFIG.Disable_Collision_Warnings {false} \
+  CONFIG.Disable_Out_of_Range_Warnings {false} \
+  CONFIG.ECC {false} \
+  CONFIG.EN_DEEPSLEEP_PIN {false} \
+  CONFIG.EN_ECC_PIPE {false} \
+  CONFIG.EN_SAFETY_CKT {false} \
+  CONFIG.EN_SHUTDOWN_PIN {false} \
+  CONFIG.EN_SLEEP_PIN {false} \
+  CONFIG.Enable_32bit_Address {false} \
+  CONFIG.Enable_A {Always_Enabled} \
+  CONFIG.Enable_B {Always_Enabled} \
+  CONFIG.Error_Injection_Type {Single_Bit_Error_Injection} \
+  CONFIG.Fill_Remaining_Memory_Locations {false} \
+  CONFIG.Interface_Type {Native} \
+  CONFIG.Load_Init_File {true} \
+  CONFIG.MEM_FILE {no_mem_loaded} \
+  CONFIG.Memory_Type {Single_Port_ROM} \
+  CONFIG.Operating_Mode_A {WRITE_FIRST} \
+  CONFIG.Operating_Mode_B {WRITE_FIRST} \
+  CONFIG.Output_Reset_Value_A {0} \
+  CONFIG.Output_Reset_Value_B {0} \
+  CONFIG.PRIM_type_to_Implement {BRAM} \
+  CONFIG.Pipeline_Stages {0} \
+  CONFIG.Port_A_Clock {100} \
+  CONFIG.Port_A_Enable_Rate {100} \
+  CONFIG.Port_A_Write_Rate {0} \
+  CONFIG.Port_B_Clock {0} \
+  CONFIG.Port_B_Enable_Rate {0} \
+  CONFIG.Port_B_Write_Rate {0} \
+  CONFIG.Primitive {8kx2} \
+  CONFIG.RD_ADDR_CHNG_A {false} \
+  CONFIG.RD_ADDR_CHNG_B {false} \
+  CONFIG.RST.ARESETN.POLARITY {ACTIVE_LOW} \
+  CONFIG.Read_Width_A {24} \
+  CONFIG.Read_Width_B {24} \
+  CONFIG.Register_PortA_Output_of_Memory_Core {false} \
+  CONFIG.Register_PortA_Output_of_Memory_Primitives {true} \
+  CONFIG.Register_PortB_Output_of_Memory_Core {false} \
+  CONFIG.Register_PortB_Output_of_Memory_Primitives {false} \
+  CONFIG.Remaining_Memory_Locations {0} \
+  CONFIG.Reset_Memory_Latch_A {false} \
+  CONFIG.Reset_Memory_Latch_B {false} \
+  CONFIG.Reset_Priority_A {CE} \
+  CONFIG.Reset_Priority_B {CE} \
+  CONFIG.Reset_Type {SYNC} \
+  CONFIG.Use_AXI_ID {false} \
+  CONFIG.Use_Byte_Write_Enable {false} \
+  CONFIG.Use_Error_Injection_Pins {false} \
+  CONFIG.Use_REGCEA_Pin {false} \
+  CONFIG.Use_REGCEB_Pin {false} \
+  CONFIG.Use_RSTA_Pin {false} \
+  CONFIG.Use_RSTB_Pin {false} \
+  CONFIG.Write_Depth_A {1024} \
+  CONFIG.Write_Width_A {24} \
+  CONFIG.Write_Width_B {24} \
+  CONFIG.ecctype {No_ECC} \
+  CONFIG.register_porta_input_of_softecc {false} \
+  CONFIG.register_portb_output_of_softecc {false} \
+  CONFIG.softecc {false} \
+  CONFIG.use_bram_block {Stand_Alone} " [get_ips blk_mem_gen_2]
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Aug 24 18:14:39 2025
+| Host         : Saurav running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'blk_mem_gen_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of blk_mem_gen_0 (xilinx.com:ip:blk_mem_gen:8.4) from (Rev. 1) to (Rev. 8)
+

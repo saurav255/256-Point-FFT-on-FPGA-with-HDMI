@@ -1,0 +1,196 @@
+
+
+================================================================
+== Vitis HLS Report for 'Block_entry_split_proc'
+================================================================
+* Date:           Wed Sep 10 15:21:44 2025
+
+* Version:        2024.1 (Build 5069499 on May 21 2024)
+* Project:        prj
+* Solution:       sol (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  6.73 ns|      0 ns|     1.82 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|      0 ns|      0 ns|    0|    0|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|      2|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        -|    -|       -|      -|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       0|    171|    -|
+|Register         |        -|    -|     230|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        0|    0|     230|    173|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        0|    0|      ~0|     ~0|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +-----------------+----------+----+---+----+------------+------------+
+    |  Variable Name  | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +-----------------+----------+----+---+----+------------+------------+
+    |ap_block_state1  |        or|   0|  0|   2|           1|           1|
+    +-----------------+----------+----+---+----+------------+------------+
+    |Total            |          |   0|  0|   2|           1|           1|
+    +-----------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +--------------+----+-----------+-----+-----------+
+    |     Name     | LUT| Input Size| Bits| Total Bits|
+    +--------------+----+-----------+-----+-----------+
+    |ap_done       |   9|          2|    1|          2|
+    |ap_return_0   |   9|          2|    8|         16|
+    |ap_return_1   |   9|          2|    8|         16|
+    |ap_return_10  |   9|          2|   16|         32|
+    |ap_return_11  |   9|          2|   10|         20|
+    |ap_return_12  |   9|          2|   10|         20|
+    |ap_return_13  |   9|          2|   10|         20|
+    |ap_return_14  |   9|          2|    8|         16|
+    |ap_return_15  |   9|          2|    8|         16|
+    |ap_return_16  |   9|          2|   11|         22|
+    |ap_return_17  |   9|          2|   11|         22|
+    |ap_return_2   |   9|          2|   16|         32|
+    |ap_return_3   |   9|          2|   16|         32|
+    |ap_return_4   |   9|          2|   16|         32|
+    |ap_return_5   |   9|          2|   16|         32|
+    |ap_return_6   |   9|          2|   16|         32|
+    |ap_return_7   |   9|          2|   16|         32|
+    |ap_return_8   |   9|          2|   16|         32|
+    |ap_return_9   |   9|          2|   16|         32|
+    +--------------+----+-----------+-----+-----------+
+    |Total         | 171|         38|  229|        458|
+    +--------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-------------------+----+----+-----+-----------+
+    |        Name       | FF | LUT| Bits| Const Bits|
+    +-------------------+----+----+-----+-----------+
+    |ap_CS_fsm          |   1|   0|    1|          0|
+    |ap_done_reg        |   1|   0|    1|          0|
+    |ap_return_0_preg   |   8|   0|    8|          0|
+    |ap_return_10_preg  |  16|   0|   16|          0|
+    |ap_return_11_preg  |  10|   0|   10|          0|
+    |ap_return_12_preg  |  10|   0|   10|          0|
+    |ap_return_13_preg  |  10|   0|   10|          0|
+    |ap_return_14_preg  |   8|   0|    8|          0|
+    |ap_return_15_preg  |   8|   0|    8|          0|
+    |ap_return_16_preg  |  11|   0|   11|          0|
+    |ap_return_17_preg  |  11|   0|   11|          0|
+    |ap_return_1_preg   |   8|   0|    8|          0|
+    |ap_return_2_preg   |  16|   0|   16|          0|
+    |ap_return_3_preg   |  16|   0|   16|          0|
+    |ap_return_4_preg   |  16|   0|   16|          0|
+    |ap_return_5_preg   |  16|   0|   16|          0|
+    |ap_return_6_preg   |  16|   0|   16|          0|
+    |ap_return_7_preg   |  16|   0|   16|          0|
+    |ap_return_8_preg   |  16|   0|   16|          0|
+    |ap_return_9_preg   |  16|   0|   16|          0|
+    +-------------------+----+----+-----+-----------+
+    |Total              | 230|   0|  230|          0|
+    +-------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++----------------+-----+-----+------------+------------------------+--------------+
+|    RTL Ports   | Dir | Bits|  Protocol  |      Source Object     |    C Type    |
++----------------+-----+-----+------------+------------------------+--------------+
+|ap_clk          |   in|    1|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_rst          |   in|    1|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_start        |   in|    1|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_done         |  out|    1|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_continue     |   in|    1|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_idle         |  out|    1|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_ready        |  out|    1|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_return_0     |  out|    8|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_return_1     |  out|    8|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_return_2     |  out|   16|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_return_3     |  out|   16|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_return_4     |  out|   16|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_return_5     |  out|   16|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_return_6     |  out|   16|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_return_7     |  out|   16|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_return_8     |  out|   16|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_return_9     |  out|   16|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_return_10    |  out|   16|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_return_11    |  out|   10|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_return_12    |  out|   10|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_return_13    |  out|   10|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_return_14    |  out|    8|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_return_15    |  out|    8|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_return_16    |  out|   11|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|ap_return_17    |  out|   11|  ap_ctrl_hs|  Block_entry.split_proc|  return value|
+|InVideoFormat   |   in|    8|     ap_none|           InVideoFormat|       pointer|
+|OutVideoFormat  |   in|    8|     ap_none|          OutVideoFormat|       pointer|
+|width           |   in|   16|     ap_none|                   width|       pointer|
+|height          |   in|   16|     ap_none|                  height|       pointer|
+|K11             |   in|   16|     ap_none|                     K11|       pointer|
+|K12             |   in|   16|     ap_none|                     K12|       pointer|
+|K13             |   in|   16|     ap_none|                     K13|       pointer|
+|K21             |   in|   16|     ap_none|                     K21|       pointer|
+|K22             |   in|   16|     ap_none|                     K22|       pointer|
+|K23             |   in|   16|     ap_none|                     K23|       pointer|
+|K31             |   in|   16|     ap_none|                     K31|       pointer|
+|K32             |   in|   16|     ap_none|                     K32|       pointer|
+|K33             |   in|   16|     ap_none|                     K33|       pointer|
+|ROffset         |   in|   10|     ap_none|                 ROffset|       pointer|
+|GOffset         |   in|   10|     ap_none|                 GOffset|       pointer|
+|BOffset         |   in|   10|     ap_none|                 BOffset|       pointer|
+|ClampMin        |   in|    8|     ap_none|                ClampMin|       pointer|
+|ClipMax         |   in|    8|     ap_none|                 ClipMax|       pointer|
++----------------+-----+-----+------------+------------------------+--------------+
+

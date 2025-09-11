@@ -1,0 +1,382 @@
+timestamp=[2025-08-24 19:04:01], mode=WORKBENCH_START, duration=0:00:10.813, duration_ms=10813, data={}
+timestamp=[2025-08-24 19:04:02], mode=WORKBENCH_UI_INIT, duration=0:00:00.490, duration_ms=490, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2025-08-24 19:04:03], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.951, duration_ms=951, data={}
+timestamp=[2025-08-24 19:05:00], mode=PLATFORM_CREATION, duration=0:00:13.094, duration_ms=13094, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2025-08-24 19:05:29], mode=PLATFORM_GENERATION, duration=0:00:19.066, duration_ms=19066, data={name=Vdma_test}
+timestamp=[2025-08-24 19:06:09], mode=APP_CREATION, duration=0:00:07.307, duration_ms=7307, data={name=Hdmi_zed, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=Vdma_test, application_type=application}
+timestamp=[2025-08-24 19:18:21], mode=BUILD, duration=0:00:01.103, duration_ms=1103, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 19:20:47], mode=BUILD, duration=0:00:02.777, duration_ms=2777, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 19:20:54], mode=BUILD, duration=0:00:06.449, duration_ms=6449, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 19:23:22], mode=BUILD, duration=0:00:00.405, duration_ms=405, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 19:23:29], mode=BUILD, duration=0:00:06.396, duration_ms=6396, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 19:32:06], mode=BUILD, duration=0:00:00.963, duration_ms=963, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 19:32:13], mode=BUILD, duration=0:00:06.916, duration_ms=6916, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 19:36:34], mode=BUILD, duration=0:00:00.744, duration_ms=744, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 19:39:34], mode=BUILD, duration=0:00:00.717, duration_ms=717, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 20:09:37], mode=BUILD, duration=0:00:00.735, duration_ms=735, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 20:10:34], mode=BUILD, duration=0:00:01.317, duration_ms=1317, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 20:10:40], mode=BUILD, duration=0:00:06.151, duration_ms=6151, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 20:10:53], mode=BUILD, duration=0:00:00.321, duration_ms=321, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 20:10:59], mode=BUILD, duration=0:00:06.155, duration_ms=6155, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 20:19:08], mode=BUILD, duration=0:00:00.457, duration_ms=457, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 20:19:27], mode=BUILD, duration=0:00:00.494, duration_ms=494, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 20:20:08], mode=BUILD, duration=0:00:00.504, duration_ms=504, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 20:22:13], mode=BUILD, duration=0:00:01.051, duration_ms=1051, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 20:22:19], mode=BUILD, duration=0:00:06.257, duration_ms=6257, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 20:22:38], mode=BUILD, duration=0:00:00.301, duration_ms=301, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 20:22:44], mode=BUILD, duration=0:00:06.166, duration_ms=6166, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 20:25:28], mode=BUILD, duration=0:00:02.600, duration_ms=2600, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 20:25:36], mode=BUILD, duration=0:00:07.041, duration_ms=7041, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 20:25:57], mode=BUILD, duration=0:00:00.365, duration_ms=365, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 20:26:04], mode=BUILD, duration=0:00:06.326, duration_ms=6326, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 20:27:49], mode=BUILD, duration=0:00:01.173, duration_ms=1173, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 20:27:56], mode=BUILD, duration=0:00:06.610, duration_ms=6610, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 20:45:54], mode=PLATFORM_GENERATION, duration=0:00:10.584, duration_ms=10584, data={name=Vdma_test}
+timestamp=[2025-08-24 20:45:58], mode=BUILD, duration=0:00:01.727, duration_ms=1727, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 20:46:10], mode=BUILD, duration=0:00:06.487, duration_ms=6487, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 20:46:27], mode=BUILD, duration=0:00:00.321, duration_ms=321, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 20:46:33], mode=BUILD, duration=0:00:06.195, duration_ms=6195, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 22:46:33], mode=PLATFORM_GENERATION, duration=0:00:09.950, duration_ms=9950, data={name=Vdma_test}
+timestamp=[2025-08-24 22:46:37], mode=BUILD, duration=0:00:01.711, duration_ms=1711, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 22:46:50], mode=BUILD, duration=0:00:06.350, duration_ms=6350, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 22:48:16], mode=BUILD, duration=0:00:00.312, duration_ms=312, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 22:48:26], mode=BUILD, duration=0:00:09.836, duration_ms=9836, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 23:08:36], mode=BUILD, duration=0:00:01.174, duration_ms=1174, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 23:08:42], mode=BUILD, duration=0:00:06.375, duration_ms=6375, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 23:24:22], mode=BUILD, duration=0:00:01.160, duration_ms=1160, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 23:24:29], mode=BUILD, duration=0:00:07.338, duration_ms=7338, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 23:46:29], mode=PLATFORM_GENERATION, duration=0:00:46.222, duration_ms=46222, data={name=Vdma_test}
+timestamp=[2025-08-24 23:47:07], mode=BUILD, duration=0:00:02.200, duration_ms=2200, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 23:47:22], mode=BUILD, duration=0:00:07.802, duration_ms=7802, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 23:52:02], mode=BUILD, duration=0:00:01.156, duration_ms=1156, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 23:52:10], mode=BUILD, duration=0:00:07.376, duration_ms=7376, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 23:52:48], mode=BUILD, duration=0:00:00.544, duration_ms=544, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 23:54:12], mode=BUILD, duration=0:00:00.537, duration_ms=537, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 23:54:36], mode=BUILD, duration=0:00:01.135, duration_ms=1135, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 23:54:43], mode=BUILD, duration=0:00:06.997, duration_ms=6997, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 23:54:57], mode=BUILD, duration=0:00:00.382, duration_ms=382, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 23:55:05], mode=BUILD, duration=0:00:07.073, duration_ms=7073, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 08:20:48], mode=BUILD, duration=0:00:04.628, duration_ms=4628, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 08:21:03], mode=BUILD, duration=0:00:14.800, duration_ms=14800, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 08:21:29], mode=BUILD, duration=0:00:01.518, duration_ms=1518, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 08:21:37], mode=BUILD, duration=0:00:07.800, duration_ms=7800, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 08:22:03], mode=BUILD, duration=0:00:01.902, duration_ms=1902, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 08:22:11], mode=BUILD, duration=0:00:07.790, duration_ms=7790, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 08:27:39], mode=BUILD, duration=0:00:02.347, duration_ms=2347, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 08:27:47], mode=BUILD, duration=0:00:07.863, duration_ms=7863, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 08:44:42], mode=PLATFORM_GENERATION, duration=0:00:15.504, duration_ms=15504, data={name=Vdma_test}
+timestamp=[2025-08-25 08:44:48], mode=BUILD, duration=0:00:02.240, duration_ms=2240, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 08:45:04], mode=BUILD, duration=0:00:08.220, duration_ms=8220, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 09:10:12], mode=PLATFORM_GENERATION, duration=0:00:19.017, duration_ms=19017, data={name=Vdma_test}
+timestamp=[2025-08-25 09:10:17], mode=BUILD, duration=0:00:02.157, duration_ms=2157, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 09:10:33], mode=BUILD, duration=0:00:08.035, duration_ms=8035, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 09:23:34], mode=BUILD, duration=0:00:01.028, duration_ms=1028, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 09:23:58], mode=BUILD, duration=0:00:00.923, duration_ms=923, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 09:27:51], mode=BUILD, duration=0:00:00.852, duration_ms=852, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 09:28:42], mode=BUILD, duration=0:00:00.941, duration_ms=941, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 09:33:06], mode=BUILD, duration=0:00:00.865, duration_ms=865, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 09:35:34], mode=BUILD, duration=0:00:01.722, duration_ms=1722, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 09:35:43], mode=BUILD, duration=0:00:08.198, duration_ms=8198, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 13:16:58], mode=BUILD, duration=0:00:04.240, duration_ms=4240, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 13:17:11], mode=BUILD, duration=0:00:13.017, duration_ms=13017, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 13:21:30], mode=BUILD, duration=0:00:01.607, duration_ms=1607, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 13:21:39], mode=BUILD, duration=0:00:08.169, duration_ms=8169, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 13:21:47], mode=BUILD, duration=0:00:00.431, duration_ms=431, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 13:21:56], mode=BUILD, duration=0:00:08.284, duration_ms=8284, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 13:32:14], mode=BUILD, duration=0:00:00.984, duration_ms=984, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 13:32:46], mode=BUILD, duration=0:00:01.011, duration_ms=1011, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 13:34:02], mode=BUILD, duration=0:00:01.662, duration_ms=1662, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 13:34:12], mode=BUILD, duration=0:00:09.202, duration_ms=9202, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 13:34:21], mode=BUILD, duration=0:00:00.439, duration_ms=439, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 13:34:31], mode=BUILD, duration=0:00:08.615, duration_ms=8615, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 13:40:35], mode=BUILD, duration=0:00:01.864, duration_ms=1864, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 13:40:44], mode=BUILD, duration=0:00:08.105, duration_ms=8105, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 13:43:41], mode=BUILD, duration=0:00:01.931, duration_ms=1931, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 13:43:50], mode=BUILD, duration=0:00:08.524, duration_ms=8524, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 19:04:03], mode=WORKBENCH_START, duration=0:00:23.620, duration_ms=23620, data={}
+timestamp=[2025-08-25 19:04:05], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.980, duration_ms=980, data={}
+timestamp=[2025-08-25 19:04:06], mode=WORKBENCH_UI_INIT, duration=0:00:02.633, duration_ms=2633, data={editors_count=13, platform_editors_count=7, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=Hdmi_zed,Hdmi_zed_system,RemoteSystemsTempFiles,Vdma_test}
+timestamp=[2025-08-25 19:05:05], mode=PLATFORM_GENERATION, duration=0:00:49.530, duration_ms=49530, data={name=Vdma_test}
+timestamp=[2025-08-25 19:05:11], mode=BUILD, duration=0:00:03.283, duration_ms=3283, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 19:05:19], mode=BUILD, duration=0:00:07.659, duration_ms=7659, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 19:17:08], mode=PLATFORM_GENERATION, duration=0:00:14.344, duration_ms=14344, data={name=Vdma_test}
+timestamp=[2025-08-25 19:17:14], mode=BUILD, duration=0:00:02.457, duration_ms=2457, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 19:17:31], mode=BUILD, duration=0:00:06.666, duration_ms=6666, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 19:17:46], mode=BUILD, duration=0:00:00.344, duration_ms=344, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 19:17:53], mode=BUILD, duration=0:00:06.630, duration_ms=6630, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 19:34:21], mode=BUILD, duration=0:00:00.715, duration_ms=715, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 19:35:02], mode=BUILD, duration=0:00:00.678, duration_ms=678, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 19:35:27], mode=BUILD, duration=0:00:00.643, duration_ms=643, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 19:35:44], mode=BUILD, duration=0:00:01.344, duration_ms=1344, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 19:35:50], mode=BUILD, duration=0:00:06.073, duration_ms=6073, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 19:36:02], mode=BUILD, duration=0:00:00.323, duration_ms=323, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 19:36:08], mode=BUILD, duration=0:00:06.163, duration_ms=6163, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 20:12:52], mode=PLATFORM_GENERATION, duration=0:00:07.867, duration_ms=7867, data={name=Vdma_test}
+timestamp=[2025-08-25 20:12:52], mode=BUILD, duration=0:00:00.170, duration_ms=170, data={name=Hdmi_zed, configuration=Debug, clean_build=true}
+timestamp=[2025-08-25 20:12:52], mode=BUILD, duration=0:00:00.178, duration_ms=178, data={name=Hdmi_zed_system, configuration=Debug, clean_build=true}
+timestamp=[2025-08-25 20:12:59], mode=PLATFORM_GENERATION, duration=0:00:02.144, duration_ms=2144, data={name=Vdma_test}
+timestamp=[2025-08-25 20:13:38], mode=PLATFORM_GENERATION, duration=0:00:02.219, duration_ms=2219, data={name=Vdma_test}
+timestamp=[2025-08-25 20:13:38], mode=BUILD, duration=0:00:00.156, duration_ms=156, data={name=Hdmi_zed, configuration=Debug, clean_build=true}
+timestamp=[2025-08-25 20:13:38], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=Hdmi_zed_system, configuration=Debug, clean_build=true}
+timestamp=[2025-08-25 20:14:17], mode=PLATFORM_GENERATION, duration=0:00:34.922, duration_ms=34922, data={name=Vdma_test}
+timestamp=[2025-08-25 20:14:19], mode=BUILD, duration=0:00:02.309, duration_ms=2309, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 20:14:26], mode=BUILD, duration=0:00:06.269, duration_ms=6269, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 20:23:06], mode=BUILD, duration=0:00:00.709, duration_ms=709, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 20:23:54], mode=BUILD, duration=0:00:00.725, duration_ms=725, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 20:24:06], mode=BUILD, duration=0:00:00.726, duration_ms=726, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 20:25:33], mode=BUILD, duration=0:00:00.753, duration_ms=753, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 20:26:24], mode=BUILD, duration=0:00:00.703, duration_ms=703, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 20:28:24], mode=BUILD, duration=0:00:01.535, duration_ms=1535, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 20:28:31], mode=BUILD, duration=0:00:06.540, duration_ms=6540, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 20:28:44], mode=BUILD, duration=0:00:01.370, duration_ms=1370, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 20:28:51], mode=BUILD, duration=0:00:06.195, duration_ms=6195, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 20:29:05], mode=BUILD, duration=0:00:01.365, duration_ms=1365, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 20:29:11], mode=BUILD, duration=0:00:06.499, duration_ms=6499, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 20:32:20], mode=BUILD, duration=0:00:01.375, duration_ms=1375, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 20:32:26], mode=BUILD, duration=0:00:06.237, duration_ms=6237, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 20:59:14], mode=PLATFORM_GENERATION, duration=0:00:23.972, duration_ms=23972, data={name=Vdma_test}
+timestamp=[2025-08-25 20:59:18], mode=BUILD, duration=0:00:00.860, duration_ms=860, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 21:03:00], mode=BUILD, duration=0:00:00.795, duration_ms=795, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 21:03:17], mode=BUILD, duration=0:00:00.763, duration_ms=763, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 21:03:26], mode=BUILD, duration=0:00:02.427, duration_ms=2427, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 21:03:34], mode=BUILD, duration=0:00:07.288, duration_ms=7288, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 23:59:08], mode=PLATFORM_GENERATION, duration=0:03:47.163, duration_ms=227163, data={name=Vdma_test}
+timestamp=[2025-08-25 23:59:22], mode=BUILD, duration=0:00:02.423, duration_ms=2423, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-25 23:59:37], mode=BUILD, duration=0:00:06.703, duration_ms=6703, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 00:02:24], mode=BUILD, duration=0:00:00.368, duration_ms=368, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 00:02:32], mode=BUILD, duration=0:00:07.454, duration_ms=7454, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 08:10:20], mode=WORKBENCH_START, duration=0:00:15.433, duration_ms=15433, data={}
+timestamp=[2025-08-26 08:10:22], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.357, duration_ms=357, data={}
+timestamp=[2025-08-26 08:10:23], mode=WORKBENCH_UI_INIT, duration=0:00:02.637, duration_ms=2637, data={editors_count=14, platform_editors_count=8, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hdmi_zed,Hdmi_zed_system,RemoteSystemsTempFiles,Vdma_test}
+timestamp=[2025-08-26 09:03:56], mode=PLATFORM_GENERATION, duration=0:00:03.825, duration_ms=3825, data={name=Vdma_test}
+timestamp=[2025-08-26 09:04:02], mode=BUILD, duration=0:00:03.809, duration_ms=3809, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 09:04:15], mode=BUILD, duration=0:00:00.834, duration_ms=834, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 09:04:25], mode=BUILD, duration=0:00:03.590, duration_ms=3590, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 09:04:32], mode=BUILD, duration=0:00:07.168, duration_ms=7168, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 09:04:40], mode=BUILD, duration=0:00:00.392, duration_ms=392, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 09:04:47], mode=BUILD, duration=0:00:06.676, duration_ms=6676, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 09:19:32], mode=BUILD, duration=0:00:04.103, duration_ms=4103, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 09:19:44], mode=BUILD, duration=0:00:11.643, duration_ms=11643, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 09:25:16], mode=BUILD, duration=0:00:01.530, duration_ms=1530, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 09:25:26], mode=BUILD, duration=0:00:06.363, duration_ms=6363, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 09:25:34], mode=BUILD, duration=0:00:01.422, duration_ms=1422, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 09:25:41], mode=BUILD, duration=0:00:06.354, duration_ms=6354, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 09:25:45], mode=BUILD, duration=0:00:00.324, duration_ms=324, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 09:25:52], mode=BUILD, duration=0:00:06.328, duration_ms=6328, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 09:34:44], mode=BUILD, duration=0:00:01.411, duration_ms=1411, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 09:34:51], mode=BUILD, duration=0:00:06.343, duration_ms=6343, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 10:55:40], mode=WORKBENCH_START, duration=0:00:23.455, duration_ms=23455, data={}
+timestamp=[2025-08-26 10:55:42], mode=WORKBENCH_UI_INIT, duration=0:00:02.046, duration_ms=2046, data={editors_count=19, platform_editors_count=13, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hdmi_zed,Hdmi_zed_system,RemoteSystemsTempFiles,Vdma_test}
+timestamp=[2025-08-26 10:55:44], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.105, duration_ms=1105, data={}
+timestamp=[2025-08-26 17:44:41], mode=PLATFORM_GENERATION, duration=0:00:25.540, duration_ms=25540, data={name=Vdma_test}
+timestamp=[2025-08-26 17:44:51], mode=BUILD, duration=0:00:04.609, duration_ms=4609, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 17:45:11], mode=BUILD, duration=0:00:08.700, duration_ms=8700, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 17:45:38], mode=BUILD, duration=0:00:00.475, duration_ms=475, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 17:45:46], mode=BUILD, duration=0:00:07.512, duration_ms=7512, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 18:09:36], mode=PLATFORM_GENERATION, duration=0:00:12.100, duration_ms=12100, data={name=Vdma_test}
+timestamp=[2025-08-26 18:09:41], mode=BUILD, duration=0:00:02.115, duration_ms=2115, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 18:09:55], mode=BUILD, duration=0:00:07.416, duration_ms=7416, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 18:10:05], mode=BUILD, duration=0:00:00.485, duration_ms=485, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 18:10:12], mode=BUILD, duration=0:00:06.730, duration_ms=6730, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 20:58:25], mode=PLATFORM_GENERATION, duration=0:00:23.004, duration_ms=23004, data={name=Vdma_test}
+timestamp=[2025-08-26 20:58:33], mode=BUILD, duration=0:00:03.470, duration_ms=3470, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-26 20:58:50], mode=BUILD, duration=0:00:08.134, duration_ms=8134, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-27 09:58:42], mode=PLATFORM_GENERATION, duration=0:00:18.478, duration_ms=18478, data={name=Vdma_test}
+timestamp=[2025-08-27 09:58:55], mode=PLATFORM_GENERATION, duration=0:00:02.316, duration_ms=2316, data={name=Vdma_test}
+timestamp=[2025-08-27 09:58:55], mode=BUILD, duration=0:00:00.234, duration_ms=234, data={name=Hdmi_zed, configuration=Debug, clean_build=true}
+timestamp=[2025-08-27 09:58:55], mode=BUILD, duration=0:00:00.187, duration_ms=187, data={name=Hdmi_zed_system, configuration=Debug, clean_build=true}
+timestamp=[2025-08-27 10:01:12], mode=PLATFORM_GENERATION, duration=0:00:58.708, duration_ms=58708, data={name=Vdma_test}
+timestamp=[2025-08-27 10:01:22], mode=BUILD, duration=0:00:03.011, duration_ms=3011, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-27 10:01:40], mode=BUILD, duration=0:00:08.769, duration_ms=8769, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-27 10:01:45], mode=BUILD, duration=0:00:00.309, duration_ms=309, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-08-27 10:01:53], mode=BUILD, duration=0:00:07.523, duration_ms=7523, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-04 09:03:36], mode=WORKBENCH_START, duration=0:00:16.405, duration_ms=16405, data={}
+timestamp=[2025-09-04 09:03:38], mode=WORKBENCH_UI_INIT, duration=0:00:01.802, duration_ms=1802, data={editors_count=20, platform_editors_count=14, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=Hdmi_zed,Hdmi_zed_system,RemoteSystemsTempFiles,Vdma_test}
+timestamp=[2025-09-04 09:03:38], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.901, duration_ms=901, data={}
+timestamp=[2025-09-04 11:30:55], mode=BUILD, duration=0:00:01.178, duration_ms=1178, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-04 11:31:05], mode=BUILD, duration=0:00:09.421, duration_ms=9421, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-04 11:32:41], mode=PLATFORM_GENERATION, duration=0:00:15.326, duration_ms=15326, data={name=Vdma_test}
+timestamp=[2025-09-04 11:32:49], mode=BUILD, duration=0:00:03.795, duration_ms=3795, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-04 11:33:05], mode=BUILD, duration=0:00:08.062, duration_ms=8062, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-04 11:33:20], mode=BUILD, duration=0:00:00.404, duration_ms=404, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-04 11:33:27], mode=BUILD, duration=0:00:06.732, duration_ms=6732, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-04 11:42:51], mode=BUILD, duration=0:00:01.504, duration_ms=1504, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-04 11:42:58], mode=BUILD, duration=0:00:06.635, duration_ms=6635, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-04 11:43:56], mode=BUILD, duration=0:00:00.385, duration_ms=385, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-04 11:44:03], mode=BUILD, duration=0:00:06.387, duration_ms=6387, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-04 13:14:58], mode=PLATFORM_GENERATION, duration=0:00:16.197, duration_ms=16197, data={name=Vdma_test}
+timestamp=[2025-09-04 13:15:06], mode=BUILD, duration=0:00:03.270, duration_ms=3270, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-04 13:15:28], mode=BUILD, duration=0:00:08.427, duration_ms=8427, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-04 13:16:06], mode=BUILD, duration=0:00:00.305, duration_ms=305, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-04 13:16:13], mode=BUILD, duration=0:00:06.998, duration_ms=6998, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-05 21:56:36], mode=WORKBENCH_START, duration=0:00:08.464, duration_ms=8464, data={}
+timestamp=[2025-09-05 21:56:37], mode=WORKBENCH_UI_INIT, duration=0:00:00.844, duration_ms=844, data={editors_count=22, platform_editors_count=14, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hdmi_zed,Hdmi_zed_system,RemoteSystemsTempFiles,Vdma_test}
+timestamp=[2025-09-05 21:56:37], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.349, duration_ms=349, data={}
+timestamp=[2025-09-05 22:03:39], mode=PLATFORM_GENERATION, duration=0:00:14.158, duration_ms=14158, data={name=Vdma_test}
+timestamp=[2025-09-05 22:05:08], mode=PLATFORM_GENERATION, duration=0:01:02.615, duration_ms=62615, data={name=Vdma_test}
+timestamp=[2025-09-05 22:05:17], mode=BUILD, duration=0:00:03.540, duration_ms=3540, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-05 22:05:38], mode=BUILD, duration=0:00:08.663, duration_ms=8663, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-05 23:02:03], mode=BUILD, duration=0:00:01.208, duration_ms=1208, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-05 23:02:19], mode=BUILD, duration=0:00:15.636, duration_ms=15636, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-06 20:41:15], mode=WORKBENCH_START, duration=0:00:09.301, duration_ms=9301, data={}
+timestamp=[2025-09-06 20:41:16], mode=WORKBENCH_UI_INIT, duration=0:00:00.698, duration_ms=698, data={editors_count=22, platform_editors_count=14, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=Hdmi_zed,Hdmi_zed_system,RemoteSystemsTempFiles,Vdma_test}
+timestamp=[2025-09-06 20:41:17], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.412, duration_ms=412, data={}
+timestamp=[2025-09-06 20:48:11], mode=PLATFORM_GENERATION, duration=0:00:50.283, duration_ms=50283, data={name=Vdma_test}
+timestamp=[2025-09-06 20:48:18], mode=BUILD, duration=0:00:02.574, duration_ms=2574, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-06 20:48:34], mode=BUILD, duration=0:00:07.662, duration_ms=7662, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-06 20:52:02], mode=BUILD, duration=0:00:00.460, duration_ms=460, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-06 20:52:09], mode=BUILD, duration=0:00:07.014, duration_ms=7014, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-06 20:52:21], mode=BUILD, duration=0:00:00.398, duration_ms=398, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-06 20:52:29], mode=BUILD, duration=0:00:06.940, duration_ms=6940, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-06 21:11:56], mode=PLATFORM_GENERATION, duration=0:00:12.341, duration_ms=12341, data={name=Vdma_test}
+timestamp=[2025-09-06 21:12:00], mode=BUILD, duration=0:00:02.151, duration_ms=2151, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-06 21:12:13], mode=BUILD, duration=0:00:06.687, duration_ms=6687, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-06 21:12:17], mode=BUILD, duration=0:00:00.626, duration_ms=626, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-06 21:12:24], mode=BUILD, duration=0:00:06.565, duration_ms=6565, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-06 22:12:25], mode=PLATFORM_GENERATION, duration=0:00:18.328, duration_ms=18328, data={name=Vdma_test}
+timestamp=[2025-09-06 22:12:35], mode=BUILD, duration=0:00:02.720, duration_ms=2720, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-06 22:12:51], mode=BUILD, duration=0:00:07.790, duration_ms=7790, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-06 22:13:44], mode=BUILD, duration=0:00:00.369, duration_ms=369, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-06 22:13:51], mode=BUILD, duration=0:00:07.169, duration_ms=7169, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 00:12:06], mode=PLATFORM_GENERATION, duration=0:00:14.532, duration_ms=14532, data={name=Vdma_test}
+timestamp=[2025-09-07 00:12:13], mode=BUILD, duration=0:00:02.449, duration_ms=2449, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 00:12:27], mode=BUILD, duration=0:00:07.218, duration_ms=7218, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 00:13:14], mode=BUILD, duration=0:00:00.397, duration_ms=397, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 00:13:21], mode=BUILD, duration=0:00:06.624, duration_ms=6624, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 06:32:57], mode=WORKBENCH_START, duration=0:00:25.556, duration_ms=25556, data={}
+timestamp=[2025-09-07 06:32:58], mode=WORKBENCH_UI_INIT, duration=0:00:00.901, duration_ms=901, data={editors_count=21, platform_editors_count=13, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hdmi_zed,Hdmi_zed_system,RemoteSystemsTempFiles,Vdma_test}
+timestamp=[2025-09-07 06:32:58], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.365, duration_ms=365, data={}
+timestamp=[2025-09-07 07:53:57], mode=PLATFORM_GENERATION, duration=0:00:54.221, duration_ms=54221, data={name=Vdma_test}
+timestamp=[2025-09-07 07:54:05], mode=BUILD, duration=0:00:03.525, duration_ms=3525, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 07:54:20], mode=BUILD, duration=0:00:07.747, duration_ms=7747, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 07:54:28], mode=BUILD, duration=0:00:00.410, duration_ms=410, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 07:54:36], mode=BUILD, duration=0:00:07.750, duration_ms=7750, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 08:27:51], mode=PLATFORM_GENERATION, duration=0:00:14.155, duration_ms=14155, data={name=Vdma_test}
+timestamp=[2025-09-07 08:27:59], mode=BUILD, duration=0:00:02.745, duration_ms=2745, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 08:28:13], mode=BUILD, duration=0:00:07.262, duration_ms=7262, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 08:28:19], mode=BUILD, duration=0:00:00.482, duration_ms=482, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 08:28:26], mode=BUILD, duration=0:00:06.928, duration_ms=6928, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 20:18:12], mode=PLATFORM_GENERATION, duration=0:00:25.870, duration_ms=25870, data={name=Vdma_test}
+timestamp=[2025-09-07 20:18:24], mode=BUILD, duration=0:00:04.046, duration_ms=4046, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 20:18:44], mode=BUILD, duration=0:00:09.165, duration_ms=9165, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 20:19:04], mode=BUILD, duration=0:00:00.398, duration_ms=398, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 20:19:11], mode=BUILD, duration=0:00:06.747, duration_ms=6747, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 20:28:20], mode=BUILD, duration=0:00:01.547, duration_ms=1547, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 20:28:27], mode=BUILD, duration=0:00:06.992, duration_ms=6992, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 20:28:48], mode=BUILD, duration=0:00:00.323, duration_ms=323, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 20:28:55], mode=BUILD, duration=0:00:06.746, duration_ms=6746, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 20:39:26], mode=BUILD, duration=0:00:01.747, duration_ms=1747, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 20:39:33], mode=BUILD, duration=0:00:07.167, duration_ms=7167, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 20:40:57], mode=BUILD, duration=0:00:00.383, duration_ms=383, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 20:41:05], mode=BUILD, duration=0:00:07.487, duration_ms=7487, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 20:54:47], mode=BUILD, duration=0:00:01.609, duration_ms=1609, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 20:55:07], mode=BUILD, duration=0:00:08.005, duration_ms=8005, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 20:55:09], mode=BUILD, duration=0:00:00.402, duration_ms=402, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 20:55:18], mode=BUILD, duration=0:00:08.776, duration_ms=8776, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 21:01:25], mode=BUILD, duration=0:00:00.391, duration_ms=391, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 21:02:48], mode=WORKBENCH_START, duration=0:00:08.783, duration_ms=8783, data={}
+timestamp=[2025-09-07 21:02:49], mode=WORKBENCH_UI_INIT, duration=0:00:00.880, duration_ms=880, data={editors_count=23, platform_editors_count=15, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hdmi_zed,Hdmi_zed_system,RemoteSystemsTempFiles,Vdma_test}
+timestamp=[2025-09-07 21:02:49], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.267, duration_ms=267, data={}
+timestamp=[2025-09-07 21:03:45], mode=PLATFORM_GENERATION, duration=0:00:41.425, duration_ms=41425, data={name=Vdma_test}
+timestamp=[2025-09-07 21:03:52], mode=BUILD, duration=0:00:02.027, duration_ms=2027, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 21:04:01], mode=BUILD, duration=0:00:08.040, duration_ms=8040, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 21:04:04], mode=BUILD, duration=0:00:00.452, duration_ms=452, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 21:04:13], mode=BUILD, duration=0:00:07.773, duration_ms=7773, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 21:10:38], mode=BUILD, duration=0:00:01.588, duration_ms=1588, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-07 21:10:46], mode=BUILD, duration=0:00:06.878, duration_ms=6878, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-08 09:31:49], mode=PLATFORM_GENERATION, duration=0:00:21.673, duration_ms=21673, data={name=Vdma_test}
+timestamp=[2025-09-08 09:31:58], mode=BUILD, duration=0:00:03.527, duration_ms=3527, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-08 09:32:12], mode=BUILD, duration=0:00:07.623, duration_ms=7623, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-08 09:32:33], mode=BUILD, duration=0:00:00.404, duration_ms=404, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-08 09:32:40], mode=BUILD, duration=0:00:06.749, duration_ms=6749, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-08 09:38:54], mode=BUILD, duration=0:00:01.491, duration_ms=1491, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-08 09:39:01], mode=BUILD, duration=0:00:06.748, duration_ms=6748, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-08 09:39:06], mode=BUILD, duration=0:00:00.401, duration_ms=401, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-08 09:39:13], mode=BUILD, duration=0:00:06.711, duration_ms=6711, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-08 09:50:26], mode=BUILD, duration=0:00:00.801, duration_ms=801, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-08 09:51:24], mode=BUILD, duration=0:00:00.795, duration_ms=795, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-08 09:51:36], mode=BUILD, duration=0:00:01.513, duration_ms=1513, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-08 09:51:43], mode=BUILD, duration=0:00:06.835, duration_ms=6835, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-08 09:51:46], mode=BUILD, duration=0:00:00.336, duration_ms=336, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-08 09:51:53], mode=BUILD, duration=0:00:06.776, duration_ms=6776, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-08 10:07:10], mode=PLATFORM_GENERATION, duration=0:00:03.255, duration_ms=3255, data={name=Vdma_test}
+timestamp=[2025-09-08 10:07:11], mode=BUILD, duration=0:00:01.046, duration_ms=1046, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-08 10:07:18], mode=BUILD, duration=0:00:06.704, duration_ms=6704, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-09 07:46:11], mode=WORKBENCH_START, duration=0:00:12.554, duration_ms=12554, data={}
+timestamp=[2025-09-09 07:46:12], mode=WORKBENCH_UI_INIT, duration=0:00:01.187, duration_ms=1187, data={editors_count=24, platform_editors_count=16, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=Hdmi_zed,Hdmi_zed_system,RemoteSystemsTempFiles,Vdma_test}
+timestamp=[2025-09-09 07:46:13], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.659, duration_ms=659, data={}
+timestamp=[2025-09-09 07:59:01], mode=PLATFORM_GENERATION, duration=0:00:44.674, duration_ms=44674, data={name=Vdma_test}
+timestamp=[2025-09-09 07:59:08], mode=BUILD, duration=0:00:02.587, duration_ms=2587, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-09 07:59:22], mode=BUILD, duration=0:00:07.824, duration_ms=7824, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-09 07:59:27], mode=BUILD, duration=0:00:00.391, duration_ms=391, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-09 07:59:34], mode=BUILD, duration=0:00:06.743, duration_ms=6743, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 09:40:17], mode=WORKBENCH_START, duration=0:00:07.501, duration_ms=7501, data={}
+timestamp=[2025-09-10 09:40:18], mode=WORKBENCH_UI_INIT, duration=0:00:00.805, duration_ms=805, data={editors_count=24, platform_editors_count=16, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=Hdmi_zed,Hdmi_zed_system,RemoteSystemsTempFiles,Vdma_test}
+timestamp=[2025-09-10 09:40:18], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.578, duration_ms=578, data={}
+timestamp=[2025-09-10 09:49:12], mode=PLATFORM_GENERATION, duration=0:00:16.755, duration_ms=16755, data={name=Vdma_test}
+timestamp=[2025-09-10 09:49:25], mode=BUILD, duration=0:00:03.456, duration_ms=3456, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 09:49:45], mode=BUILD, duration=0:00:07.625, duration_ms=7625, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 09:57:23], mode=BUILD, duration=0:00:00.311, duration_ms=311, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 09:57:30], mode=BUILD, duration=0:00:07.241, duration_ms=7241, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 13:18:41], mode=WORKBENCH_START, duration=0:00:17.712, duration_ms=17712, data={}
+timestamp=[2025-09-10 13:18:42], mode=WORKBENCH_UI_INIT, duration=0:00:01.668, duration_ms=1668, data={editors_count=24, platform_editors_count=16, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=Hdmi_zed,Hdmi_zed_system,RemoteSystemsTempFiles,Vdma_test}
+timestamp=[2025-09-10 13:18:43], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.596, duration_ms=596, data={}
+timestamp=[2025-09-10 14:35:12], mode=BUILD, duration=0:00:02.688, duration_ms=2688, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 14:37:00], mode=BUILD, duration=0:00:00.549, duration_ms=549, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 14:38:59], mode=BUILD, duration=0:00:02.205, duration_ms=2205, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 14:40:20], mode=BUILD, duration=0:00:01.086, duration_ms=1086, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 14:40:55], mode=BUILD, duration=0:00:01.137, duration_ms=1137, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 14:42:12], mode=BUILD, duration=0:00:01.689, duration_ms=1689, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 14:42:21], mode=BUILD, duration=0:00:08.043, duration_ms=8043, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 14:49:03], mode=BUILD, duration=0:00:00.412, duration_ms=412, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 14:49:10], mode=BUILD, duration=0:00:06.682, duration_ms=6682, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 15:02:33], mode=BUILD, duration=0:00:01.511, duration_ms=1511, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 15:02:41], mode=BUILD, duration=0:00:07.554, duration_ms=7554, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 15:02:52], mode=BUILD, duration=0:00:00.351, duration_ms=351, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 15:03:01], mode=BUILD, duration=0:00:08.470, duration_ms=8470, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 15:03:16], mode=BUILD, duration=0:00:00.290, duration_ms=290, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 15:03:22], mode=BUILD, duration=0:00:06.337, duration_ms=6337, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 15:04:46], mode=BUILD, duration=0:00:01.317, duration_ms=1317, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 15:04:53], mode=BUILD, duration=0:00:06.696, duration_ms=6696, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 15:05:05], mode=BUILD, duration=0:00:00.332, duration_ms=332, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 15:05:12], mode=BUILD, duration=0:00:06.911, duration_ms=6911, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:03:35], mode=PLATFORM_GENERATION, duration=0:00:16.251, duration_ms=16251, data={name=Vdma_test}
+timestamp=[2025-09-10 16:03:42], mode=BUILD, duration=0:00:02.248, duration_ms=2248, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:03:56], mode=BUILD, duration=0:00:06.878, duration_ms=6878, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:04:27], mode=BUILD, duration=0:00:00.327, duration_ms=327, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:04:34], mode=BUILD, duration=0:00:06.521, duration_ms=6521, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:08:02], mode=WORKBENCH_START, duration=0:00:08.328, duration_ms=8328, data={}
+timestamp=[2025-09-10 16:08:02], mode=WORKBENCH_UI_INIT, duration=0:00:00.771, duration_ms=771, data={editors_count=24, platform_editors_count=16, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hdmi_zed,Hdmi_zed_system,RemoteSystemsTempFiles,Vdma_test}
+timestamp=[2025-09-10 16:08:03], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.273, duration_ms=273, data={}
+timestamp=[2025-09-10 16:08:21], mode=PLATFORM_GENERATION, duration=0:00:15.388, duration_ms=15388, data={name=Vdma_test}
+timestamp=[2025-09-10 16:08:28], mode=BUILD, duration=0:00:00.467, duration_ms=467, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:08:38], mode=BUILD, duration=0:00:08.730, duration_ms=8730, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:26:43], mode=BUILD, duration=0:00:01.702, duration_ms=1702, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:26:50], mode=BUILD, duration=0:00:06.678, duration_ms=6678, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:26:57], mode=BUILD, duration=0:00:00.320, duration_ms=320, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:27:04], mode=BUILD, duration=0:00:06.519, duration_ms=6519, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:36:34], mode=BUILD, duration=0:00:01.177, duration_ms=1177, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:36:41], mode=BUILD, duration=0:00:06.844, duration_ms=6844, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:36:46], mode=BUILD, duration=0:00:00.330, duration_ms=330, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:36:53], mode=BUILD, duration=0:00:06.582, duration_ms=6582, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:39:32], mode=BUILD, duration=0:00:01.182, duration_ms=1182, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:39:39], mode=BUILD, duration=0:00:06.652, duration_ms=6652, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:39:40], mode=BUILD, duration=0:00:00.331, duration_ms=331, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:39:47], mode=BUILD, duration=0:00:06.484, duration_ms=6484, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:42:34], mode=BUILD, duration=0:00:01.076, duration_ms=1076, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:42:41], mode=BUILD, duration=0:00:06.514, duration_ms=6514, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:42:52], mode=BUILD, duration=0:00:00.372, duration_ms=372, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:42:59], mode=BUILD, duration=0:00:06.522, duration_ms=6522, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:47:34], mode=BUILD, duration=0:00:01.282, duration_ms=1282, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:47:41], mode=BUILD, duration=0:00:06.789, duration_ms=6789, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:47:43], mode=BUILD, duration=0:00:00.321, duration_ms=321, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 16:47:50], mode=BUILD, duration=0:00:06.686, duration_ms=6686, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 18:29:09], mode=WORKBENCH_START, duration=0:00:09.451, duration_ms=9451, data={}
+timestamp=[2025-09-10 18:29:10], mode=WORKBENCH_UI_INIT, duration=0:00:00.785, duration_ms=785, data={editors_count=24, platform_editors_count=16, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hdmi_zed,Hdmi_zed_system,RemoteSystemsTempFiles,Vdma_test}
+timestamp=[2025-09-10 18:29:11], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.321, duration_ms=321, data={}
+timestamp=[2025-09-10 18:34:21], mode=PLATFORM_GENERATION, duration=0:00:17.099, duration_ms=17099, data={name=Vdma_test}
+timestamp=[2025-09-10 18:34:27], mode=BUILD, duration=0:00:00.435, duration_ms=435, data={name=Hdmi_zed, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 18:34:35], mode=BUILD, duration=0:00:07.175, duration_ms=7175, data={name=Hdmi_zed_system, configuration=Debug, clean_build=false}
+timestamp=[2025-09-10 20:03:17], mode=WORKBENCH_START, duration=0:00:08.666, duration_ms=8666, data={}
+timestamp=[2025-09-10 20:03:18], mode=WORKBENCH_UI_INIT, duration=0:00:00.684, duration_ms=684, data={editors_count=24, platform_editors_count=16, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hdmi_zed,Hdmi_zed_system,RemoteSystemsTempFiles,Vdma_test}
+timestamp=[2025-09-10 20:03:18], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.301, duration_ms=301, data={}

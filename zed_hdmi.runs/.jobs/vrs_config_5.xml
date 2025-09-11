@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_auto_pc_0_synth_1" LaunchDir="C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/design_1_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_pc_1_synth_1" LaunchDir="C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/design_1_auto_pc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_1_auto_pc_0_synth_1"/>
+	</Run>
+	<Run Id="design_1_auto_pc_2_synth_1" LaunchDir="C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/design_1_auto_pc_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axi_bram_ctrl_0_0_synth_1" LaunchDir="C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/design_1_axi_bram_ctrl_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axi_iic_0_0_synth_1" LaunchDir="C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/design_1_axi_iic_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axi_smc_0_synth_1" LaunchDir="C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/design_1_axi_smc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axi_vdma_0_0_synth_1" LaunchDir="C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/design_1_axi_vdma_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_blk_mem_gen_0_0_synth_1" LaunchDir="C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/design_1_blk_mem_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_c_rsample_0_0_synth_1" LaunchDir="C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/design_1_c_rsample_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_clk_wiz_0_0_synth_1" LaunchDir="C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/design_1_clk_wiz_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_processing_system7_0_0_synth_1" LaunchDir="C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/design_1_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_rst_clk_wiz_0_148M_0_synth_1" LaunchDir="C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/design_1_rst_clk_wiz_0_148M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_top_0_1_synth_1" LaunchDir="C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/design_1_top_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_v_axi4s_vid_out_0_0_synth_1" LaunchDir="C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/design_1_v_axi4s_vid_out_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_v_rgb2ycrcb_0_0_synth_1" LaunchDir="C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/design_1_v_rgb2ycrcb_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_v_tc_0_0_synth_1" LaunchDir="C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/design_1_v_tc_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xbar_0_synth_1" LaunchDir="C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/design_1_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_zed_hdmi_out_0_0_synth_1" LaunchDir="C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/design_1_zed_hdmi_out_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+		<Parameter Name="general.shortenLongPath" Val="true" Type="bool"/>
+	</Parameters>
+	<ProductInfo Name="vivado"/>
+</Runs>
+

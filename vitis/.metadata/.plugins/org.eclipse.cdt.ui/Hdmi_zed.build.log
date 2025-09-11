@@ -1,0 +1,10 @@
+18:34:26 **** Incremental Build of configuration Debug for project Hdmi_zed ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+make[1]: Nothing to be done for 'main-build'.
+
+18:34:27 Build Finished (took 411ms)
+

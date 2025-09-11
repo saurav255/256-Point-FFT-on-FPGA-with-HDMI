@@ -1,0 +1,71 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "3 1 4",
+    "file": "v_csc.cpp",
+    "fileloc": 220,
+    "instructions": 167,
+    "loads": {
+      "T": 18
+    },
+    "name": "v_csc",
+    "stores": {
+      "L": 18
+    },
+    "total_instructions": 531
+  },
+  "1": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 91,
+    "instructions": 130,
+    "loads": {
+      "L": 17
+    },
+    "name": "v_csc_core",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 130
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 222,
+    "instructions": 4,
+    "name": "reg<unsigned short>",
+    "total_instructions": 4
+  },
+  "3": {
+    "basicblocks": 15,
+    "calls": "2 2",
+    "file": "v_csc.cpp",
+    "fileloc": 512,
+    "instructions": 121,
+    "loads": {
+      "L": 10
+    },
+    "name": "AXIvideo2MultiPixStream",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 129
+  },
+  "4": {
+    "basicblocks": 19,
+    "calls": "2 2",
+    "file": "v_csc.cpp",
+    "fileloc": 611,
+    "instructions": 97,
+    "loads": {
+      "L": 4
+    },
+    "name": "MultiPixStream2AXIvideo",
+    "stores": {
+      "L": 7
+    },
+    "total_instructions": 105
+  }
+}

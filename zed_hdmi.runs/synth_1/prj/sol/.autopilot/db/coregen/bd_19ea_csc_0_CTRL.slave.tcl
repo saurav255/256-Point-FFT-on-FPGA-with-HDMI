@@ -1,0 +1,4 @@
+dict set slaves bd_19ea_csc_0_CTRL {ports {InVideoFormat {type i_ap_none width 8} OutVideoFormat {type i_ap_none width 8} width {type i_ap_none width 16} height {type i_ap_none width 16} K11 {type i_ap_none width 16} K12 {type i_ap_none width 16} K13 {type i_ap_none width 16} K21 {type i_ap_none width 16} K22 {type i_ap_none width 16} K23 {type i_ap_none width 16} K31 {type i_ap_none width 16} K32 {type i_ap_none width 16} K33 {type i_ap_none width 16} ROffset {type i_ap_none width 10} GOffset {type i_ap_none width 10} BOffset {type i_ap_none width 10} ClampMin {type i_ap_none width 8} ClipMax {type i_ap_none width 8} ap_start {type ap_ctrl width 1} ap_done {type ap_ctrl width 1} ap_ready {type ap_ctrl width 1} ap_idle {type ap_ctrl width 1}} mems {} has_ctrl 1}
+set datawidth 32
+set addrwidth 64
+set intr_clr_mode TOW

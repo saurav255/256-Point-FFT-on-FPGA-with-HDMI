@@ -1,0 +1,183 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'Block_entry_split_proc'" level="0">
+<item name = "Date">Wed Sep 10 15:21:44 2025
+</item>
+<item name = "Version">2024.1 (Build 5069499 on May 21 2024)</item>
+<item name = "Project">prj</item>
+<item name = "Solution">sol (Vivado IP Flow Target)</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020-clg484-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">6.73 ns, 0 ns, 1.82 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">0, 0, 0 ns, 0 ns, 0, 0, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 2, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">-, -, -, -, -</column>
+<column name="Memory">-, -, -, -, -</column>
+<column name="Multiplexer">-, -, 0, 171, -</column>
+<column name="Register">-, -, 230, -, -</column>
+<specialColumn name="Available">280, 220, 106400, 53200, 0</specialColumn>
+<specialColumn name="Utilization (%)">0, 0, ~0, ~0, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+</table>
+</item>
+<item name = "DSP"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="ap_block_state1">or, 0, 0, 2, 1, 1</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_done">9, 2, 1, 2</column>
+<column name="ap_return_0">9, 2, 8, 16</column>
+<column name="ap_return_1">9, 2, 8, 16</column>
+<column name="ap_return_10">9, 2, 16, 32</column>
+<column name="ap_return_11">9, 2, 10, 20</column>
+<column name="ap_return_12">9, 2, 10, 20</column>
+<column name="ap_return_13">9, 2, 10, 20</column>
+<column name="ap_return_14">9, 2, 8, 16</column>
+<column name="ap_return_15">9, 2, 8, 16</column>
+<column name="ap_return_16">9, 2, 11, 22</column>
+<column name="ap_return_17">9, 2, 11, 22</column>
+<column name="ap_return_2">9, 2, 16, 32</column>
+<column name="ap_return_3">9, 2, 16, 32</column>
+<column name="ap_return_4">9, 2, 16, 32</column>
+<column name="ap_return_5">9, 2, 16, 32</column>
+<column name="ap_return_6">9, 2, 16, 32</column>
+<column name="ap_return_7">9, 2, 16, 32</column>
+<column name="ap_return_8">9, 2, 16, 32</column>
+<column name="ap_return_9">9, 2, 16, 32</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">1, 0, 1, 0</column>
+<column name="ap_done_reg">1, 0, 1, 0</column>
+<column name="ap_return_0_preg">8, 0, 8, 0</column>
+<column name="ap_return_10_preg">16, 0, 16, 0</column>
+<column name="ap_return_11_preg">10, 0, 10, 0</column>
+<column name="ap_return_12_preg">10, 0, 10, 0</column>
+<column name="ap_return_13_preg">10, 0, 10, 0</column>
+<column name="ap_return_14_preg">8, 0, 8, 0</column>
+<column name="ap_return_15_preg">8, 0, 8, 0</column>
+<column name="ap_return_16_preg">11, 0, 11, 0</column>
+<column name="ap_return_17_preg">11, 0, 11, 0</column>
+<column name="ap_return_1_preg">8, 0, 8, 0</column>
+<column name="ap_return_2_preg">16, 0, 16, 0</column>
+<column name="ap_return_3_preg">16, 0, 16, 0</column>
+<column name="ap_return_4_preg">16, 0, 16, 0</column>
+<column name="ap_return_5_preg">16, 0, 16, 0</column>
+<column name="ap_return_6_preg">16, 0, 16, 0</column>
+<column name="ap_return_7_preg">16, 0, 16, 0</column>
+<column name="ap_return_8_preg">16, 0, 16, 0</column>
+<column name="ap_return_9_preg">16, 0, 16, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_continue">in, 1, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_return_0">out, 8, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_return_1">out, 8, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_return_2">out, 16, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_return_3">out, 16, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_return_4">out, 16, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_return_5">out, 16, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_return_6">out, 16, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_return_7">out, 16, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_return_8">out, 16, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_return_9">out, 16, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_return_10">out, 16, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_return_11">out, 10, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_return_12">out, 10, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_return_13">out, 10, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_return_14">out, 8, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_return_15">out, 8, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_return_16">out, 11, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="ap_return_17">out, 11, ap_ctrl_hs, Block_entry.split_proc, return value</column>
+<column name="InVideoFormat">in, 8, ap_none, InVideoFormat, pointer</column>
+<column name="OutVideoFormat">in, 8, ap_none, OutVideoFormat, pointer</column>
+<column name="width">in, 16, ap_none, width, pointer</column>
+<column name="height">in, 16, ap_none, height, pointer</column>
+<column name="K11">in, 16, ap_none, K11, pointer</column>
+<column name="K12">in, 16, ap_none, K12, pointer</column>
+<column name="K13">in, 16, ap_none, K13, pointer</column>
+<column name="K21">in, 16, ap_none, K21, pointer</column>
+<column name="K22">in, 16, ap_none, K22, pointer</column>
+<column name="K23">in, 16, ap_none, K23, pointer</column>
+<column name="K31">in, 16, ap_none, K31, pointer</column>
+<column name="K32">in, 16, ap_none, K32, pointer</column>
+<column name="K33">in, 16, ap_none, K33, pointer</column>
+<column name="ROffset">in, 10, ap_none, ROffset, pointer</column>
+<column name="GOffset">in, 10, ap_none, GOffset, pointer</column>
+<column name="BOffset">in, 10, ap_none, BOffset, pointer</column>
+<column name="ClampMin">in, 8, ap_none, ClampMin, pointer</column>
+<column name="ClipMax">in, 8, ap_none, ClipMax, pointer</column>
+</table>
+</item>
+</section>
+</profile>

@@ -1,0 +1,170 @@
+{
+    "1": {
+        "name": "AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start",
+        "file": "C:\/Vivado_Projects\/zed_hdmi\/zed_hdmi.runs\/synth_1\/prj\/sol\/.autopilot\/db\/v_csc.cpp",
+        "fileloc": "516",
+        "instructions": "26",
+        "total_instructions": "26",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "3"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "0": {
+        "name": "v_csc",
+        "file": "v_csc.cpp",
+        "fileloc": "220",
+        "instructions": "134",
+        "total_instructions": "594",
+        "calls": "10 9 4 8",
+        "basicblocks": "1"
+    },
+    "2": {
+        "name": "AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol",
+        "file": "C:\/Vivado_Projects\/zed_hdmi\/zed_hdmi.runs\/synth_1\/prj\/sol\/.autopilot\/db\/v_csc.cpp",
+        "fileloc": "516",
+        "instructions": "23",
+        "total_instructions": "23",
+        "calls": "",
+        "basicblocks": "4",
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "3": {
+        "name": "AXIvideo2MultiPixStream_Pipeline_loop_width",
+        "file": "C:\/Vivado_Projects\/zed_hdmi\/zed_hdmi.runs\/synth_1\/prj\/sol\/.autopilot\/db\/v_csc.cpp",
+        "fileloc": "516",
+        "instructions": "54",
+        "total_instructions": "54",
+        "calls": "",
+        "basicblocks": "6",
+        "loads": {
+            "L": "4"
+        },
+        "stores": {
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "4": {
+        "name": "v_csc_core",
+        "file": "C:\/Vivado_Projects\/zed_hdmi\/zed_hdmi.runs\/synth_1\/prj\/sol\/.autopilot\/db\/v_csc.cpp",
+        "fileloc": "91",
+        "instructions": "45",
+        "total_instructions": "163",
+        "calls": "6",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "5": {
+        "name": "reg<unsigned short>",
+        "file": "x_hls_utils.h",
+        "fileloc": "222",
+        "instructions": "4",
+        "total_instructions": "4",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "6": {
+        "name": "v_csc_core_Pipeline_VITIS_LOOP_136_2",
+        "file": "C:\/Vivado_Projects\/zed_hdmi\/zed_hdmi.runs\/synth_1\/prj\/sol\/.autopilot\/db\/v_csc.cpp",
+        "fileloc": "105",
+        "instructions": "118",
+        "total_instructions": "118",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "7": {
+        "name": "MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_664_2",
+        "file": "C:\/Vivado_Projects\/zed_hdmi\/zed_hdmi.runs\/synth_1\/prj\/sol\/.autopilot\/db\/v_csc.cpp",
+        "fileloc": "616",
+        "instructions": "52",
+        "total_instructions": "52",
+        "calls": "",
+        "basicblocks": "16",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "8": {
+        "name": "MultiPixStream2AXIvideo",
+        "file": "C:\/Vivado_Projects\/zed_hdmi\/zed_hdmi.runs\/synth_1\/prj\/sol\/.autopilot\/db\/v_csc.cpp",
+        "fileloc": "622",
+        "instructions": "26",
+        "total_instructions": "86",
+        "calls": "5 5 7",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "9": {
+        "name": "AXIvideo2MultiPixStream",
+        "file": "C:\/Vivado_Projects\/zed_hdmi\/zed_hdmi.runs\/synth_1\/prj\/sol\/.autopilot\/db\/v_csc.cpp",
+        "fileloc": "516",
+        "instructions": "43",
+        "total_instructions": "154",
+        "calls": "5 5 1 3 2",
+        "basicblocks": "4",
+        "loads": {
+            "L": "5"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "10": {
+        "name": "Block_entry.split_proc",
+        "file": "C:\/Vivado_Projects\/zed_hdmi\/zed_hdmi.runs\/synth_1\/prj\/sol\/.autopilot\/db\/v_csc.cpp",
+        "fileloc": "369",
+        "instructions": "57",
+        "total_instructions": "57",
+        "calls": "",
+        "basicblocks": "1"
+    }
+}

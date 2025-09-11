@@ -1,0 +1,493 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Wed Sep 10 15:20:36 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'Saurav Kumar' on host 'saurav' (Windows NT_amd64 version 10.0) on Wed Sep 10 15:20:40 +0530 2025
+INFO: [HLS 200-10] In directory 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1'
+Sourcing Tcl script 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/runhls.tcl'
+INFO: [HLS 200-1510] Running: open_project -reset prj 
+INFO: [HLS 200-10] Creating and opening project 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj'.
+INFO: [HLS 200-1510] Running: set_top v_csc 
+INFO: [HLS 200-1510] Running: open_solution sol 
+INFO: [HLS 200-10] Creating and opening solution 'C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1510] Running: add_files -cflags  -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src  c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/v_csc_config.h 
+INFO: [HLS 200-10] Adding design file 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/v_csc_config.h' to the project
+INFO: [HLS 200-1510] Running: add_files -cflags  -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src  c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/v_csc.cpp 
+INFO: [HLS 200-10] Adding design file 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/v_csc.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -cflags  -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src  c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/v_csc.h 
+INFO: [HLS 200-10] Adding design file 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/v_csc.h' to the project
+INFO: [HLS 200-1510] Running: add_files -cflags  -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src  c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls_video.h 
+INFO: [HLS 200-10] Adding design file 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls_video.h' to the project
+INFO: [HLS 200-1510] Running: add_files -cflags  -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src  c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls_opencv.h 
+INFO: [HLS 200-10] Adding design file 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls_opencv.h' to the project
+INFO: [HLS 200-1510] Running: add_files -cflags  -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src  c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_axi_io.h 
+INFO: [HLS 200-10] Adding design file 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_axi_io.h' to the project
+INFO: [HLS 200-1510] Running: add_files -cflags  -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src  c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_arithm.h 
+INFO: [HLS 200-10] Adding design file 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_arithm.h' to the project
+INFO: [HLS 200-1510] Running: add_files -cflags  -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src  c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_core.h 
+INFO: [HLS 200-10] Adding design file 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_core.h' to the project
+INFO: [HLS 200-1510] Running: add_files -cflags  -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src  c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_fast.h 
+INFO: [HLS 200-10] Adding design file 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_fast.h' to the project
+INFO: [HLS 200-1510] Running: add_files -cflags  -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src  c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_haar.h 
+INFO: [HLS 200-10] Adding design file 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_haar.h' to the project
+INFO: [HLS 200-1510] Running: add_files -cflags  -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src  c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_harris.h 
+INFO: [HLS 200-10] Adding design file 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_harris.h' to the project
+INFO: [HLS 200-1510] Running: add_files -cflags  -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src  c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_histogram.h 
+INFO: [HLS 200-10] Adding design file 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_histogram.h' to the project
+INFO: [HLS 200-1510] Running: add_files -cflags  -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src  c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_hough.h 
+INFO: [HLS 200-10] Adding design file 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_hough.h' to the project
+INFO: [HLS 200-1510] Running: add_files -cflags  -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src  c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_imgbase.h 
+INFO: [HLS 200-10] Adding design file 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_imgbase.h' to the project
+INFO: [HLS 200-1510] Running: add_files -cflags  -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src  c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_imgproc.h 
+INFO: [HLS 200-10] Adding design file 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_imgproc.h' to the project
+INFO: [HLS 200-1510] Running: add_files -cflags  -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src  c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_io.h 
+INFO: [HLS 200-10] Adding design file 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_io.h' to the project
+INFO: [HLS 200-1510] Running: add_files -cflags  -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src  c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_mem.h 
+INFO: [HLS 200-10] Adding design file 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_mem.h' to the project
+INFO: [HLS 200-1510] Running: add_files -cflags  -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src  c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_stereobm.h 
+INFO: [HLS 200-10] Adding design file 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_stereobm.h' to the project
+INFO: [HLS 200-1510] Running: add_files -cflags  -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src  c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_types.h 
+INFO: [HLS 200-10] Adding design file 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_types.h' to the project
+INFO: [HLS 200-1510] Running: add_files -cflags  -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls -I c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src  c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_undistort.h 
+INFO: [HLS 200-10] Adding design file 'c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_undistort.h' to the project
+INFO: [HLS 200-1510] Running: create_clock -period 6.734 -name ap_clk 
+INFO: [SYN 201-201] Setting up clock 'ap_clk' with a period of 6.734ns.
+INFO: [HLS 200-1510] Running: config_rtl -module_prefix bd_19ea_csc_0_ 
+INFO: [HLS 200-1510] Running: config_export -vendor xilinx.com -library ip -version 1.1 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.184 seconds; current allocated memory: 174.469 MB.
+INFO: [HLS 200-10] Analyzing design file '../../zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/v_csc.cpp' ... 
+WARNING: [HLS 214-114] Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:438:9)
+Resolution: For help on HLS 214-114 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=214-114.html
+WARNING: [HLS 214-169] There are a total of 15 such instances of non-canonical statements in the dataflow region (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:438:9)
+Resolution: For help on HLS 214-169 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=214-169.html
+WARNING: [HLS 200-471] Dataflow form checks found 2 issue(s) in file ../../zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/v_csc.cpp
+Resolution: For help on HLS 200-471 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-471.html
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 8 seconds. CPU system time: 0 seconds. Elapsed time: 42.52 seconds; current allocated memory: 192.941 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 1,985 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 876 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 631 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 644 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 643 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 499 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 499 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 505 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 579 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 635 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 649 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 628 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 550 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 550 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 519 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 531 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-131] Inlining function 'void hls::AXIGetBitFields<24, ap_uint<8> >(ap_uint<24>, int, int, ap_uint<8>&)' into 'void hls::AXIGetBitFields<24, ap_uint<8> >(hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, int, int, ap_uint<8>&)' (c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_axi_io.h:85:2)
+INFO: [HLS 214-131] Inlining function 'hls::Scalar<3, ap_uint<8> >::Scalar()' into 'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:517:18)
+INFO: [HLS 214-131] Inlining function 'void hls::AXIGetBitFields<24, ap_uint<8> >(hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, int, int, ap_uint<8>&)' into 'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:573:6)
+INFO: [HLS 214-131] Inlining function 'void hls::AXIGetBitFields<24, ap_uint<8> >(hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, int, int, ap_uint<8>&)' into 'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:572:6)
+INFO: [HLS 214-131] Inlining function 'void hls::AXIGetBitFields<24, ap_uint<8> >(hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, int, int, ap_uint<8>&)' into 'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:571:2)
+INFO: [HLS 214-131] Inlining function 'hls::Scalar<3, ap_uint<8> >::Scalar()' into 'v_csc_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, short&, short&, short&, short&, short&, short&, short&, short&, short&, ap_int<10>&, ap_int<10>&, ap_int<10>&, ap_uint<8>&, ap_uint<8>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:127:18)
+INFO: [HLS 214-131] Inlining function 'hls::Scalar<3, ap_uint<8> >::Scalar()' into 'v_csc_core(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, short&, short&, short&, short&, short&, short&, short&, short&, short&, ap_int<10>&, ap_int<10>&, ap_int<10>&, ap_uint<8>&, ap_uint<8>&, hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&)' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:128:18)
+INFO: [HLS 214-131] Inlining function 'hls::Scalar<3, ap_uint<8> >::Scalar()' into 'MultiPixStream2AXIvideo(hls::stream<hls::Scalar<3, ap_uint<8> >, 0>&, hls::stream<hls::axis<ap_uint<24>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, unsigned short&, unsigned short&, unsigned char&)' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:615:18)
+INFO: [HLS 214-377] Adding 'pix' into disaggregation list because there's array-partition pragma applied on the struct field (c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_core.h:198:9)
+INFO: [HLS 214-377] Adding 'dstPix' into disaggregation list because there's array-partition pragma applied on the struct field (c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_core.h:198:9)
+INFO: [HLS 214-377] Adding 'srcPix' into disaggregation list because there's array-partition pragma applied on the struct field (c:/Vivado_Projects/zed_hdmi/zed_hdmi.srcs/sources_1/bd/design_1/ip/design_1_v_proc_ss_0_1/bd_0/ip/ip_0/src/hls/hls_video_core.h:198:9)
+INFO: [HLS 214-210] Disaggregating variable 'pix' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:517:18)
+Resolution: For help on HLS 214-210 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=214-210.html
+INFO: [HLS 214-210] Disaggregating variable 'dstPix' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:128:18)
+Resolution: For help on HLS 214-210 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=214-210.html
+INFO: [HLS 214-210] Disaggregating variable 'srcPix' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:127:18)
+Resolution: For help on HLS 214-210 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=214-210.html
+INFO: [HLS 214-210] Disaggregating variable 'pix' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:615:18)
+Resolution: For help on HLS 214-210 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=214-210.html
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_688_3' is marked as complete unroll implied by the pipeline pragma (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:688:22)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_690_4' is marked as complete unroll implied by the pipeline pragma (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:690:23)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_142_3' is marked as complete unroll implied by the pipeline pragma (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:142:22)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_563_1' is marked as complete unroll implied by the pipeline pragma (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:563:22)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_565_2' is marked as complete unroll implied by the pipeline pragma (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:565:23)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_688_3' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:688:22) in function 'MultiPixStream2AXIvideo' completely with a factor of 1 (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:613:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_690_4' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:690:23) in function 'MultiPixStream2AXIvideo' completely with a factor of 3 (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:613:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_142_3' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:142:22) in function 'v_csc_core' completely with a factor of 1 (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:104:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_563_1' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:563:22) in function 'AXIvideo2MultiPixStream' completely with a factor of 1 (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:514:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_565_2' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:565:23) in function 'AXIvideo2MultiPixStream' completely with a factor of 3 (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:514:0)
+INFO: [HLS 214-241] Aggregating fifo (hls::stream) variable 'stream_csc' with compact=bit mode in 24-bits (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:434:24)
+INFO: [HLS 214-241] Aggregating fifo (hls::stream) variable 'stream_in' with compact=bit mode in 24-bits (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:431:24)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 9.731 seconds; current allocated memory: 194.258 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.015 seconds; current allocated memory: 194.270 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.185 seconds; current allocated memory: 200.012 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.114 seconds; current allocated memory: 203.004 MB.
+WARNING: [XFORM 203-561] Updating loop upper bound from 65535 to 1920 for loop 'VITIS_LOOP_664_2' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:661:7) in function 'MultiPixStream2AXIvideo'.
+WARNING: [XFORM 203-561] Updating loop lower bound from 0 to 64 for loop 'VITIS_LOOP_664_2' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:661:7) in function 'MultiPixStream2AXIvideo'.
+WARNING: [XFORM 203-561] Ignored invalid trip count directive (MAX (= 1920) < AVE (= 32767)) for loop 'VITIS_LOOP_664_2' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:661:7) in function 'MultiPixStream2AXIvideo'.
+WARNING: [XFORM 203-561] Updating loop upper bound from 65535 to 1080 for loop 'VITIS_LOOP_662_1' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:661:7) in function 'MultiPixStream2AXIvideo'.
+WARNING: [XFORM 203-561] Updating loop lower bound from 0 to 64 for loop 'VITIS_LOOP_662_1' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:661:7) in function 'MultiPixStream2AXIvideo'.
+WARNING: [XFORM 203-561] Ignored invalid trip count directive (MAX (= 1080) < AVE (= 32767)) for loop 'VITIS_LOOP_662_1' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:661:7) in function 'MultiPixStream2AXIvideo'.
+WARNING: [XFORM 203-561] Updating loop upper bound from 65535 to 1920 for loop 'loop_width' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:516:32) in function 'AXIvideo2MultiPixStream'.
+WARNING: [XFORM 203-561] Updating loop lower bound from 0 to 64 for loop 'loop_width' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:516:32) in function 'AXIvideo2MultiPixStream'.
+WARNING: [XFORM 203-561] Ignored invalid trip count directive (MAX (= 1920) < AVE (= 32767)) for loop 'loop_width' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:516:32) in function 'AXIvideo2MultiPixStream'.
+WARNING: [XFORM 203-561] Updating loop upper bound from 65535 to 1080 for loop 'loop_height' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:516:32) in function 'AXIvideo2MultiPixStream'.
+WARNING: [XFORM 203-561] Updating loop lower bound from 0 to 64 for loop 'loop_height' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:516:32) in function 'AXIvideo2MultiPixStream'.
+WARNING: [XFORM 203-561] Ignored invalid trip count directive (MAX (= 1080) < AVE (= 32767)) for loop 'loop_height' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:516:32) in function 'AXIvideo2MultiPixStream'.
+INFO: [XFORM 203-712] Applying dataflow to function 'v_csc' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:220:1), detected/extracted 4 process function(s): 
+	 'Block_entry.split_proc'
+	 'AXIvideo2MultiPixStream'
+	 'v_csc_core'
+	 'MultiPixStream2AXIvideo'.
+WARNING: [XFORM 203-561] Updating loop upper bound from 32766 to 2047 for loop 'VITIS_LOOP_136_2' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:105:9) in function 'v_csc_core'.
+WARNING: [XFORM 203-561] Ignored invalid trip count directive (MAX (= 2047) < AVE (= 16383)) for loop 'VITIS_LOOP_136_2' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:105:9) in function 'v_csc_core'.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.594 seconds; current allocated memory: 226.996 MB.
+WARNING: [HLS 200-1614] Cosimulation may deadlock if process AXIvideo2MultiPixStream has a streamed top-level array input and has predecessor processes. If a deadlock occurs, please consider converting the streamed array into an hls::stream
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.387 seconds; current allocated memory: 308.465 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'v_csc' ...
+WARNING: [SYN 201-103] Legalizing function name 'Block_entry.split_proc' to 'Block_entry_split_proc'.
+WARNING: [SYN 201-103] Legalizing function name 'reg<unsigned short>' to 'reg_unsigned_short_s'.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'Block_entry_split_proc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.862 seconds; current allocated memory: 311.555 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.122 seconds; current allocated memory: 313.062 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'reg_unsigned_short_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'reg<unsigned short>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'reg<unsigned short>'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.161 seconds; current allocated memory: 314.008 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.102 seconds; current allocated memory: 314.035 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_wait_for_start'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 1, loop 'loop_wait_for_start'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.126 seconds; current allocated memory: 314.336 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.111 seconds; current allocated memory: 314.512 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'AXIvideo2MultiPixStream_Pipeline_loop_width' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_width'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, loop 'loop_width'
+WARNING: [HLS 200-871] Estimated clock period (5.302 ns) exceeds the target (target clock period: 6.734 ns, clock uncertainty: 1.818 ns, effective delay budget: 4.916 ns).
+Resolution: For help on HLS 200-871 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-871.html
+WARNING: [HLS 200-1016] The critical path in module 'AXIvideo2MultiPixStream_Pipeline_loop_width' consists of the following:
+	'store' operation 0 bit ('j_write_ln545', C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:545) of constant 0 on local variable 'j', C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:545 [35]  (1.588 ns)
+	'load' operation 11 bit ('j', C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:545) on local variable 'j', C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:545 [40]  (0.000 ns)
+	'icmp' operation 1 bit ('icmp_ln545', C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:545) [41]  (1.639 ns)
+	axis read operation ('empty', C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:556) on port 's_axis_video_V_data_V' (C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:556) [51]  (0.487 ns)
+	'store' operation 0 bit ('axi_last_write_ln516', C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:516) of variable 'axi.last', C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:556 on local variable 'axi.last', C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/.autopilot/db/v_csc.cpp:516 [54]  (1.588 ns)
+
+Resolution: For help on HLS 200-1016 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1016.html
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.193 seconds; current allocated memory: 314.906 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.124 seconds; current allocated memory: 315.137 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_wait_for_eol'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 1, loop 'loop_wait_for_eol'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.168 seconds; current allocated memory: 315.355 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.107 seconds; current allocated memory: 315.598 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'AXIvideo2MultiPixStream' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.121 seconds; current allocated memory: 315.895 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.127 seconds; current allocated memory: 316.082 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'v_csc_core_Pipeline_VITIS_LOOP_136_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln196) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln194) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln192) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_136_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 7, loop 'VITIS_LOOP_136_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.297 seconds; current allocated memory: 316.914 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.135 seconds; current allocated memory: 317.355 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'v_csc_core' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.16 seconds; current allocated memory: 317.527 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.133 seconds; current allocated memory: 317.594 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_664_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_664_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 3, loop 'VITIS_LOOP_664_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.171 seconds; current allocated memory: 318.023 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.138 seconds; current allocated memory: 318.039 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'MultiPixStream2AXIvideo' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.134 seconds; current allocated memory: 318.301 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.137 seconds; current allocated memory: 318.422 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'v_csc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+WARNING: [HLS 200-1020] Increasing the depth of FIFO HwReg_OutVideoFormat_channel (from Block_entry_split_proc_U0 to MultiPixStream2AXIvideo_U0) to 4 to improve performance and/or avoid deadlocks.
+WARNING: [HLS 200-1020] Increasing the depth of FIFO HwReg_K11_channel (from Block_entry_split_proc_U0 to v_csc_core_U0) to 3 to improve performance and/or avoid deadlocks.
+WARNING: [HLS 200-1020] Increasing the depth of FIFO HwReg_K12_channel (from Block_entry_split_proc_U0 to v_csc_core_U0) to 3 to improve performance and/or avoid deadlocks.
+WARNING: [HLS 200-1020] Increasing the depth of FIFO HwReg_K13_channel (from Block_entry_split_proc_U0 to v_csc_core_U0) to 3 to improve performance and/or avoid deadlocks.
+WARNING: [HLS 200-1020] Increasing the depth of FIFO HwReg_K21_channel (from Block_entry_split_proc_U0 to v_csc_core_U0) to 3 to improve performance and/or avoid deadlocks.
+WARNING: [HLS 200-1020] Increasing the depth of FIFO HwReg_K22_channel (from Block_entry_split_proc_U0 to v_csc_core_U0) to 3 to improve performance and/or avoid deadlocks.
+WARNING: [HLS 200-1020] Increasing the depth of FIFO HwReg_K23_channel (from Block_entry_split_proc_U0 to v_csc_core_U0) to 3 to improve performance and/or avoid deadlocks.
+WARNING: [HLS 200-1020] Increasing the depth of FIFO HwReg_K31_channel (from Block_entry_split_proc_U0 to v_csc_core_U0) to 3 to improve performance and/or avoid deadlocks.
+WARNING: [HLS 200-1020] Increasing the depth of FIFO HwReg_K32_channel (from Block_entry_split_proc_U0 to v_csc_core_U0) to 3 to improve performance and/or avoid deadlocks.
+WARNING: [HLS 200-1020] Increasing the depth of FIFO HwReg_K33_channel (from Block_entry_split_proc_U0 to v_csc_core_U0) to 3 to improve performance and/or avoid deadlocks.
+WARNING: [HLS 200-1020] Increasing the depth of FIFO HwReg_ROffset_channel (from Block_entry_split_proc_U0 to v_csc_core_U0) to 3 to improve performance and/or avoid deadlocks.
+WARNING: [HLS 200-1020] Increasing the depth of FIFO HwReg_GOffset_channel (from Block_entry_split_proc_U0 to v_csc_core_U0) to 3 to improve performance and/or avoid deadlocks.
+WARNING: [HLS 200-1020] Increasing the depth of FIFO HwReg_BOffset_channel (from Block_entry_split_proc_U0 to v_csc_core_U0) to 3 to improve performance and/or avoid deadlocks.
+WARNING: [HLS 200-1020] Increasing the depth of FIFO HwReg_ClampMin_channel (from Block_entry_split_proc_U0 to v_csc_core_U0) to 3 to improve performance and/or avoid deadlocks.
+WARNING: [HLS 200-1020] Increasing the depth of FIFO HwReg_ClipMax_channel (from Block_entry_split_proc_U0 to v_csc_core_U0) to 3 to improve performance and/or avoid deadlocks.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.441 seconds; current allocated memory: 319.410 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.138 seconds; current allocated memory: 320.176 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'Block_entry_split_proc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'Block_entry_split_proc'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.184 seconds; current allocated memory: 322.703 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'reg_unsigned_short_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'reg_unsigned_short_s' pipeline 'reg<unsigned short>' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'reg_unsigned_short_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.303 seconds; current allocated memory: 324.383 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.171 seconds; current allocated memory: 324.680 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'AXIvideo2MultiPixStream_Pipeline_loop_width' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'AXIvideo2MultiPixStream_Pipeline_loop_width' pipeline 'loop_width' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'AXIvideo2MultiPixStream_Pipeline_loop_width'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.221 seconds; current allocated memory: 325.395 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.264 seconds; current allocated memory: 326.430 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'AXIvideo2MultiPixStream' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'AXIvideo2MultiPixStream'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.258 seconds; current allocated memory: 327.918 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'v_csc_core_Pipeline_VITIS_LOOP_136_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'v_csc_core_Pipeline_VITIS_LOOP_136_2' pipeline 'VITIS_LOOP_136_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_16s_8ns_22s_25_4_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_16s_8ns_24_2_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_8ns_16s_24_2_1': 3 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'v_csc_core_Pipeline_VITIS_LOOP_136_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.401 seconds; current allocated memory: 330.180 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'v_csc_core' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'v_csc_core'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.441 seconds; current allocated memory: 332.496 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_664_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_664_2' pipeline 'VITIS_LOOP_664_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_664_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.26 seconds; current allocated memory: 333.699 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'MultiPixStream2AXIvideo' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'MultiPixStream2AXIvideo'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.31 seconds; current allocated memory: 335.230 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'v_csc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/s_axis_video_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/s_axis_video_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/s_axis_video_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/s_axis_video_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/s_axis_video_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/s_axis_video_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/s_axis_video_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/InVideoFormat' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/OutVideoFormat' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/width' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/height' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/K11' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/K12' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/K13' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/K21' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/K22' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/K23' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/K31' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/K32' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/K33' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/ROffset' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/GOffset' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/BOffset' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/ClampMin' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/ClipMax' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/m_axis_video_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/m_axis_video_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/m_axis_video_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/m_axis_video_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/m_axis_video_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/m_axis_video_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'v_csc/m_axis_video_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'v_csc' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'InVideoFormat', 'OutVideoFormat', 'width', 'height', 'K11', 'K12', 'K13', 'K21', 'K22', 'K23', 'K31', 'K32', 'K33', 'ROffset', 'GOffset', 'BOffset', 'ClampMin', 'ClipMax' to AXI-Lite port CTRL.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'v_csc'.
+INFO: [RTMG 210-285] Implementing FIFO 'HwReg_InVideoFormat_channel_U(bd_19ea_csc_0_fifo_w8_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'HwReg_OutVideoFormat_channel_U(bd_19ea_csc_0_fifo_w8_d4_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'HwReg_K11_channel_U(bd_19ea_csc_0_fifo_w16_d3_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'HwReg_K12_channel_U(bd_19ea_csc_0_fifo_w16_d3_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'HwReg_K13_channel_U(bd_19ea_csc_0_fifo_w16_d3_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'HwReg_K21_channel_U(bd_19ea_csc_0_fifo_w16_d3_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'HwReg_K22_channel_U(bd_19ea_csc_0_fifo_w16_d3_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'HwReg_K23_channel_U(bd_19ea_csc_0_fifo_w16_d3_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'HwReg_K31_channel_U(bd_19ea_csc_0_fifo_w16_d3_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'HwReg_K32_channel_U(bd_19ea_csc_0_fifo_w16_d3_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'HwReg_K33_channel_U(bd_19ea_csc_0_fifo_w16_d3_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'HwReg_ROffset_channel_U(bd_19ea_csc_0_fifo_w10_d3_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'HwReg_GOffset_channel_U(bd_19ea_csc_0_fifo_w10_d3_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'HwReg_BOffset_channel_U(bd_19ea_csc_0_fifo_w10_d3_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'HwReg_ClampMin_channel_U(bd_19ea_csc_0_fifo_w8_d3_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'HwReg_ClipMax_channel_U(bd_19ea_csc_0_fifo_w8_d3_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'HwReg_width_c4_channel_U(bd_19ea_csc_0_fifo_w11_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'HwReg_height_c6_channel_U(bd_19ea_csc_0_fifo_w11_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'stream_in_U(bd_19ea_csc_0_fifo_w24_d16_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'HwReg_width_c3_U(bd_19ea_csc_0_fifo_w11_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'HwReg_height_c5_U(bd_19ea_csc_0_fifo_w11_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'stream_csc_U(bd_19ea_csc_0_fifo_w24_d16_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'HwReg_width_c_U(bd_19ea_csc_0_fifo_w11_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'HwReg_height_c_U(bd_19ea_csc_0_fifo_w11_d2_S)' using Shift Registers.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.665 seconds; current allocated memory: 338.406 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 1.54 seconds; current allocated memory: 341.797 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 3 seconds. CPU system time: 1 seconds. Elapsed time: 5.388 seconds; current allocated memory: 351.246 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for v_csc with prefix bd_19ea_csc_0_.
+INFO: [VLOG 209-307] Generating Verilog RTL for v_csc with prefix bd_19ea_csc_0_.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 188.61 MHz
+INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:01:11; Allocated memory: 177.438 MB.
+INFO: [HLS 200-1510] Running: export_design -format ip_catalog 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Wed Sep 10 15:22:06 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: calling package_hls_ip ip_types=vitis sysgen json_file=C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/sol_data.json outdir=C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/impl/ip srcdir=C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol sort_interfaces_ports=false
+INFO: Copied 1 ipmisc file(s) to C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/impl/ip/misc
+INFO: Copied 30 verilog file(s) to C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/impl/ip/hdl/verilog
+INFO: Copied 24 vhdl file(s) to C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/impl/ip/hdl/vhdl
+INFO: Copied 10 swdriver file(s) to C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/impl/ip/drivers
+ipx::create_core: Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 594.801 ; gain = 230.461
+INFO: Import ports from HDL: C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/impl/ip/hdl/vhdl/bd_19ea_csc_0_v_csc.vhd (bd_19ea_csc_0_v_csc)
+INFO: Add axi4lite interface s_axi_CTRL
+INFO: Add clock interface ap_clk
+INFO: Add reset interface ap_rst_n
+INFO: Add interrupt interface interrupt
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+INFO: Add axi4stream interface s_axis_video
+INFO: Add axi4stream interface m_axis_video
+INFO: Calling post_process_vitis to specialize IP
+INFO: Calling post_process_sysgen to specialize IP
+Generating sysgen info xml from json file
+INFO: Created IP C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/impl/ip/component.xml
+INFO: Created IP archive C:/Vivado_Projects/zed_hdmi/zed_hdmi.runs/synth_1/prj/sol/impl/ip/xilinx_com_ip_v_csc_1_1.zip
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 10 15:22:27 2025...
+INFO: [HLS 200-802] Generated output file prj/sol/impl/export.zip
+INFO: [HLS 200-2161] Finished Command export_design Elapsed time: 00:00:31; Allocated memory: 6.105 MB.
+INFO: [HLS 200-112] Total CPU user time: 21 seconds. Total CPU system time: 7 seconds. Total elapsed time: 109.704 seconds; peak allocated memory: 357.473 MB.
