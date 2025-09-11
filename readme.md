@@ -1,0 +1,1 @@
+This reposotory contains all the files that I created to make custom 256 point RAM based sequential FFT on FPGA. I also integrated HDMI in this to make a full spectrum analyzer.
