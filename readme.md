@@ -36,7 +36,9 @@ The FFT core is written from scratch using state machines, verified in simulatio
 
 ## Block Design
 
-The system integrates Zynq PS, HDMI pipeline, BRAM interface, and custom FFT module.
+The system integrates Zynq PS, HDMI pipeline, BRAM interface, and the custom FFT module.
+
+Key components used in the design:
 
 * Zynq Processing System (PS)
 * AXI SmartConnect & AXI BRAM Controller
@@ -48,10 +50,22 @@ The system integrates Zynq PS, HDMI pipeline, BRAM interface, and custom FFT mod
 * AXI4-Stream to Video Out
 * HDMI output interface
 
-*(Block design diagram below)*
-![Block Design](docs/block_design.pdf)
+### HDMI Video Pipeline (Zoomed View)
 
-The exported design shows the full integration of PS, AXI interconnects, BRAM, HDMI video chain, and the custom FFT core driving the system .
+Below is a focused view of the HDMI/video processing section from the Vivado block design showing:
+
+- AXI VDMA  
+- Video Processing Subsystem  
+- Video Timing Controller  
+- AXI4-Stream to Video Out  
+- HDMI output path  
+
+![HDMI Video Pipeline Block Design](docs/block_design_zoom.png)
+
+For the complete block diagram with all interconnects and FFT integration, see the full design exported from Vivado:
+
+📄 **Full Block Design (PDF):**  
+[Open Block Design PDF](docs/block_design.pdf)
 
 ---
 
@@ -101,7 +115,7 @@ Real-time signals were injected using Analog Discovery and XADC headers.
 * Multi-tone combinations
 * Observed peaks on HDMI display
 
-![Hardware Setup & HDMI Output](docs/hardware_setup_hdmi_output.jpg)
+![Hardware Setup & HDMI Output](docs/hardware_setup_hdmi_output.png)
 
 This demonstrates the project functioning as a real-time spectrum analyzer.
 
