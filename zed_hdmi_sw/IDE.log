@@ -1,0 +1,18 @@
+12:29:38 DEBUG : Logs will be stored at 'C:/Vivado_Projects/zed_hdmi/zed_hdmi_sw/IDE.log'.
+12:29:41 INFO  : Registering command handlers for Vitis TCF services
+12:29:41 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Vivado_Projects\zed_hdmi\zed_hdmi_sw\temp_xsdb_launch_script.tcl
+12:29:42 ERROR : (XSDB Server)'\gnu\microblaze\lin\bin\' is not recognized as an internal or external command,
+operable program or batch file.
+
+12:29:42 ERROR : (XSDB Server)'\gnu\microblaze\nt\bin\' is not recognized as an internal or external command,
+operable program or batch file.
+
+12:29:42 ERROR : (XSDB Server)'\gnuwin\bin\' is not recognized as an internal or external command,
+operable program or batch file.
+
+12:29:42 INFO  : Platform repository initialization has completed.
+12:29:47 INFO  : XSCT server has started successfully.
+12:29:59 INFO  : plnx-install-location is set to ''
+12:29:59 INFO  : Successfully done setting XSCT server connection channel  
+12:29:59 INFO  : Successfully done query RDI_DATADIR 
+12:29:59 INFO  : Successfully done setting workspace for the tool. 

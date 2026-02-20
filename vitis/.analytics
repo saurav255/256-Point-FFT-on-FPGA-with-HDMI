@@ -380,3 +380,6 @@ timestamp=[2025-09-10 18:34:35], mode=BUILD, duration=0:00:07.175, duration_ms=7
 timestamp=[2025-09-10 20:03:17], mode=WORKBENCH_START, duration=0:00:08.666, duration_ms=8666, data={}
 timestamp=[2025-09-10 20:03:18], mode=WORKBENCH_UI_INIT, duration=0:00:00.684, duration_ms=684, data={editors_count=24, platform_editors_count=16, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hdmi_zed,Hdmi_zed_system,RemoteSystemsTempFiles,Vdma_test}
 timestamp=[2025-09-10 20:03:18], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.301, duration_ms=301, data={}
+timestamp=[2026-02-16 12:30:41], mode=WORKBENCH_START, duration=0:00:07.452, duration_ms=7452, data={}
+timestamp=[2026-02-16 12:30:42], mode=WORKBENCH_UI_INIT, duration=0:00:00.842, duration_ms=842, data={editors_count=24, platform_editors_count=16, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Hdmi_zed,Hdmi_zed_system,RemoteSystemsTempFiles,Vdma_test}
+timestamp=[2026-02-16 12:30:42], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.460, duration_ms=460, data={}
